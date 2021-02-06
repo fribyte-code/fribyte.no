@@ -1,0 +1,9 @@
+footer {
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: $default-padding 0;
+    border-top: 2px solid $primary-color;
+    margin-top: 2em;
+}

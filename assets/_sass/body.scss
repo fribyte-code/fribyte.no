@@ -1,0 +1,26 @@
+html,
+body {
+    font-family: $font-family-sans;
+    margin: 0;
+    padding: 0;
+
+    line-height: 1.5;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: $page-width-max; 
+    padding: $default-padding;
+}
+
+a {
+    box-sizing: border-box;
+    display: inline;
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover:not(.logo) {
+        background: $primary-color;
+        color: white;
+    }
+}

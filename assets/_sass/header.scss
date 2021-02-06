@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: $default-padding 0;
+    font-size: 30px;
+
+    .logo {
+        display: flex;
+        flex-wrap: no-wrap;
+        align-items: center;
+        cursor: pointer;
+
+        svg {
+            width: 80px;
+            margin-right: 1em;
+        }
+        .text {
+            color: black;
+            font-family: $font-family-mono;
+            &:hover {
+                background: $primary-color;
+                color: white;
+            }
+            .underscore {
+                animation: blink-animation .75s steps(2, start) infinite;
+
+                @keyframes blink-animation {
+                    to {
+                        visibility: hidden;
+                    }
+                }
+            }
+        }
+    }
+    ul.navigation {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            font-size: 0.75em;
+            display: inline;
+            &:not(:last-of-type) {
+                margin-right: 1em;
+            }
+        }
+    }
+}

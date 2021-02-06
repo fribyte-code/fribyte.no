@@ -1,0 +1,17 @@
+---
+layout: default
+---
+friByte er en studentorganisasjon med mål om å drive it-drift for andre studentorganisasjoner i Bergen. Vi kan tilby billige webtjenester og it-tjenester tilpasset studentorganisasjoner. 
+
+<h2>Kontakt</h2>
+Ta kontakt med oss om det er noe du lurer på. Du finner mer informasjon om oss under "Kontakt oss" og "Om oss". Vi er lett tilgjengelige og svarer raskt på alle henvendelser.
+
+<h2>Trenger du umiddelbar hjelp?</h2>
+Vi har satt opp en irc (chat) kanal hvor vi prøver å være tilgjengelig til normale tider. Du kan gå her for å logge på vår irc kanal. Vennligst skriv inn et nickname som sier hvem du er.
+
+<h2>Siste driftsmeldinger</h2>
+<ul class="driftsmeldinger">
+{% for driftsmelding in site.categories.driftsmeldinger %}
+    <li><a href="{{ driftsmelding.url }}" class="title">{{ driftsmelding.title }}</a><span class="meta">{{ driftsmelding.date | date: "%a, %b %d, %y" }}</span>
+{% endfor %}
+</ul>
