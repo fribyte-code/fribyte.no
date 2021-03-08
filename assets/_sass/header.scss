@@ -16,9 +16,10 @@ header {
         svg {
             width: 80px;
             margin-right: 1em;
+            fill: var(--primary-color);
         }
         .text {
-            color: black;
+            color: var(--font-color);
             font-family: $font-family-mono;
             &:hover {
                 background: $primary-color;

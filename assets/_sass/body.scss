@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
 
+    background: var(--background-color);
+    color: var(--font-color);
+
     line-height: 1.5;
     font-size: $font-size-desktop;
 
@@ -21,12 +24,12 @@ body {
 a {
     box-sizing: border-box;
     display: inline;
-    color: $primary-color;
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: 600;
 
     &:hover:not(.logo) {
-        background: $primary-color;
+        background: var(--primary-color);
         color: white;
     }
 }
