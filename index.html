@@ -17,8 +17,9 @@ post@fribyte.no.
     Vi prøver å være lett tilgjengelige og svare raskt på alle henvendelser. Ta også gjerne kontakt med oss om du har tilbakemeldinger på tjenestene vi leverer. Vi setter pris på all konstruktiv kritikk. :)
 </p>
 <h2>Trenger du umiddelbar hjelp?</h2>
+{% assign nestleder = site.data.members | where: "position", "Nestleder" %}
 <p>
-    Skulle det oppstå akutte problemer ved tjenestene vi leverer, kan du kontakte nestleder, Christian Engelsen, på tlf: 99587363.
+Skulle det oppstå akutte problemer ved tjenestene vi leverer, kan du kontakte nestleder, {{ nestleder[0].name }}, på tlf: {{ nestleder[0].phone }}.
 </p>
 
 <h2>Siste driftsmeldinger</h2>
