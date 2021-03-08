@@ -6,7 +6,7 @@ permalink: /bli-medlem
 ---
 # Bli medlem
 ## Hvordan bli medlem?
-Dersom du mener at friByte er det rette for deg, eller at du er den rette for friByte, sender du ganske enkelt en kort søknad til XXX-mail. Fortell litt om hvem du er, hva du kan og hvorfor du vil bli medlem. Hvis du fremdeles lurer på hvordan det er å være medlem i friByte får du kanskje svar under, og hvis ikke er det bare å spørre!
+Dersom du mener at friByte er det rette for deg, eller at du er den rette for friByte, sender du ganske enkelt en kort søknad til {{ site.data.fribyte.email.join }}. Fortell litt om hvem du er, hva du kan og hvorfor du vil bli medlem. Hvis du fremdeles lurer på hvordan det er å være medlem i friByte får du kanskje svar under, og hvis ikke er det bare å spørre!
 
 ## Hva er friByte
 friByte er studentorganisasjon som leverer sikre og stabile datatjenester til studentkulturen i Bergen. Vi er en frivillig organisasjon kjent for våre gode fester og lærerike miljø! Vi har møter to ganger i måneden hvor vi gjør opp status og sosialiserer oss litt. 
