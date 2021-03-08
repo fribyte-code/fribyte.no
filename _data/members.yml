@@ -22,6 +22,55 @@
   joined:
   left: 
   active: true
+- name: Morten Linderud
+  phone: 
+  position: Medlem
+  joined:
+  left: 
+  active: true
+- name: Ketil Kvifte
+  phone: 952 08 423 
+  position: Medlem
+  joined:
+  left: 
+  active: true
+- name: Fredrik Heimsæter
+  phone: 478 10 665
+  position: Medlem
+  joined:
+  left: 
+  active: true
+- name: Stian Leander Wiken
+  phone: 906 12 741
+  position: Medlem
+  joined:
+  left: 
+  active: true
+- name: Simen Lone
+  phone: 936 89 984
+  position: Medlem
+  joined:
+  left: 
+  active: true
+- name: Johan Wergeland Anfinsen
+  phone: 450 56 820
+  position: Medlem
+  joined:
+  left: 
+  active: true
+- name: Daniel Liland
+  phone: 
+  position: Medlem
+  joined:
+  left: 
+  active: true
+- name: Rolf Martin Glomsrud
+  phone: 
+  position: Medlem
+  joined:
+  left: 
+  active: true
+# Tidligere medlemmer
 - name: Svein Harald Soleim
   phone: 
   position: Guru
@@ -31,6 +80,186 @@
 - name: Tor Egil Hoftun Kvæstad
   phone: 
   position: Guru
+  joined:
+  left: 
+  active: false
+- name: Anders Paulsen
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false
+- name: Adrian Rutle
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false
+- name: Hallvar Helleseth
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false
+- name: Kjetil Nygård
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false
+- name: Kent Inge F. Simonsen
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false
+- name: Andreas Angerman
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false
+- name: Dag Viggo Lokøen
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false
+- name: Michael Mortensen
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false
+- name: Thomas Bjørnsen
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false
+- name: Knut Karevoll
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false
+- name: Håkon H. Lerring
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false
+- name: Sander Danielsen
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false
+- name: Mikal Sande
+  phone: 
+  position: Guru wannabe
+  joined:
+  left: 
+  active: false
+- name: Nils Kr. Falch
+  phone: 
+  position: Guru wannabe
+  joined:
+  left: 
+  active: false
+- name: Brynjar Eide
+  phone: 
+  position: Guru wannabe
+  joined:
+  left: 
+  active: false
+- name: Erlend Birkenes
+  phone: 
+  position: Guru wannabe
+  joined:
+  left: 
+  active: false
+- name: Bjørn Even Wahlstrøm
+  phone: 
+  position: Guru wannabe
+  joined:
+  left: 
+  active: false
+- name: Vidar Drageide
+  phone: 
+  position: "!(Guru)"
+  joined:
+  left: 
+  active: false
+- name: Marius Bakke
+  phone: 
+  position: Guru wannabe
+  joined:
+  left: 
+  active: false
+- name: Olav Smørholm
+  phone: 
+  position: Guru wannabe
+  joined:
+  left: 
+  active: false
+- name: Bjarte Johansen
+  phone: 
+  position: Tidligere medlem
+  joined:
+  left: 
+  active: false
+- name: Paul Grant
+  phone: 
+  position: Tidligere medlem
+  joined:
+  left: 
+  active: false
+- name: Vegar Rørvik
+  phone: 
+  position: Tidligere medlem
+  joined:
+  left: 
+  active: false
+- name: Stian Fauskanger
+  phone: 
+  position: Tidligere medlem
+  joined:
+  left: 
+  active: false
+- name: Christian Otterstad
+  phone: 
+  position: Tidligere medlem
+  joined:
+  left: 
+  active: false
+- name: Erlend Hammer
+  phone: 
+  position: Tidligere medlem
+  joined:
+  left: 
+  active: false
+- name: Trym Helle
+  phone: 
+  position: Tidligere medlem
+  joined:
+  left: 
+  active: false
+- name: Mats Ryland
+  phone: 
+  position: Tidligere medlem
+  joined:
+  left: 
+  active: false
+- name: Erik Vetle Larsen
+  phone: 
+  position: Tidligere medlem
+  joined:
+  left: 
+  active: false
+- name: Fredrik Vindenes
+  phone: 
+  position: Tidligere medlem
   joined:
   left: 
   active: false
