@@ -1,10 +1,11 @@
 header {
     display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    align-content: center;
     padding: $default-padding 0;
-    font-size: 30px;
+    font-size: 2em;
 
     .logo {
         display: flex;
@@ -34,6 +35,7 @@ header {
             }
         }
     }
+
     ul.navigation {
         list-style: none;
         padding: 0;
@@ -45,6 +47,14 @@ header {
             &:not(:last-of-type) {
                 margin-right: 1em;
             }
+        }
+    }
+
+    @media screen and (max-width: $breakpoint-medium) {
+        justify-content: center;
+
+        .logo {
+            margin-bottom: 1em;
         }
     }
 }
