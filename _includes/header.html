@@ -4,10 +4,9 @@
         <span class="text">friByte<span class="underscore">_</span></span>
     </a>
     <ul class="navigation">
-        {% assign pages = site.pages | where: "menu", "main" %}
+        {% assign pages = site.pages | where: "menu", "main" | sort: "order" %}
         {% for page in pages %}
-
             <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-            {% endfor %}
+        {% endfor %}
     </ul>
 </header>
