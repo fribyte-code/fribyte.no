@@ -23,6 +23,7 @@ a {
     display: inline;
     color: $primary-color;
     text-decoration: none;
+    font-weight: 600;
 
     &:hover:not(.logo) {
         background: $primary-color;
