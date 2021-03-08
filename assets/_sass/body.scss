@@ -5,6 +5,11 @@ body {
     padding: 0;
 
     line-height: 1.5;
+    font-size: $font-size-desktop;
+
+    @media screen and (max-width: $breakpoint-medium) {
+        font-size: $font-size-mobile;
+    }
 }
 
 .container {

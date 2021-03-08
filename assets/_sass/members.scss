@@ -1,12 +1,17 @@
+.table-wrapper {
+    overflow-x: auto;
+}
 .members {
     width: 100%;
     border-collapse: collapse;
+    table-layout: auto;
 
     tr,
     th,
     td {
         text-align: left;
         padding: 0.5em;
+        white-space: nowrap;
     }
 
     td {

@@ -15,34 +15,37 @@ permalink: kontakt
 </ul>
 
 <h2>Aktive medlemmer</h2>
-<table class="members active">
-    <tr>
-        <th>Navn</th>
-        <th>Telefon</th>
-        <th>Stilling</th>
-    </tr>
-    {% assign members_active = site.data.members | where: "active", "true" %}
-    {% for member in members_active %}
+<div class="table-wrapper">
+    <table class="members active">
         <tr>
-            <td>{{ member.name }}</td>
-            <td>{{ member.phone }}</td>
-            <td>{{ member.position }}</td>
+            <th>Navn</th>
+            <th>Telefon</th>
+            <th>Stilling</th>
         </tr>
-    {% endfor %}
-</table>
-
+        {% assign members_active = site.data.members | where: "active", "true" %}
+        {% for member in members_active %}
+            <tr>
+                <td>{{ member.name }}</td>
+                <td>{{ member.phone }}</td>
+                <td>{{ member.position }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
 <h2>Tidligere medlemmer</h2>
-<table class="members inactive">
-    <tr>
-        <th>Navn</th>
-        <th>Stilling</th>
-    </tr>
-    {% assign members_inactive = site.data.members | where: "active", "false" %}
-    {% for member in members_inactive %}
+<div class="table-wrapper">
+    <table class="members inactive">
         <tr>
-            <td>{{ member.name }}</td>
-            <td>{{ member.position }}</td>
+            <th>Navn</th>
+            <th>Stilling</th>
         </tr>
-    {% endfor %}
-</table>
-</table>
+        {% assign members_inactive = site.data.members | where: "active", "false" %}
+        {% for member in members_inactive %}
+            <tr>
+                <td>{{ member.name }}</td>
+                <td>{{ member.position }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    </table>
+</div>
