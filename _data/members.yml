@@ -1,0 +1,36 @@
+- name: Tim Hårek Andreassen
+  phone: 
+  position: Leder
+  joined: 2020-09-08
+  left:
+  active: true
+- name: Christian Engelsen
+  phone: 995 87 363
+  position: Nestleder
+  joined: 2020-09-08
+  left: 
+  active: true
+- name: Mathias Haugsbø
+  phone: 
+  position: Økonomiansvarlig
+  joined: 2020-09-08
+  left: 
+  active: true
+- name: Morten Linderud
+  phone: 
+  position: Medlem
+  joined:
+  left: 
+  active: true
+- name: Svein Harald Soleim
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false
+- name: Tor Egil Hoftun Kvæstad
+  phone: 
+  position: Guru
+  joined:
+  left: 
+  active: false

@@ -5,3 +5,41 @@ menu: main
 permalink: kontakt
 ---
 <h1>Kontakt oss</h1>
+<ul>
+    <li>
+        Generell kontakt: fribyte@fribyte.no
+    </li>
+    <li>
+        Kundesupport: hjelp@fribyte.no
+    </li>
+</ul>
+
+<table class="members active">
+    <tr>
+        <th>Navn</th>
+        <th>Telefon</th>
+        <th>Stilling</th>
+    </tr>
+    {% assign members_active = site.data.members | where: "active", "true" %}
+    {% for member in members_active %}
+        <tr>
+            <td>{{ member.name }}</td>
+            <td>{{ member.phone }}</td>
+            <td>{{ member.position }}</td>
+        </tr>
+    {% endfor %}
+</table>
+<table class="members inactive">
+    <tr>
+        <th>Navn</th>
+        <th>Stilling</th>
+    </tr>
+    {% assign members_inactive = site.data.members | where: "active", "false" %}
+    {% for member in members_inactive %}
+        <tr>
+            <td>{{ member.name }}</td>
+            <td>{{ member.position }}</td>
+        </tr>
+    {% endfor %}
+</table>
+</table>
