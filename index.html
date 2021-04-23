@@ -34,7 +34,7 @@ Skulle det oppstå akutte problemer ved tjenestene vi leverer, kan du kontakte n
     {% assign driftsmeldinger = site.categories.driftsmeldinger %}
     {% assign nyheter = site.categories.nyheter %}
     {% assign latest = driftsmeldinger | concat: nyheter | sort: "date" | reverse %}
-    {% for post in latest | limit: 5 %}
+    {% for post in latest limit: 5 %}
         <li>
             <a href="{{ post.url }}" class="title">
                 {{ post.title }}
