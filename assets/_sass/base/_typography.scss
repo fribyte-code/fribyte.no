@@ -1,0 +1,12 @@
+a {
+    box-sizing: border-box;
+    display: inline;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover:not(.logo) {
+        background: var(--primary-color);
+        color: white;
+    }
+}
