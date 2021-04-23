@@ -1,0 +1,17 @@
+---
+layout: default
+title: Nyheter
+menu: footer
+permalink: /nyheter
+---
+<h1>Nyheter</h1>
+<ul class="driftsmeldinger">
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}" class="title">
+                {{ post.title }}
+            </a>
+            <span class="meta">{{ post.date | date: "%a, %b %d, %y" }}</span>
+        </li>
+    {% endfor %}
+</ul>
