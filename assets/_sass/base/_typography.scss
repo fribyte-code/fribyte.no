@@ -10,3 +10,8 @@ a {
         color: white;
     }
 }
+
+::selection {
+    background: var(--primary-color);
+    color: white;
+}
