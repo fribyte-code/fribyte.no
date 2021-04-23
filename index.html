@@ -29,9 +29,17 @@ Skulle det oppstå akutte problemer ved tjenestene vi leverer, kan du kontakte n
 {{ nestleder[0].name }}, via telefon <a href="tel:{{ nestleder[0].phone }}">{{ nestleder[0].phone }}</a>.
 </p>
 
-<h2>Siste driftsmeldinger</h2>
+<h2>Siste nytt</h2>
 <ul class="driftsmeldinger">
-{% for driftsmelding in site.categories.driftsmeldinger %}
-    <li><a href="{{ driftsmelding.url }}" class="title">{{ driftsmelding.title }}</a><span class="meta">{{ driftsmelding.date | date: "%a, %b %d, %y" }}</span>
-{% endfor %}
+    {% assign driftsmeldinger = site.categories.driftsmeldinger %}
+    {% assign nyheter = site.categories.nyheter %}
+    {% assign latest = driftsmeldinger | concat: nyheter | sort: "date" | reverse %}
+    {% for post in latest | limit: 5 %}
+        <li>
+            <a href="{{ post.url }}" class="title">
+                {{ post.title }}
+            </a>
+            <span class="meta">{{ post.date | date: "%a, %b %d, %y" }}</span>
+        </li>
+    {% endfor %}
 </ul>
