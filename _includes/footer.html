@@ -1,4 +1,21 @@
 <footer>
-    <span class="org">Org.nr. 984 397 569</span>
-    <span class="copyright">&copy; {{ "now" | date: "%Y" }}</span>
+    <div class="footer--resources">
+        <h1>Ressurser</h1>
+        <ul class="footer--navigation">
+            {% assign pages = site.pages | where: "menu", "footer" %}
+            {% for page in pages %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="footer--contact">
+        <h1>Kontakt</h1>
+        <ul>
+            <li>Org.nr. 984 397 569</li>
+            <li>
+                <a href="mailto:{{ site.data.fribyte.email.general }}">{{ site.data.fribyte.email.general }}</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer--copyright">Kopirett &copy; friByte {{ "now" | date: "%Y" }}</div>
 </footer>

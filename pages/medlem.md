@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bli medlem
-menu: om
+menu: footer
 permalink: /bli-medlem
 ---
 # Bli medlem
