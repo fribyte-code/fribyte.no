@@ -1,0 +1,29 @@
+button, .btn {
+    padding: .75em 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 350ms ease;
+
+    &:hover {
+        opacity: .75;
+    }
+
+    &.primary {
+        background: var(--primary-color);
+        color: white;
+    }
+
+    &.center {
+        text-align: center;
+    }
+}
+
+.button-container {
+    display: block;
+
+    &.center {
+        display: flex;
+        justify-content: center;
+    }
+}
