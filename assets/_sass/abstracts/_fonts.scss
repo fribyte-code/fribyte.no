@@ -1,31 +1,8 @@
-$primary-color: #800000;
-$page-width-max: 1024px;
-$default-padding: 1em;
-
 $font-family-sans: -apple-system, BlinkMacSystemFont, Segoe UI, avenir next, avenir, helvetica neue, helvetica, Ubuntu,
 	roboto, noto, arial, sans-serif;
 $font-family-mono: FMono-Regular, Consolas, DejaVu Sans Mono, Liberation Mono, Menlo, monospace;
 $font-family-serif: Iowan Old Style, Apple Garamond, Baskerville, Georgia, Times New Roman, Droid Serif, Times,
 	Source Serif Pro, serif, Apple Color Emoji;
+
 $font-size-desktop: 18px;
 $font-size-mobile: 15px;
-
-$breakpoint-medium: 600px;
-$breakpoint-large: 768px;
-
-
-:root {
-    --background-color: white;
-    --font-color: black;
-    --primary-color: #800000;
-}
-
-/*
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #212121;
-        --font-color: white;
-        --primary-color: #ff3636; 
-    }
-}
-*/
