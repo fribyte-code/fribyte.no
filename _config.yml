@@ -11,4 +11,5 @@ sass:
 
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 

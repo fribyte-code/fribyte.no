@@ -4,6 +4,8 @@ title: Bli medlem
 menu: footer
 permalink: /bli-medlem
 description: Ønsker du å bli medlem i friByte? Ta en kikk her!
+redirect_from:
+    - /medlem.html
 ---
 # Bli medlem
 ## Hvordan bli medlem?
