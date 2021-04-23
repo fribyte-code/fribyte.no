@@ -24,7 +24,9 @@ Ta gjerne kontakt med oss om det er noe du lurer på. Du kan finne en liste over
 <h2>Trenger du umiddelbar hjelp?</h2>
 {% assign nestleder = site.data.members | where: "position", "Nestleder" %}
 <p>
-Skulle det oppstå akutte problemer ved tjenestene vi leverer, kan du kontakte nestleder, {{ nestleder[0].name }}, på tlf: {{ nestleder[0].phone }}.
+Skulle det oppstå akutte problemer ved tjenestene vi leverer, kan du kontakte nestleder;
+<br>
+{{ nestleder[0].name }}, via telefon <a href="tel:{{ nestleder[0].phone }}">{{ nestleder[0].phone }}</a>.
 </p>
 
 <h2>Siste driftsmeldinger</h2>
