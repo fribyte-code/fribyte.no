@@ -3,6 +3,7 @@ layout: default
 title: Tjenester
 menu: main
 permalink: /tjenester
+description: Oversikt over de ulike tjenestene friByte har å tilby. 
 order: 0
 ---
 

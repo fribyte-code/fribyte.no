@@ -3,6 +3,7 @@ layout: default
 title: Bli medlem
 menu: footer
 permalink: /bli-medlem
+description: Ønsker du å bli medlem i friByte? Ta en kikk her!
 ---
 # Bli medlem
 ## Hvordan bli medlem?

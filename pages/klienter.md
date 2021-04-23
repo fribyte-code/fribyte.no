@@ -3,6 +3,7 @@ layout: default
 title: Våre klienter
 menu: footer
 permalink: /klienter
+description: Oversikt over våre klienter.
 ---
 # Våre klienter
 
