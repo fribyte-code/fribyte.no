@@ -1,7 +1,7 @@
 footer {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding: $default-padding 0;
     border-top: 2px solid var(--primary-color);
@@ -12,13 +12,13 @@ footer {
         text-align: center;
     }
 
-    ul {
+    .footer--list {
         list-style: none;
         padding-left: 0;
         margin: 0;
     }
 
-    a {
+    .footer--link {
         text-decoration: underline;
     }
 

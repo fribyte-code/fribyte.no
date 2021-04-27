@@ -1,19 +1,24 @@
 <footer>
     <div class="footer--resources">
         <h1>Ressurser</h1>
-        <ul class="footer--navigation">
+        <ul class="footer--list footer--navigation">
             {% assign pages = site.pages | where: "menu", "footer" %}
             {% for page in pages %}
-                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                <li><a class="footer--link" href="{{ page.url }}">{{ page.title }}</a></li>
             {% endfor %}
+            <li>
+                <a class="footer--link" href="/feed.xml">RSS</a>
+            </li>
         </ul>
     </div>
     <div class="footer--contact">
         <h1>Kontakt</h1>
-        <ul>
+        <ul class="footer--list">
             <li>Org.nr. 984 397 569</li>
             <li>
-                <a href="mailto:{{ site.data.fribyte.email.general }}">{{ site.data.fribyte.email.general }}</a>
+                <a class="footer--link" href="mailto:{{ site.data.fribyte.email.general }}">
+                    {{ site.data.fribyte.email.general }}
+                </a>
             </li>
         </ul>
     </div>
