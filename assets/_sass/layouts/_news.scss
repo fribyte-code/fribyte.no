@@ -1,7 +1,31 @@
-.driftsmeldinger {
-    li {
-        .meta {
-            float: right;
+.latest-news--list {
+    margin-left: 0;
+    padding: 0;
+
+    .latest-news--post {
+        margin-bottom: 1.5em;
+        list-style: none;
+        display: flex;
+
+        @media (max-width: $breakpoint-medium) {
+            display: block;
+        }
+
+        .post--metadata {
+            margin-right: 1em;
+            min-width: 100px;
+        }
+
+        .post--summary {
+            hyphens: auto;
+        }
+
+        .post--excerpt {
+            display: block;
+        }
+
+        p {
+            margin: 0;
         }
     }
 }
