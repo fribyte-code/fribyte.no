@@ -44,4 +44,7 @@ Studvest sitt interne nettverk leveres av friByte.
 
 ## Interessert i noen ligendene?
 
-Sjekk ut hva vi har å [tilby av tjenester](/tjenester) eller [kontakt oss](mailto:{{ site.data.fribyte.email.general }}).
+<div class="button-container center">
+    <a href="/tjenester" class="btn primary center">Våre tjenester</a>
+    <a href="mailto:{{ site.data.fribyte.email.general }}?subject=Forespørsel&body=Kjære friByte," class="btn primary center underscore">Kontakt oss</a>
+</div>

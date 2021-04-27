@@ -22,3 +22,7 @@ Alle har ulike behov også på internett, derfor tilbyr vi i friByte oss å hjel
 - Musikkavspilling til [SRIB]()
 - Filarkiv
 - VPS
+
+<div class="button-container center">
+    <a href="mailto:{{ site.data.fribyte.email.general }}?subject=Forespørsel&body=Kjære friByte," class="btn primary center underscore">Kontakt oss</a>
+</div>
