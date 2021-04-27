@@ -1,12 +1,21 @@
 button, .btn {
     padding: .75em 1em;
-    border-radius: 8px;
     cursor: pointer;
+    border: 1px solid black; 
+    box-shadow: .25em .5em black;
+    box-sizing: border-box;
+    z-index: 1;
     opacity: 1;
+    font-family: $font-family-mono;
+    text-transform: lowercase;
     transition: all 350ms ease;
 
     &:hover {
-        opacity: .75;
+        box-shadow: .15em .25em black;
+    }
+
+    &:active {
+        box-shadow: 0 0 0 .25em black;
     }
 
     &.primary {
@@ -16,6 +25,17 @@ button, .btn {
 
     &.center {
         text-align: center;
+    }
+
+    &.underscore::after {
+        content: '_';
+        animation: blink-animation 1s steps(2, start) infinite;
+
+        @keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
     }
 }
 
