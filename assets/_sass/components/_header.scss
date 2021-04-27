@@ -18,14 +18,15 @@ header {
             margin-right: 1em;
             fill: var(--primary-color);
         }
-        .text {
+        .logo--text {
             color: var(--font-color);
             font-family: $font-family-mono;
             &:hover {
                 background: $primary-color;
                 color: white;
             }
-            .underscore {
+            &::after {
+                content: '_';
                 animation: blink-animation 1s steps(2, start) infinite;
 
                 @keyframes blink-animation {
