@@ -1,0 +1,12 @@
+@mixin box {
+    border: 1px solid black; 
+    box-shadow: .25em .5em black;
+    box-sizing: border-box;
+}
+
+@mixin box-primary {
+    @include box;
+
+    background: var(--primary-color);
+    color: white;
+}

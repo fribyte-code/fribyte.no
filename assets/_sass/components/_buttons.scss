@@ -1,9 +1,7 @@
 button, .btn {
     padding: .75em 1em;
     cursor: pointer;
-    border: 1px solid black; 
-    box-shadow: .25em .5em black;
-    box-sizing: border-box;
+    @include box;
     z-index: 1;
     opacity: 1;
     font-family: $font-family-mono;
@@ -11,16 +9,15 @@ button, .btn {
     transition: all 350ms ease;
 
     &:hover {
-        box-shadow: .15em .25em black;
+        box-shadow: .15em .25em black !important;
     }
 
     &:active {
-        box-shadow: 0 0 0 .25em black;
+        box-shadow: 0 0 0 .25em black !important;
     }
 
     &.primary {
-        background: var(--primary-color);
-        color: white;
+        @include box-primary;
     }
 
     &.center {
