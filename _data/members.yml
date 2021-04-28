@@ -1,23 +1,27 @@
 - name: Tim Hårek Andreassen
   phone: 
+  email: timharek@fribyte.no
   position: Leder
   joined: 2020-09-08
   left:
   active: true
 - name: Christian Engelsen
   phone: 995 87 363
+  email: cengelsen@fribyte.no
   position: Nestleder
   joined: 2020-09-08
   left: 
   active: true
 - name: Mathias Haugsbø
   phone: 
+  email: mhaugsboe@fribyte.no
   position: Økonomiansvarlig
   joined: 2020-09-08
   left: 
   active: true
 - name: Morten Linderud
   phone: 
+  email: morten@fribyte.no
   position: Medlem
   joined:
   left: 
@@ -30,6 +34,7 @@
   active: true
 - name: Fredrik Heimsæter
   phone: 478 10 665
+  email: freheims@fribyte.no
   position: Medlem
   joined:
   left: 
@@ -54,12 +59,14 @@
   active: true
 - name: Daniel Liland
   phone: 
+  email: dliland@fribyte.no
   position: Medlem
   joined:
   left: 
   active: true
 - name: Rolf Martin Glomsrud
   phone: 
+  email: rglomsrud@fribyte.no
   position: Medlem
   joined:
   left: 

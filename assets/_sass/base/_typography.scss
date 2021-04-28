@@ -6,7 +6,7 @@ a {
     font-weight: 600;
 
     &:hover:not(.logo) {
-        background: var(--primary-color);
+        background: var(--primary-color) !important;
         color: white;
     }
 }
