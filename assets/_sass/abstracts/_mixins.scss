@@ -1,6 +1,6 @@
 @mixin box {
-    border: 1px solid black; 
-    box-shadow: .25em .5em black;
+    border: 1px solid black;
+    box-shadow: 0.25em 0.5em black;
     box-sizing: border-box;
 }
 
@@ -9,4 +9,15 @@
 
     background: var(--primary-color);
     color: white;
+}
+
+@mixin animation-underscore {
+    content: "_";
+    animation: blink-animation 1s steps(2, start) infinite;
+
+    @keyframes blink-animation {
+        to {
+            visibility: hidden;
+        }
+    }
 }
