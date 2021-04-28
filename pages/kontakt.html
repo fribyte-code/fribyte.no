@@ -25,7 +25,19 @@ order: 1
             <th>E-post</th>
         </tr>
         {% assign members_active = site.data.members | where: "active", "true" %}
-        {% for member in members_active %}
+        {% assign members_admin = members_active | where: "admin", "true" %}
+        {% assign members_regular = members_active | where: "position", "Medlem" %}
+        {% assign members_regular = members_regular | sort: "name" %}
+        {% for admin in members_admin %}
+            <tr>
+                <td>{{ admin.name }}</td>
+                <td>{{ admin.position }}</td>
+                <td>
+                    <a href="mailto:{{ admin.email }}">{{ admin.email }}</a>
+                </td>
+            </tr>
+        {% endfor %}
+        {% for member in members_regular  %}
             <tr>
                 <td>{{ member.name }}</td>
                 <td>{{ member.position }}</td>

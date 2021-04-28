@@ -4,6 +4,7 @@
   position: Leder
   joined: 2020-09-08
   left:
+  admin: true
   active: true
 - name: Christian Engelsen
   phone: 995 87 363
@@ -11,6 +12,7 @@
   position: Nestleder
   joined: 2020-09-08
   left: 
+  admin: true
   active: true
 - name: Mathias Haugsbø
   phone: 
@@ -18,6 +20,7 @@
   position: Økonomiansvarlig
   joined: 2020-09-08
   left: 
+  admin: true
   active: true
 - name: Morten Linderud
   phone: 
@@ -61,14 +64,14 @@
   phone: 
   email: dliland@fribyte.no
   position: Medlem
-  joined:
+  joined: 2020-09-08
   left: 
   active: true
 - name: Rolf Martin Glomsrud
   phone: 
   email: rglomsrud@fribyte.no
   position: Medlem
-  joined:
+  joined: 2020-09-08
   left: 
   active: true
 # Tidligere medlemmer
