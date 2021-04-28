@@ -6,7 +6,7 @@
     <ul class="navigation">
         {% assign pages = site.pages | where: "menu", "main" | sort: "order" %}
         {% for page in pages %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            <li class="nav--link"><a href="{{ page.url }}">{{ page.title }}</a></li>
         {% endfor %}
     </ul>
 </header>
