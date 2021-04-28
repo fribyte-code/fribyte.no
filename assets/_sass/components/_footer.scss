@@ -7,9 +7,17 @@ footer {
     border-top: 2px solid var(--primary-color);
     margin-top: 2em;
 
-    .footer--copyright {
+    .footer--copyright-developed-by {
         flex: 1 0 100%;
         text-align: center;
+    }
+    
+    .footer--copyright {
+        display: block;
+    }
+
+    .footer--developed-by {
+        font-size: .5em;
     }
 
     .footer--list {
