@@ -13,3 +13,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
+exclude:
+  - README.md
+  - start.sh
+  - build.sh
