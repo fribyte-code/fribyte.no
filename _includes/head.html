@@ -20,7 +20,7 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:image" content="{{ site.url }}{{ page.image | default: "/assets/img/cover.png" | relative_url }}">
     <meta name="apple-mobile-web-app-capable" content="no">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#800000">
 
     <link rel="shortcut icon" sizes="192x192" href="{{ "/assets/img/fb_icon.svg" | relative_url }}">
     <link rel="apple-touch-icon" href="{{ "/assets/img/fb_icon.svg" | relative_url }}">
@@ -30,8 +30,6 @@
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" title="{{ site.title }}" />
-
-    <script async defer data-domain="timharek.no" src="https://stats.timharek.no/js/index.js"></script>
 
     {%- feed_meta -%}
 </head>
