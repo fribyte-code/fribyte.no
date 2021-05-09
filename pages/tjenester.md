@@ -8,7 +8,7 @@ order: 0
 ---
 
 <div class="alert">
-    Pr. 2021-02-11, så gjennomgår friByte en intern omstrukturering. Dette kan medføre at enkelte tjenester som er listet opp her, ikke tilbys i dag. Vi beklager for denne forvirringen, men forventer å ha klar oversikt over vår egen kapasitet mot slutten av semesteret V21.
+    <b>2021-02-11</b>: friByte gjennomgår en intern omstrukturering, dette kan medføre at enkelte tjenester som er listet opp her, ikke tilbys i dag. Vi beklager for denne forvirringen, men forventer å ha klar oversikt over vår egen kapasitet mot slutten av semesteret V21.
 </div>
 
 # Tjenester
