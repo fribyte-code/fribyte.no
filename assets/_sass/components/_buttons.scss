@@ -1,4 +1,5 @@
 button, .btn {
+    display: inline-block;
     padding: .75em 1em;
     cursor: pointer;
     @include box;
@@ -34,6 +35,11 @@ button, .btn {
 
     &.center {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
+
+        & > * {
+            margin-top: 1em;
+        }
     }
 }
