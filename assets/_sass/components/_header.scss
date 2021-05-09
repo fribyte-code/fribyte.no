@@ -19,6 +19,7 @@ header {
             fill: var(--primary-color);
         }
         .logo--text {
+            display: inline-block;
             color: var(--font-color);
             font-family: $font-family-mono;
             &:hover {
