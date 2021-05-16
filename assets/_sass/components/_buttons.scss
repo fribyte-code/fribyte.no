@@ -1,5 +1,5 @@
 button, .btn {
-    display: inline-block;
+    display: inline-flex;
     padding: .75em 1em;
     cursor: pointer;
     @include box;
@@ -26,6 +26,7 @@ button, .btn {
     }
 
     &.underscore::after {
+        margin-left: .1em;
         @include animation-underscore;
     }
 }

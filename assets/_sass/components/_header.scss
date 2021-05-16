@@ -9,7 +9,7 @@ header {
 
     .logo {
         display: flex;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         align-items: center;
         cursor: pointer;
 
@@ -19,7 +19,7 @@ header {
             fill: var(--primary-color);
         }
         .logo--text {
-            display: inline-block;
+            display: inline-flex;
             color: var(--font-color);
             font-family: $font-family-mono;
             &:hover {
@@ -27,6 +27,7 @@ header {
                 color: white;
             }
             &::after {
+                margin-left: .1em;
                 @include animation-underscore;
             }
         }
