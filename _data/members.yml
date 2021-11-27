@@ -41,7 +41,7 @@
   position: Medlem
   joined:
   left: 
-  active: true
+  active: false
 - name: Stian Leander Wiken
   phone: 906 12 741
   position: Medlem
