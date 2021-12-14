@@ -1,0 +1,34 @@
+base_url = "https://fribyte.no"
+
+title = "friByte"
+description = "friByte er en studentorganisasjon med mål om å drive IT-drift for andre studentorganisasjoner i Bergen. Vi kan tilby billige webtjenester og IT-tjenester tilpasset studentorganisasjoner."
+
+default_language = "no"
+
+compile_sass = true
+build_search_index = false
+generate_feed = true
+feed_name = "rss.xml"
+
+minify_html = true
+
+[markdown]
+highlight_code = true
+
+[extra]
+
+nav = [
+  { name = "Tjenester", path = "/tjenester" },
+  { name = "Kontakt", path = "/kontakt" },
+  { name = "Om oss", path = "/om" },
+]
+
+footer = [
+  { name = "Våre klienter", path = "/klienter" },
+  { name = "Bli medlem", path = "/bli-medlem" },
+  { name = "Nyheter", path = "/nyheter" },
+]
+
+email_general = "post@fribyte.no"
+email_join = "bli-medlem@fribyte.no"
+email_support = "hjelp@fribyte.no"

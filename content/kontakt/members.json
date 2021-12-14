@@ -1,0 +1,356 @@
+[
+    {
+        "name": "Tim Hårek Andreassen",
+        "phone": null,
+        "email": "timharek@fribyte.no",
+        "position": "Leder",
+        "joined": "2020-09-08T00:00:00.000Z",
+        "left": null,
+        "admin": true,
+        "active": true
+    },
+    {
+        "name": "Christian Engelsen",
+        "phone": "995 87 363",
+        "email": "cengelsen@fribyte.no",
+        "position": "Nestleder",
+        "joined": "2020-09-08T00:00:00.000Z",
+        "left": null,
+        "admin": true,
+        "active": true
+    },
+    {
+        "name": "Mathias Haugsbø",
+        "phone": null,
+        "email": "mhaugsboe@fribyte.no",
+        "position": "Økonomiansvarlig",
+        "joined": "2020-09-08T00:00:00.000Z",
+        "left": null,
+        "admin": true,
+        "active": true
+    },
+    {
+        "name": "Morten Linderud",
+        "phone": null,
+        "email": "morten@fribyte.no",
+        "position": "Medlem",
+        "joined": null,
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Ketil Kvifte",
+        "phone": "952 08 423",
+        "position": "Medlem",
+        "joined": null,
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Fredrik Heimsæter",
+        "phone": "478 10 665",
+        "email": "freheims@fribyte.no",
+        "position": "Tidligere medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Stian Leander Wiken",
+        "phone": "906 12 741",
+        "position": "Medlem",
+        "joined": null,
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Simen Lone",
+        "phone": "936 89 984",
+        "position": "Medlem",
+        "joined": null,
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Johan Wergeland Anfinsen",
+        "phone": "450 56 820",
+        "position": "Medlem",
+        "joined": null,
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Daniel Liland",
+        "phone": null,
+        "email": "dliland@fribyte.no",
+        "position": "Medlem",
+        "joined": "2020-09-08T00:00:00.000Z",
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Rolf Martin Glomsrud",
+        "phone": null,
+        "email": "rglomsrud@fribyte.no",
+        "position": "Medlem",
+        "joined": "2020-09-08T00:00:00.000Z",
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Svein Harald Soleim",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Tor Egil Hoftun Kvæstad",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Anders Paulsen",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Adrian Rutle",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Hallvar Helleseth",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Kjetil Nygård",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Kent Inge F. Simonsen",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Andreas Angerman",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Dag Viggo Lokøen",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Michael Mortensen",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Thomas Bjørnsen",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Knut Karevoll",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Håkon H. Lerring",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Sander Danielsen",
+        "phone": null,
+        "position": "Guru",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Mikal Sande",
+        "phone": null,
+        "position": "Guru wannabe",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Nils Kr. Falch",
+        "phone": null,
+        "position": "Guru wannabe",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Brynjar Eide",
+        "phone": null,
+        "position": "Guru wannabe",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Erlend Birkenes",
+        "phone": null,
+        "position": "Guru wannabe",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Bjørn Even Wahlstrøm",
+        "phone": null,
+        "position": "Guru wannabe",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Vidar Drageide",
+        "phone": null,
+        "position": "!(Guru)",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Marius Bakke",
+        "phone": null,
+        "position": "Guru wannabe",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Olav Smørholm",
+        "phone": null,
+        "position": "Guru wannabe",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Bjarte Johansen",
+        "phone": null,
+        "position": "Tidligere medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Paul Grant",
+        "phone": null,
+        "position": "Tidligere medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Vegar Rørvik",
+        "phone": null,
+        "position": "Tidligere medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Stian Fauskanger",
+        "phone": null,
+        "position": "Tidligere medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Christian Otterstad",
+        "phone": null,
+        "position": "Tidligere medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Erlend Hammer",
+        "phone": null,
+        "position": "Tidligere medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Trym Helle",
+        "phone": null,
+        "position": "Tidligere medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Mats Ryland",
+        "phone": null,
+        "position": "Tidligere medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Erik Vetle Larsen",
+        "phone": null,
+        "position": "Tidligere medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Fredrik Vindenes",
+        "phone": null,
+        "position": "Tidligere medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    }
+]

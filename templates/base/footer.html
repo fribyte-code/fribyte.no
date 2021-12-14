@@ -1,0 +1,33 @@
+<footer>
+    <div class="footer--resources">
+        <h1>Ressurser</h1>
+        <ul class="footer--list footer--navigation">
+            {% for page in config.extra.footer %}
+                <li><a class="footer--link" href="{{ page.path }}">{{ page.name }}</a></li>
+            {% endfor %}
+            <li>
+                <a class="footer--link" href="/feed.xml">RSS</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer--contact">
+        <h1>Kontakt</h1>
+        <ul class="footer--list">
+            <li>Org.nr. 984 397 569</li>
+            <li>
+            </li>
+            <li>
+                <a href="https://twitter.com/fribyte" target="_blank" class="footer--link">Twitter</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer--copyright-developed-by">
+        <span class="footer--copyright">
+            Kopirett &copy; friByte {{ now() | date(format="%Y") }}
+        </span>
+        <span class="footer--developed-by">
+            Utviklet av 
+            <a href="https://timharek.no" target="_blank" class="footer--link">Tim Hårek</a>
+        </span>
+    </div>
+</footer>

@@ -1,17 +1,14 @@
 # friByte.no - Jekyll
 
-Ny versjon av friByte sin nettside, laget med Jekyll.
+friByte sin nettside, laget med Zola.
 
 ## Quick start
 
 ```
-./start.sh
+zola serve
 ```
 
 ## Oppsett
 
-Installer [Jekyll](https://jekyllrb.com)
+Installer [Zola](https://getzola.org)
 
-```
-bundle install
-```

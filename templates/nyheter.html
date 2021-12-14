@@ -1,0 +1,28 @@
+{% extends "base/default.html" %}
+
+{% block head %}
+  {% set title = section.title ~ " - " ~ config.title %}
+  {% set description = section.description | default(value=config.description) %}
+{% endblock head %}
+
+
+{% block content %}
+<h1>{{ section.title }}</h1>
+  
+  <ul class="latest-news--list">
+      {% for post in section.pages %}
+          <li class="latest-news--post">
+              <div class="post--metadata">
+                  <span class="post--date">{{ post.date | date(format="%Y-%m-%d") }}</span>
+              </div>
+              <div class="post--summary">
+                  <a href="{{ post.path }}">{{ post.title }}</a>
+                  <span class="post--excerpt">
+                      {{ post.description }}
+                  </span>
+              </div>
+          </li>
+      {% endfor %}
+  </ul>
+{% endblock content %}
+

@@ -1,0 +1,68 @@
+{% extends "base/default.html" %}
+
+{% block head %}
+  {% set title =  page.title %}
+  {% set description = page.description %}
+{% endblock head %}
+
+{% block content %}
+<h1>Kontakt oss</h1>
+<ul>
+    <li>
+        Generell kontakt: <a href="mailto:{{ config.extra.email_general }}">{{ config.extra.email_general }}</a>
+    </li>
+    <li>
+        Kundesupport: <a href="mailto:{{ config.extra.email_support }}">{{ config.extra.email_support }}</a>
+    </li>
+</ul>
+
+<h2>Aktive medlemmer</h2>
+<div class="table-wrapper">
+    <table class="members active">
+        <tr>
+            <th>Navn</th>
+            <th>Stilling</th>
+            <th>E-post</th>
+        </tr>
+        {% set members_active = load_data(path="content/kontakt/members.json") | filter(attribute="active", value=true) %}
+        {% set members_admin = members_active | filter(attribute="admin", value=true) %}
+        {% set members_regular = members_active | filter(attribute="position", value="medlem") %}
+        {% set members_regular = members_regular | sort(attribute="name") %}
+        {% for admin in members_admin %}
+            <tr>
+                <td>{{ admin.name }}</td>
+                <td>{{ admin.position }}</td>
+                <td>
+                    <a href="mailto:{{ admin.email }}">{{ admin.email }}</a>
+                </td>
+            </tr>
+        {% endfor %}
+        {% for member in members_regular  %}
+            <tr>
+                <td>{{ member.name }}</td>
+                <td>{{ member.position }}</td>
+                <td>
+                    <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+<h2>Tidligere medlemmer</h2>
+<div class="table-wrapper">
+    <table class="members inactive">
+        <tr>
+            <th>Navn</th>
+            <th>Stilling</th>
+        </tr>
+        {% set members_inactive = load_data(path="content/kontakt/members.json") | filter(attribute="active", value=false) %}
+        {% for member in members_inactive %}
+            <tr>
+                <td>{{ member.name }}</td>
+                <td>{{ member.position }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    </table>
+</div>
+{% endblock content %}

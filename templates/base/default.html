@@ -1,0 +1,51 @@
+<html lang="{{ lang }}">
+  <head>
+
+      {% set logo = get_url(path="logo.svg") %}
+      {% set cover = get_url(path="img/cover.png") %}
+
+      {% block head %} 
+        {% set title = page.title ~ " - " ~ config.title %}
+        {% set description = page.description | default(value=config.description) %}
+      {% endblock head %}
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <meta name="theme-color" content="#800000">
+      <meta name="description" content="{{ page.description | default(value=config.description ) }}">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="{{ title }}">
+      <meta name="twitter:description" content="{{ page.description | default(value=config.description ) }}">
+      <meta name="twitter:image" content="{{ page.image | default(value=cover) | safe }}">
+      <meta property="og:title" content="{{ title }}">
+      <meta property="og:type" content="website">
+      <meta property="og:description" content="{{ page.description | default(value=config.description ) }}">
+      <meta property="og:url" content="{{ current_url }}">
+      <meta property="og:image" content="{{ page.image | default(value=cover) | safe}}">
+      <meta name="apple-mobile-web-app-capable" content="no">
+      <meta name="apple-mobile-web-app-status-bar-style" content="#800000">
+
+      <link rel="shortcut icon" sizes="192x192" href="{{ logo | safe }}">
+      <link rel="apple-touch-icon" href="{{ logo | safe }}">
+      <link rel="mask-icon" href="{{ logo | safe }}">
+
+      <link rel="preload" href="{{ get_url(path="main.css") | safe }}" as="style"/> 
+      <link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
+
+      <link href="{{ get_url(path="rss.xml") | safe }}" rel="feed">
+      <title>{{ title }}</title>
+
+  </head>
+
+  <body>
+    <div class="container">
+      {% include "base/header.html" %}
+      <main>
+        {% block content %}
+        {% endblock content %}
+      </main>
+      {% include "base/footer.html" %} 
+    </div>
+  </body>
+</html>
