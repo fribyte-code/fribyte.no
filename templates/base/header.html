@@ -1,0 +1,11 @@
+<header>
+    <a href="/" class="logo">
+        {{ load_data(path="static/logo.svg") | safe }}
+        <span class="logo--text">friByte</span>
+    </a>
+    <ul class="navigation">
+        {% for page in config.extra.nav %}
+            <li class="nav--link"><a href="{{ page.path }}">{{ page.name }}</a></li>
+        {% endfor %}
+    </ul>
+</header>

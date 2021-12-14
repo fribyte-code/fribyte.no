@@ -1,0 +1,17 @@
+{% extends "base/default.html" %}
+
+{% block head %}
+  {% set title = page.title ~ " - " ~ config.title %}
+  {% set description = page.description | default(value=config.description) %}
+{% endblock head %}
+
+
+<h1>{{ page.title }}</h1>
+<div class="metadata">
+    <span class="date">{{ page.date | date(format="%b %d, %Y") }}</span>
+    -
+    <span class="author">Skrevet av {{ page.extra.author }}</span>
+</div>
+{% block content %}
+  {{ page.content }}
+{% endblock content %}
