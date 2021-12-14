@@ -1,4 +1,4 @@
-# friByte.no - Jekyll
+# friByte.no - Zola
 
 friByte sin nettside, laget med Zola.
 
