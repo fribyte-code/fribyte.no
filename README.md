@@ -12,3 +12,6 @@ zola serve
 
 Installer [Zola](https://getzola.org)
 
+## Deploy
+
+Når man dytter til `master` så deployes dette live på [fribyte.no](https://fribyte.no)
