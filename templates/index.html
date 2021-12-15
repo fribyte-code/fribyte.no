@@ -36,7 +36,7 @@
       <p>
       Skulle det oppstå akutte problemer ved tjenestene vi leverer, kan du kontakte nestleder;
       <br>
-      {{ nestleder[0].name }}, via telefon <a href="tel:{{ nestleder[0].phone }}">{{ nestleder[0].phone }}</a>.
+      {{ nestleder[0].name }}, {% if nestleder[0].phone %}via telefon <a href="tel:{{ nestleder[0].phone }}">{{ nestleder[0].phone }}</a>{% else %}via e-post <a href="mailto:{{ nestleder[0].email }}">{{ nestleder[0].email }}{% endif %}</a>.
       </p>
   </section>
 
