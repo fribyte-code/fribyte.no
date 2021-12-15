@@ -26,7 +26,7 @@
         </tr>
         {% set members_active = load_data(path="content/kontakt/members.json") | filter(attribute="active", value=true) %}
         {% set members_admin = members_active | filter(attribute="admin", value=true) %}
-        {% set members_regular = members_active | filter(attribute="position", value="medlem") %}
+        {% set members_regular = members_active | filter(attribute="position", value="Medlem") %}
         {% set members_regular = members_regular | sort(attribute="name") %}
         {% for admin in members_admin %}
             <tr>
@@ -42,7 +42,7 @@
                 <td>{{ member.name }}</td>
                 <td>{{ member.position }}</td>
                 <td>
-                    <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+                  {% if member.email %}<a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}
                 </td>
             </tr>
         {% endfor %}
@@ -55,7 +55,7 @@
             <th>Navn</th>
             <th>Stilling</th>
         </tr>
-        {% set members_inactive = load_data(path="content/kontakt/members.json") | filter(attribute="active", value=false) %}
+        {% set members_inactive = load_data(path="content/kontakt/members.json") | filter(attribute="active", value=false) | sort(attribute="position") %}
         {% for member in members_inactive %}
             <tr>
                 <td>{{ member.name }}</td>
