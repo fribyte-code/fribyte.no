@@ -1,9 +1,14 @@
----
-permalink: /404.html
-layout: default
-title: 404 
----
+{% extends "base/default.html" %}
 
-<h1>404 - Siden finnes ikke</h1>
+{% block head %}
+  {% set title = "404 - Siden finnes ikke - " ~ config.title %}
+  {% set description = config.description %}
+{% endblock head %}
 
-<p>Siden du forespurte finnes ikke :(</p>
+
+{% block content %}
+  <h1>404 - Siden finnes ikke</h1>
+  <p>Siden du forespurte finnes ikke :(</p>
+{% endblock content %}
+
+
