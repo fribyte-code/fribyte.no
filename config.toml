@@ -7,8 +7,9 @@ default_language = "no"
 
 compile_sass = true
 build_search_index = false
+
 generate_feed = true
-feed_name = "rss.xml"
+feed_filename = "rss.xml"
 
 minify_html = true
 
