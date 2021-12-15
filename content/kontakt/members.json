@@ -2,7 +2,7 @@
     {
         "name": "Christian Engelsen",
         "phone": "995 87 363",
-        "email": "cengelsen@fribyte.no",
+        "email": "christian.engelsen@fribyte.no",
         "position": "Leder",
         "joined": "2020-09-08T00:00:00.000Z",
         "left": null,
@@ -12,7 +12,7 @@
     {
         "name": "Mathias Haugsbø",
         "phone": null,
-        "email": "mhaugsboe@fribyte.no",
+        "email": "mathias.haugsboe@fribyte.no",
         "position": "Nestleder",
         "joined": "2020-09-08T00:00:00.000Z",
         "left": null,
@@ -32,7 +32,7 @@
     {
         "name": "Tim Hårek Andreassen",
         "phone": null,
-        "email": "timharek@fribyte.no",
+        "email": "tim.harek@fribyte.no",
         "position": "Medlem",
         "joined": "2020-09-08T00:00:00.000Z",
         "left": null,
@@ -42,7 +42,7 @@
     {
         "name": "Morten Linderud",
         "phone": null,
-        "email": "morten@fribyte.no",
+        "email": "morten.linderud@fribyte.no",
         "position": "Medlem",
         "joined": null,
         "left": null,
@@ -92,7 +92,7 @@
     {
         "name": "Daniel Liland",
         "phone": null,
-        "email": "dliland@fribyte.no",
+        "email": "daniel.liland@fribyte.no",
         "position": "Medlem",
         "joined": "2020-09-08T00:00:00.000Z",
         "left": null,
@@ -101,7 +101,7 @@
     {
         "name": "Rolf Martin Glomsrud",
         "phone": null,
-        "email": "rglomsrud@fribyte.no",
+        "email": "rolf.glomsrud@fribyte.no",
         "position": "Medlem",
         "joined": "2020-09-08T00:00:00.000Z",
         "left": null,
@@ -205,6 +205,7 @@
     },
     {
         "name": "Håkon H. Lerring",
+        "email": "hakon.lerring@fribyte.no",
         "phone": null,
         "position": "Guru",
         "joined": null,
