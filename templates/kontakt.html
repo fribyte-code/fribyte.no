@@ -1,7 +1,7 @@
 {% extends "base/default.html" %}
 
 {% block head %}
-  {% set title =  page.title %}
+  {% set title =  page.title ~ ' - ' ~ config.title %}
   {% set description = page.description %}
 {% endblock head %}
 
