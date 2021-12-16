@@ -1,4 +1,9 @@
 .alert {
     @include box-primary;
     padding: .75em 1em;
+
+    &::selection, *::selection {
+        color: var(--primary-color);
+        background: white;
+    }
 }
