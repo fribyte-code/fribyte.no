@@ -1,10 +1,9 @@
----
-layout: default
-title: Våre klienter
-menu: footer
-permalink: /klienter
-description: Oversikt over våre klienter.
----
++++
+title = "Våre klienter"
+path = "klienter"
+description = "Oversikt over våre klienter."
++++
+
 # Våre klienter
 
 Vi har flere klienter som vi yter våre tjenester til. Studentradioen i Bergen er den største, men flere andre har meldt sin interesse. Vi har også et tett samarbeid med IT-avdelingen på UiB.
@@ -46,5 +45,5 @@ Studvest sitt interne nettverk leveres av friByte.
 
 <div class="button-container center">
     <a href="/tjenester" class="btn primary center">Våre tjenester</a>
-    <a href="mailto:{{ config.extra.email_general }}?subject=Forespørsel&body=Kjære friByte," class="btn primary center underscore">Kontakt oss</a>
+    <a href="mailto:post@fribyte.no?subject=Forespørsel&body=Kjære friByte," class="btn primary center underscore">Kontakt oss</a>
 </div>

@@ -52,5 +52,5 @@ I skrivende stund så er det hovedsakelig studenter fra MatNat. De studerer blan
   - Nettverk
 
 <div class="button-container center">
-    <a href="mailto:{{ config.extra.email_join }}?subject=Søknad&body=Kjære friByte," class="btn primary center underscore">Send søknad</a>
+    <a href="mailto:bli-medlem@fribyte.no?subject=Søknad&body=Kjære friByte," class="btn primary center underscore">Send søknad</a>
 </div>

@@ -1,10 +1,9 @@
 +++
-layout = "post.html"
 title = "Ny nettside - re-lansering!"
-author = "Tim Hårek Andreassen"
 date = 2021-05-09
 [extra]
 categories = "nyheter" 
+author = "Tim Hårek Andreassen"
 +++
 
 Vi har fornyet oss! Siden forrige semester høsten 2020 har friByte undergått omstrukturering internt, vi holder på å fornye tjenestene vi tilbyr, og med dette har vi da fått en helt ny nettside.
@@ -22,5 +21,5 @@ Er det noe du lurer på angående friByte, nettsiden, tjenestene vi tilbyr eller
 
 <div class="button-container center">
     <a href="/bli-medlem" class="btn primary center">Bli medlem</a>
-    <a href="mailto:{{ config.extra.email_general }}?subject=Forespørsel&body=Kjære friByte," class="btn primary center">Kontakt oss</a>
+    <a href="mailto:post@fribyte.no?subject=Forespørsel&body=Kjære friByte," class="btn primary center">Kontakt oss</a>
 </div>
