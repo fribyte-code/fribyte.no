@@ -1,5 +1,4 @@
 +++
-layout = "post.html"
 title = "Routingproblemer hos uninett"
 date = 2017-02-23 14:18:00
 [taxonomies]

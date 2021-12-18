@@ -1,5 +1,4 @@
 +++
-layout = "post.html"
 title = "Planlagt vedlikehold"
 date = 2018-11-17 18:51:00
 [taxonomies]

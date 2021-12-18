@@ -1,5 +1,4 @@
 +++
-layout = "post.html"
 title = "Problemer i forbindelse med stormen Nina"
 date = 2015-01-10 20:37:00
 [taxonomies]

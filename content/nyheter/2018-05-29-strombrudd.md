@@ -1,5 +1,4 @@
 +++
-layout = "post.html"
 title = "Strømbrudd forårsaket driftsstans"
 date = 2018-05-29 22:02:00
 [taxonomies]
