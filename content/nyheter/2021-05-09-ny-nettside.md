@@ -1,8 +1,9 @@
 +++
 title = "Ny nettside - re-lansering!"
 date = 2021-05-09
+[taxonomies]
+categories = ["Nyheter"] 
 [extra]
-categories = "nyheter" 
 author = "Tim Hårek Andreassen"
 +++
 

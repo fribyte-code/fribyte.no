@@ -13,6 +13,10 @@ feed_filename = "rss.xml"
 
 minify_html = true
 
+taxonomies = [
+  { name = "categories", feed = false }
+]
+
 [markdown]
 highlight_code = true
 
