@@ -40,9 +40,18 @@
       </p>
   </section>
 
-  {# <section class="latest-news">
+  <section class="latest-news">
       <h2>Siste nytt</h2>
-      {% include news.html newspage=false limit=5 %}
+      {% set news = get_section(path="nyheter/_index.md") %}
+      <ul>
+      {% for post in news.pages | slice(end=5) | sort(attribute="date") | reverse %}
+        <li>
+          <a href="{{ post.path }}">
+            {{ post.title }} ({{ post.date | date(format="%Y-%m-%d") }})
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
       <a href="/nyheter" class="btn primary">Flere nyheter...</a>
-  </section> #}
+  </section>
 {% endblock content %}
