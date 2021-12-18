@@ -1,7 +1,7 @@
 base_url = "https://fribyte.no"
 
 title = "friByte"
-description = "friByte er en studentorganisasjon med mål om å drive IT-drift for andre studentorganisasjoner i Bergen. Vi tilbyr rimelige webtjenester og IT-tjenester tilpasset studentorganisasjoner."
+description = "friByte er en studentorganisasjon med mål om å drive IT-drift for andre studentorganisasjoner i Bergen. Vi tilbyr rimelige web- og IT-tjenester tilpasset studentorganisasjoner."
 
 default_language = "no"
 
