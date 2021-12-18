@@ -5,7 +5,7 @@ friByte sin nettside, laget med Zola.
 ## Quick start
 
 ```
-zola serve
+zola serve # zola serve -O for å åpne direkte i nettleseren
 ```
 
 ## Oppsett
@@ -39,19 +39,26 @@ til seksjonen skal bruke samme template definerer man dette med `page_template`.
 ### Shortcodes
 
 I Zola finnes det noe som heter shortcodes, dette kan KUN brukes i
-Markdown-dokumenter. Vi har shortcodes for `buttons`, `illustration` og `alerts`.
+Markdown-dokumenter. Vi har shortcodes for;
 
-Disse er enkle HTML-snitter som kan gi parametere, et eksempel i bruk;
+- `buttons`
+- `illustration`
+- `alerts`
+
+Disse er enkle HTML-snutter som kan gi parametere, et eksempel i bruk;
 
 ```md
 {{ buttons(kontakt=true) }}
 ```
 
+Lag nye shortcodes hvis det er komponenter/HTML-snutter som (kan) brukes flere
+steder.
+
 ### Nyheter
 
 For å publisere nyheter så lager man bare ett nytt dokument under
 `content/nyheter`. Et eksempel kan være `content/nyheter/2022-01-01-godt-nyttar.md`.
-Men hvis denne nyheten skal inneholde bilder og slik er det nødvendig å lage en
+Hvis denne nyheten skal inneholde bilder osv. er det nødvendig å lage en
 mappe istedenfor, for å forsette på forrige eksempel
 `content/nyheter/2022-01-01-godt-nyttar/index.md`. Nå er det `index.md` som
 holder selve "artikkelen", plasser alt av bilder og slik i samme mappe.
