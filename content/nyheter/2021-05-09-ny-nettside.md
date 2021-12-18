@@ -1,6 +1,7 @@
 +++
 title = "Ny nettside - re-lansering!"
 date = 2021-05-09
+description = "friByte har fornyet seg! H20 begynte en intern omstrukturering og gjennoppliving."
 [taxonomies]
 categories = ["Nyheter"] 
 [extra]
