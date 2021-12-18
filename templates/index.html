@@ -34,8 +34,7 @@
       <h2>Trenger du umiddelbar hjelp?</h2>
       {% set nestleder = load_data(path="content/kontakt/members.json") | filter(attribute="position", value="Nestleder")%}
       <p>
-      Skulle det oppstå akutte problemer ved tjenestene vi leverer, kan du kontakte nestleder;
-      <br>
+      Skulle det oppstå akutte problemer ved tjenestene vi leverer, kan du kontakte vår nestleder
       {{ nestleder[0].name }}, {% if nestleder[0].phone %}via telefon <a href="tel:{{ nestleder[0].phone }}">{{ nestleder[0].phone }}</a>{% else %}via e-post <a href="mailto:{{ nestleder[0].email }}">{{ nestleder[0].email }}{% endif %}</a>.
       </p>
   </section>
