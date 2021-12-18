@@ -29,8 +29,4 @@ Vi satser også på å drifte mest mulig av IT-løsninger for diverse studentorg
 
 Vi har ikke en fysisk møteplass eller kontor, men vi har et server-rom på SV-fakultetet. Dette ønsker vi selvfølgelig å endre og er akkurat nå på utkikk etter passende lokaler.
 
-<div class="button-container center">
-    <a href="/kontakt" class="btn primary center">Medlemmer</a>
-    <a href="/bli-medlem" class="btn primary center underscore">Bli medlem</a>
-    <a href="mailto ={{ config.extra.email_general }}?body=Kjære friByte," class="btn primary center">Kontakt oss</a>
-</div>
+{{ buttons(kontakt=true, medlemmer=true, bli_medlem=true) }}

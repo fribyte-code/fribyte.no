@@ -1,0 +1,15 @@
+<div class="button-container center">
+  {% if kontakt %}
+  <a href="mailto:post@fribyte.no?subject=Forespørsel&body=Kjære friByte," class="btn primary center underscore">Kontakt oss</a>
+  {% endif %}
+  {% if medlemmer %}
+  <a href="/kontakt" class="btn primary center">Medlemmer</a>
+  {% endif %}
+  {% if bli_medlem %}
+  <a href="/bli-medlem" class="btn primary center underscore">Bli medlem</a>
+  {% endif %}
+  {% if send_soknad %}
+    <a href="mailto:bli-medlem@fribyte.no?subject=Søknad&body=Kjære friByte," class="btn primary center underscore">Send søknad</a>
+  {% endif %}
+</div>
+

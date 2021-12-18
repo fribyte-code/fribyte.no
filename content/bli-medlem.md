@@ -49,6 +49,4 @@ I skrivende stund så er det hovedsakelig studenter fra MatNat. De studerer blan
   - Serverdrift
   - Nettverk
 
-<div class="button-container center">
-    <a href="mailto:bli-medlem@fribyte.no?subject=Søknad&body=Kjære friByte," class="btn primary center underscore">Send søknad</a>
-</div>
+{{ buttons(send_soknad=true) }}

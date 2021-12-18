@@ -25,6 +25,4 @@ Eksempler på spesialiserte tjenester er:
 - Filarkiv
 - VPS
 
-<div class="button-container center">
-    <a href="mailto:{{ config.extra.email_general }}?subject=Forespørsel&body=Kjære friByte," class="btn primary center underscore">Kontakt oss</a>
-</div>
+{{ buttons(kontakt=true) }}
