@@ -1,8 +1,45 @@
 +++
-template = "om.html"
+template = "page.html"
 title = "Om oss"
 description = """
 friByte er en studentorganisasjon som har sitt utspring fra Det Akademiske Kvarters tidligere IT-avdeling, E-tjenesten. En gruppe studenter fra E-tjenesten ønsket i 2002 å starte en organisasjon som rendyrket drift av avanserte IT-systemer. Med det ønsket, ble friByte opprettet for å levere sikre og stabile IT-tjenester til studentkulturen, studentmediene og politiske studentorganisasjoner. 
 """
 +++
 
+{{ illustration(path="/img/illustrations/undraw_team.svg", alt="Maskoter som henger opp Linux distros. Illustrasjon") }}
+
+<h2>Hva er friByte</h2>
+<p>
+    friByte er en studentorganisasjon som har sitt utspring fra Det Akademiske Kvarters tidligere IT-avdeling, E-tjenesten. En gruppe studenter fra E-tjenesten ønsket i 2002 å starte en organisasjon som rendyrket drift av avanserte IT-systemer. Med det ønsket, ble friByte opprettet for å levere sikre og stabile IT-tjenester til studentkulturen, studentmediene og politiske studentorganisasjoner. 
+</p>
+
+<p>
+    friByte er en "null-profitt" organisasjon, som innebærer at vi ikke tar utbytte av overskuddet, og at medlemmene ikke mottar økonomisk kompensasjon for deres deltagelse. friByte driver nå på sitt 19. år og har nå vokst til å inkludere et utvalg dedikerte studenter og profesjonelle kunder.
+</p>
+
+<p>
+Alle våre medlemmer er studenter. Dette medfører at vi har en løs profil innad, og vårt stiftelsesdokument reflekterer dette; Generalforsamlingen er tvunget til å være en utflukt medpåfølgende fest! Mye innsats går med på å opprettholde det sosiale miljøet, ikke bare foran en skjerm.
+</p>
+
+<h2>Hva er målet til friByte?</h2>
+<ul>
+    <li>Levere sikre IT-tjenester av høy kvalitet til studentorganisasjoner.</li>
+    <li>Opprettholde et aktivt læremiljø for IT-interesserte studenter.</li>
+    <li>Pådriver for etisk bruk av programvare og persondata.</li>
+    <li>Være en bidragsyter for utvikling, samt forbedring, av åpen og fri programvare.</li>
+</ul>
+
+<p>
+    Vi satser også på å drifte mest mulig av IT-løsninger for diverse studentorganisasjoner. Se våre klienter for en oversikt over studentorganisasjonene vi bistår.
+</p>
+
+<h2>Hvor holder vi til?</h2>
+<p>
+    Vi har nå flyttet inn i nytt server-rom på SV-bygget. friByte har ikke en fysisk møteplass eller kontorer. Dette ønsker vi selvfølgelig å endre og er akkurat nå på utkikk etter passende lokaler. 
+</p>
+
+<div class="button-container center">
+    <a href="/kontakt" class="btn primary center">Medlemmer</a>
+    <a href="/bli-medlem" class="btn primary center underscore">Bli medlem</a>
+    <a href="mailto ={{ config.extra.email_general }}?body=Kjære friByte," class="btn primary center">Kontakt oss</a>
+</div>
