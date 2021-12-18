@@ -4,8 +4,6 @@ title = "Bli medlem"
 description = "Ønsker du å bli medlem i friByte? Ta en kikk her!"
 +++
 
-# Bli medlem
-
 ## Hvordan bli medlem?
 
 Dersom du mener at friByte er det rette for deg, eller at du er den rette for friByte, sender du ganske enkelt en kort søknad til [bli-medlem@fribyte.no](mailto:bli-medlem@fribyte.no). Fortell litt om hvem du er, hva du kan og hvorfor du vil bli medlem. Hvis du fremdeles lurer på hvordan det er å være medlem i friByte får du kanskje svar under, og hvis ikke er det bare å spørre!

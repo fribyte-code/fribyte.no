@@ -4,8 +4,6 @@ path = "klienter"
 description = "Oversikt over våre klienter."
 +++
 
-# Våre klienter
-
 Vi har flere klienter som vi yter våre tjenester til. Studentradioen i Bergen er den største, men flere andre har meldt sin interesse. Vi har også et tett samarbeid med IT-avdelingen på UiB.
 
 ## Oversikt
