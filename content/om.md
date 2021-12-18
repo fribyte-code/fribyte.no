@@ -14,7 +14,7 @@ friByte er en studentorganisasjon som har sitt utspring fra Det Akademiske Kvart
 
 friByte er en "null-profitt" organisasjon, som innebærer at vi ikke tar utbytte av overskuddet, og at medlemmene ikke mottar økonomisk kompensasjon for deres deltagelse. friByte driver nå på sitt 19. år og har nå vokst til å inkludere et utvalg dedikerte studenter og profesjonelle kunder.
 
-Alle våre medlemmer er studenter. Dette medfører at vi har en løs profil innad, og vårt stiftelsesdokument reflekterer dette; Generalforsamlingen er tvunget til å være en utflukt medpåfølgende fest! Mye innsats går med på å opprettholde det sosiale miljøet, ikke bare foran en skjerm.
+Alle våre medlemmer er eller har vært studenter. Dette medfører at vi har en løs profil innad, og vårt stiftelsesdokument reflekterer dette; Generalforsamlingen er tvunget til å være en utflukt medpåfølgende fest! Mye innsats går med på å opprettholde det sosiale miljøet, ikke bare foran en skjerm.
 
 ## Hva er målet til friByte?
 
