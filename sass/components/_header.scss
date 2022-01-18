@@ -1,62 +1,61 @@
 header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding: $default-padding 0;
+  font-size: 2em;
+
+  .logo {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    cursor: pointer;
+
+    svg {
+      width: 80px;
+      margin-right: 1em;
+      fill: var(--primary-color);
+    }
+    .logo--text {
+      display: inline-flex;
+      color: var(--font-color);
+      font-family: $font-family-mono;
+      &:hover {
+        background: $primary-color;
+        color: white;
+      }
+      &::after {
+        margin-left: 0.1em;
+        @include animation-underscore;
+      }
+    }
+  }
+
+  ul.navigation {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    align-content: center;
-    padding: $default-padding 0;
-    font-size: 2em;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .nav--link {
+      font-size: 0.75em;
+      display: inline;
+
+      &.current {
+        border-bottom: 5px solid var(--primary-color);
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-medium) {
+    justify-content: center;
 
     .logo {
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-        cursor: pointer;
-
-        svg {
-            width: 80px;
-            margin-right: 1em;
-            fill: var(--primary-color);
-        }
-        .logo--text {
-            display: inline-flex;
-            color: var(--font-color);
-            font-family: $font-family-mono;
-            &:hover {
-                background: $primary-color;
-                color: white;
-            }
-            &::after {
-                margin-left: .1em;
-                @include animation-underscore;
-            }
-        }
+      margin-bottom: 1em;
     }
-
-    ul.navigation {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-
-        .nav--link {
-            font-size: 0.75em;
-            display: inline;
-
-            &:not(:last-of-type) {
-                margin-right: 1em;
-            }
-
-            &.current {
-              border-bottom: 5px solid var(--primary-color);
-            }
-        }
-    }
-
-    @media screen and (max-width: $breakpoint-medium) {
-        justify-content: center;
-
-        .logo {
-            margin-bottom: 1em;
-        }
-    }
+  }
 }
