@@ -1,46 +1,47 @@
-button, .btn {
-    display: inline-flex;
-    padding: .75em 1em;
-    cursor: pointer;
-    @include box;
-    z-index: 1;
-    opacity: 1;
-    font-family: $font-family-mono;
-    text-transform: lowercase;
-    transition: all 350ms ease;
+button,
+.btn {
+  display: inline-flex;
+  padding: 0.75em 1em;
+  cursor: pointer;
+  @include box;
+  z-index: 1;
+  opacity: 1;
+  font-family: $font-family-mono;
+  text-transform: lowercase;
+  transition: all 350ms ease;
 
-    &:hover {
-        box-shadow: .15em .25em black !important;
-    }
+  &:hover {
+    box-shadow: 0.15em 0.25em black !important;
+  }
 
-    &:active {
-        box-shadow: 0 0 0 .25em black !important;
-    }
+  &:active {
+    box-shadow: 0 0 0 0.25em black !important;
+  }
 
-    &.primary {
-        @include box-primary;
-    }
+  &.primary {
+    @include box-primary;
+  }
 
-    &.center {
-        text-align: center;
-    }
+  &.center {
+    text-align: center;
+  }
 
-    &.underscore::after {
-        margin-left: .1em;
-        @include animation-underscore;
-    }
+  &.underscore::after {
+    margin-left: 0.1em;
+    @include animation-underscore;
+  }
 }
 
 .button-container {
-    display: block;
+  display: block;
 
-    &.center {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+  &.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
-        & > * {
-            margin-top: 1em;
-        }
+    & > * {
+      margin-top: 1em;
     }
+  }
 }

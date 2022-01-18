@@ -1,30 +1,30 @@
 html,
 body {
-    font-family: $font-family-sans;
-    margin: 0;
-    padding: 0;
+  font-family: $font-family-sans;
+  margin: 0;
+  padding: 0;
 
-    background: var(--background-color);
-    color: var(--font-color);
+  background: var(--background-color);
+  color: var(--font-color);
 
-    line-height: 1.5;
-    font-size: $font-size-desktop;
+  line-height: 1.5;
+  font-size: $font-size-desktop;
 
-    @media screen and (max-width: $breakpoint-medium) {
-        font-size: $font-size-mobile;
-    }
+  @media screen and (max-width: $breakpoint-medium) {
+    font-size: $font-size-mobile;
+  }
 }
 
 .container {
-    margin: 0 auto;
-    max-width: $page-width-max; 
-    padding: $default-padding;
+  margin: 0 auto;
+  max-width: $page-width-max;
+  padding: $default-padding;
 }
 
 img {
-    &.illustration {
-        max-width: 75%;
-        display: block;
-        margin: 0 auto;
-    }
+  &.illustration {
+    max-width: 75%;
+    display: block;
+    margin: 0 auto;
+  }
 }

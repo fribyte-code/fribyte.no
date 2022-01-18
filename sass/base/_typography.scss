@@ -1,17 +1,17 @@
 a {
-    box-sizing: border-box;
-    display: inline;
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 600;
+  box-sizing: border-box;
+  display: inline;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
 
-    &:hover:not(.logo) {
-        background: var(--primary-color) !important;
-        color: white;
-    }
+  &:hover:not(.logo) {
+    background: var(--primary-color) !important;
+    color: white;
+  }
 }
 
 ::selection {
-    background: var(--primary-color);
-    color: white;
+  background: var(--primary-color);
+  color: white;
 }
