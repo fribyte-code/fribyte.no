@@ -18,8 +18,8 @@ Vi skal arrangere en felles middag på Pastasentralen torsdag 24. februar 2022 i
 Bergen sentrum, hvor alle nåværende og tidligere medlemmer selvfølgelig er
 invitert. Vi må selvfølgelig ta hensyn til gjeldende koronarestriksjoner, men
 vil gjerne høre feedback og hvis dere er interessert i å delta. Så ta kontakt på
-[jubileum@fribyte.no](mailto:jubileum@fribyte.no) med kontaktinfo hvis du har lyst
-til å delta.
+[jubileum@fribyte.no](mailto:jubileum@fribyte.no) med kontaktinfo og gjerne
+hvilke klokkeslett som passer, hvis du har lyst til å delta.
 
 - Datoen 24. februar er ikke tilfeldig da friByte ble offisielt stiftet 24.
   februar 2002.
@@ -33,6 +33,6 @@ og spør om de blir med så satser vi på en hyggelig aften!
 
 Vi setter svarfrist for deltakelse til 10. februar (to uker før).
 
-Vi vil også arrangere en åpen CTF på informatikk for studenter denne uken med mål
-om å rekruttere nye medlemmer til friByte, mer info om det kommer i relevante
-kanaler.
+Vi vil også arrangere en åpen CTF på informatikk for studenter denne uken med
+mål om å rekruttere nye medlemmer til friByte, mer info om det kommer i
+relevante kanaler.
