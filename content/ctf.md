@@ -1,7 +1,6 @@
 +++
 template = "page.html"
-title = "Jubileum"
-description = "friByte feirer 20år " 
+title = "CTF"
 +++
 
 I anledning friByte sitt 20års jubileum arrangerer vi Capture The Flag for alle informatikk studenter på UiB.
