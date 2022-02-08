@@ -26,8 +26,8 @@ nav = [
   { name = "Tjenester", path = "/tjenester" },
   { name = "Kontakt", path = "/kontakt" },
   { name = "Om oss", path = "/om" },
-  { name = "Jubileum", path = "/jubileum" },
-  { name = "CTF", path = "/ctf" },
+  { name = "Jubileum", path = "/nyheter/jubileum" },
+  { name = "CTF", path = "/nyheter/jubileum-ctf" },
 ]
 
 footer = [

@@ -1,6 +1,9 @@
 +++
-title = "CTF"
-template = "page.html"
+date = 2022-02-08
+title = "Jubileum CTF"
+aliases = ["/ctf"]
+[extra]
+author = "Rolf Martin Glomsrud"
 +++
 
 I anledning friByte sitt [20 års jubileum](/jubileum) arrangerer vi Capture The
