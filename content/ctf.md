@@ -1,0 +1,17 @@
++++
+template = "page.html"
+title = "Jubileum"
+description = "friByte feirer 20år " 
++++
+
+I anledning friByte sitt 20års jubileum arrangerer vi Capture The Flag for alle informatikk studenter på UiB.
+
+Capture the flag er en aktivitet hvor man går sammen som lag og arbeider for å løse så mange utfordringer som mulig. Her blir det utfodringer for alle innenfor sikkerhet, matte, koding, pentesting og hjernetrim.
+
+Ta med deg noen venner for en kveld full av hjernetrim, eller kom alene så ordner vi et lag til deg. {insert link to påmelding here}
+
+Det ryktes og om premier for vinnerne!
+
+Det er begrensning på antall deltakere så meld deg på så tidlig mulig
+
+{{ctfPoll()}}
