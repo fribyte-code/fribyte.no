@@ -1,18 +1,30 @@
 +++
-template = "page.html"
 title = "CTF"
+template = "page.html"
 +++
 
-I anledning friByte sitt 20års jubileum arrangerer vi Capture The Flag for alle informatikk studenter på UiB.
+I anledning friByte sitt [20 års jubileum](/jubileum) arrangerer vi Capture The
+Flag for alle informatikk studenter på UiB.
 
-Konkurransen vil avholdes på Aktivt rom, Høyteknologisenteret fra 18:00-22:00 den 22.Februar.
+- Sted:
+  [Aktivt rom (2+3), Høyteknologisenteret](https://link.mazemap.com/KMpUK7v7)
+- Dato: 22. februar 2022
+- Tidspunkt: 18:00 - 22:00
 
-Capture the flag er en aktivitet hvor man går sammen som lag og arbeider for å løse så mange utfordringer som mulig. Her blir det utfodringer for alle innenfor sikkerhet, matte, koding, pentesting og hjernetrim.
+Capture The Flag er en aktivitet hvor man går sammen som lag og arbeider for å
+løse så mange utfordringer som mulig. Her blir det utfordringer for alle
+innenfor sikkerhet, matematikk, koding, pentesting og hjernetrim.
 
-Ta med deg noen venner for en kveld full av hjernetrim, eller kom alene så ordner vi et lag til deg.
+Ta med deg noen venner for en kveld full av hjernetrim, eller kom alene så
+ordner vi et lag til deg.
 
 Selvfølgelig serveres det pizza, og ryktes og om premier for vinnerne!
 
-Det er begrensning på antall deltakere så meld deg på så tidlig mulig
+Det er begrensning på antall deltakere så meld deg på så tidlig mulig.
 
-{{ctfPoll()}}
+<div class="CTFPoll">
+  <iframe src="https://cryptpad.fr/form/#/2/form/view/A9+eQ3A9IlWAB9SowTOFdR1hykAG4p7aAOh8M4ix6u8/embed/"
+  width = 100%
+  height =100%>
+  </iframe>
+</div>

@@ -1,7 +1,7 @@
 +++
 template = "page.html"
 title = "Jubileum"
-description = "friByte feirer 20år " 
+description = "friByte feirer 20 år i 2022." 
 +++
 
 Dere trodde kanskje vi var dø? Nei da, vi lever enda!
@@ -23,9 +23,8 @@ hvilke klokkeslett som passer, hvis du har lyst til å delta.
 
 - Datoen 24. februar er ikke tilfeldig da friByte ble offisielt stiftet 24.
   februar 2002.
-
-- Om det viser seg at torsdagen er en dårlig dag, har vi åpnet for å flytte til
-  fredag 25. hvis dette passer bedre for flere.
+- Hvis det viser seg at torsdagen er en dårlig dag, har vi åpnet for å flytte
+  til fredag 25. februar.
 
 Dette blir en god mulighet til å møte tidligere studiekamerater og det blir
 kjekt å se hva folk driver med i dag! Så ta kontakt med de du husker fra friByte
@@ -33,6 +32,6 @@ og spør om de blir med så satser vi på en hyggelig aften!
 
 Vi setter svarfrist for deltakelse til 10. februar (to uker før).
 
-Vi vil også arrangere en åpen CTF på informatikk for studenter denne uken med
-mål om å rekruttere nye medlemmer til friByte, mer info om det kommer i
+Vi vil også arrangere en åpen [CTF](/ctf) på informatikk for studenter denne
+uken med mål om å rekruttere nye medlemmer til friByte, mer info om det kommer i
 relevante kanaler.
