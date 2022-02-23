@@ -4,6 +4,11 @@ title = "Tjenester"
 description = "Oversikt over de ulike tjenestene friByte har å tilby." 
 +++
 
+- [Webhotell](#webhotell)
+- [Capture the Flag](#capture-the-flag-ctf)
+- [Mattermost (intern-kommunikasjon)](#intern-kommunikasjon)
+- [Spesialiserte tjenester](#spesialiserte-tjenester)
+
 ## Webhotell
 
 friByte tilbyr webhoteller til studentorganisasjoner som trenger et sted å ha
@@ -32,6 +37,14 @@ arrangement.
 
 Vi hadde gleden av å arrangere vår første CTF i forbindelse med vårt
 [20 års jubileum](/nyheter/jubileum-ctf/).
+
+## Intern kommunikasjon
+
+Internt i friByte bruker vi [Mattermost](https://mattermost.com), som vi
+selv-verter. Vi bruker det for å slippe å måtte forholde oss til siloer, og kan
+holde informasjon som formidles fra organisasjon og privat adskilt.
+
+Dette er en tjeneste vi kan tilby alle våre klienter.
 
 ## Spesialiserte tjenester
 
