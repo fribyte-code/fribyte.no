@@ -21,7 +21,6 @@ taxonomies = [
 highlight_code = true
 
 [extra]
-
 nav = [
   { name = "Tjenester", path = "/tjenester" },
   { name = "Kontakt", path = "/kontakt" },
