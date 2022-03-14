@@ -14,4 +14,4 @@ Build-Deploy:
         - mkdir -p ~/.ssh
         - chmod 700 ~/.ssh
         - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
-        - rsync -avhzi --delete public/ fribyte@158.37.6.5:/home/fribyte/fribyte.no/fribyte.no
+        - rsync -avhzi --delete public/ fribyte@158.37.6.5:/home/fribyte/fribyte.no
