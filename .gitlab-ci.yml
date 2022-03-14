@@ -3,7 +3,9 @@ image: alpine:latest
 Build-Deploy:
     variables:
         GIT_SUBMODULE_STRATEGY: recursive
-        ZOLA_VERSION: 0.15.3
+    environment:
+        name: Production
+        url: https://fribyte.no
     script:
         - apk add --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ zola
         - zola build
