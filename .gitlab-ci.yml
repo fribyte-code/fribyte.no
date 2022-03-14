@@ -1,6 +1,6 @@
 image: alpine:latest
 
-buildanddeploy:
+Build-Deploy:
     variables:
         GIT_SUBMODULE_STRATEGY: recursive
         ZOLA_VERSION: 0.15.3
@@ -8,6 +8,7 @@ buildanddeploy:
         - apk add --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ zola
         - zola build
         - apk add --no-cache openssh
+        - apk add --no-cache rsync
         - eval $(ssh-agent -s)
         - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
         - mkdir -p ~/.ssh
