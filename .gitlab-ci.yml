@@ -6,7 +6,7 @@ buildanddeploy:
         ZOLA_VERSION: 0.15.3
     script:
         - apk add --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ zola
-        - ./zola build
+        - zola build
         - apk add --no-cache openssh
         - eval $(ssh-agent -s)
         - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
