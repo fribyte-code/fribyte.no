@@ -2,8 +2,7 @@ image: alpine:latest
 
 stages:
   - check
-  - build
-  - deploy
+  - build_deploy
 
 check:
   stage: check
@@ -12,23 +11,19 @@ check:
     - zola check
 
 build:
-  stage: build
-  variables:
-    GIT_SUBMODULE_STRATEGY: recursive
-  script:
-    - apk add --update-cache --repository
-      http://dl-cdn.alpinelinux.org/alpine/edge/community/ zola
-    - zola build
-
-deploy:
-  stage: deploy
+  stage: build_deploy
   rules:
     - if: $CI_COMMIT_BRANCH == 'master'
       when: on_success
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
   environment:
     name: Production
     url: https://fribyte.no
   script:
+    - apk add --update-cache --repository
+      http://dl-cdn.alpinelinux.org/alpine/edge/community/ zola
+    - zola build
     - apk add --no-cache openssh
     - apk add --no-cache rsync
     - eval $(ssh-agent -s)
