@@ -1,19 +1,39 @@
 image: alpine:latest
 
-Build-Deploy:
-    variables:
-        GIT_SUBMODULE_STRATEGY: recursive
-    environment:
-        name: Production
-        url: https://fribyte.no
-    script:
-        - apk add --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ zola
-        - zola build
-        - apk add --no-cache openssh
-        - apk add --no-cache rsync
-        - eval $(ssh-agent -s)
-        - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
-        - mkdir -p ~/.ssh
-        - chmod 700 ~/.ssh
-        - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
-        - rsync -avhzi --delete public/ fribyte@158.37.6.5:/home/fribyte/fribyte.no
+stages:
+  - check
+  - build
+  - deploy
+
+check:
+  stage: check
+  script:
+    - apk add --update-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ zola
+    - zola check
+
+build:
+  stage: build
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+  script:
+    - apk add --update-cache --repository
+      http://dl-cdn.alpinelinux.org/alpine/edge/community/ zola
+    - zola build
+
+deploy:
+  stage: deploy
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'master'
+      when: on_success
+  environment:
+    name: Production
+    url: https://fribyte.no
+  script:
+    - apk add --no-cache openssh
+    - apk add --no-cache rsync
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
+    - rsync -avhzi --delete public/ fribyte@158.37.6.5:/home/fribyte/fribyte.no
