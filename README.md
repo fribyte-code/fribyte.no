@@ -14,7 +14,7 @@ Installer [Zola](https://getzola.org)
 
 ## Deploy
 
-Når man dytter til `master` så deployes dette live på
+Når man dytter til `main` så deployes dette live på
 [fribyte.no](https://fribyte.no). Nettsiden bor på VM'en **nettsider** under
 Konrad.
 
