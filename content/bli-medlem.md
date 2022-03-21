@@ -30,7 +30,7 @@ Vi bruker hovedsakelig Linux-baserte OS-er til servere. På arbeidsstasjoner bru
 
 ## Hva studerer medlemmene våre?
 
-I skrivende stund så er det hovedsakelig studenter fra Matematisk-Naturvitenskapelig fakultet ved UiB, men også noen fra Samfunnsvitenskapelig. De studerer alt mellom Datateknologi til Kognitiv Vitenskap. Det er dog intet krav at man må studere ved UiB, eller at man må studere noe teknologisk. Hvilken som helst student fra en høyere utdanningsinstitusjon i Bergen kan søke seg inn!
+I skrivende stund så er det hovedsakelig studenter fra Matematisk-Naturvitenskapelig fakultet ved UiB, men også noen fra Samfunnsvitenskapelig. De studerer alt mellom Datateknologi til Kognitiv Vitenskap. Det er dog intet krav at man må studere ved UiB, eller at man må studere noe teknologisk. Hvilken som helst student fra en høyere utdanningsinstitusjon i Bergen kan bli medlem!
 
 ## Hva må medlemmene våre kunne før man søker?
 
