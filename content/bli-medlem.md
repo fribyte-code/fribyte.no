@@ -4,48 +4,53 @@ title = "Bli medlem"
 description = "Ønsker du å bli medlem i friByte? Ta en kikk her!"
 +++
 
-## Hvordan bli medlem?
+## Hvordan blir man medlem?
 
 Dersom du mener at friByte er det rette for deg, eller at du er den rette for friByte, sender du ganske enkelt en kort søknad til [bli-medlem@fribyte.no](mailto:bli-medlem@fribyte.no). Fortell litt om hvem du er, hva du kan og hvorfor du vil bli medlem. Hvis du fremdeles lurer på hvordan det er å være medlem i friByte får du kanskje svar under, og hvis ikke er det bare å spørre!
 
-## Hva er friByte
+## Hva er friByte?
 
-friByte er studentorganisasjon som leverer sikre og stabile datatjenester til studentkulturen i Bergen. Vi er en frivillig organisasjon kjent for våre gode fester og lærerike miljø! Vi har møter to ganger i måneden hvor vi gjør opp status og sosialiserer oss litt.
+friByte er uavhengig studentorganisasjon som leverer sikre og stabile datatjenester til studentorganisasjoner i Bergen. Vi er en frivillig organisasjon kjent for våre gode fester og lærerike miljø! Vi møter regelmessig, rundt 1-2 ganger i måneden, for å gjøre opp status, delta på dugnader og sosialisere oss litt.
 
-Alle våre medlemmer er studenter og dette medfører at vi har en løs profil innad. Vårt stiftelsesdokument reflekterer dette; Generalforsamlingen er tvunget til å være en utflukt med påfølgende fest! Mye innsats går med på å opprettholde det sosiale miljøet, ikke bare foran en skjerm.
+De fleste av våre aktive medlemmer er studenter og dette medfører at vi har en løs profil innad. Vårt stiftelsesdokument reflekterer dette; Generalforsamlingen er tvunget til å være en utflukt med påfølgende fest! Mye innsats går med på å opprettholde det sosiale miljøet, ikke bare foran en skjerm.
 
 ## Hvilke plikter har man som medlem i friByte?
 
-- Stille opp ved krise (servernedgang, strømbrudd e.l.)
-- Stille til dugnader (vedlikeholdsarbeid, oppsett av nye systemer osv.)
+- Stille opp ved krise-situasjoner (servernedgang, strømbrudd, o.l.)
+- Stille til dugnader (vedlikeholdsarbeid, opprigg av nye systemer og tjenester, osv.)
 - Være med, ha et prosjekt eller ti
 
 ## Hvor mye fritid går med?
 
-Det bestemmer medlemmene i stor grad selv, men de må regne med at det går med ca 6-8 timer i uken. Dette varierer med hva som skal gjøres. Om noe er ødelagt, som må fikses o.s.v. Det forsøkes å unngå mye jobbing rundt eksamensperioder.
+Det bestemmer medlemmene i stor grad selv, men de må regne med at det går med ca 6-8 timer i uken. Dette kan variere avhengig av hva som må gjøres og studier tar selvfølgelig prioritet. Det forsøkes å unngå mye jobbing rundt eksamensperioder.
 
 ## Hvilke systemer bruker vi?
 
-Vi bruker hovedsakelig Linux til servere. På arbeidsstasjoner bruker vi Ubuntu og andre distroer vi er komfortable med. Når det gjelder distroer bruker vi primært Debian og OpenBSD. Det legges ingen føringer på hvilke distroer våre medlemmer velger. (Så sant det fungerer :D)
+Vi bruker hovedsakelig Linux-baserte OS-er til servere. På arbeidsstasjoner brukes distroer vi er komfortable med. Dette kan vært alt fra Ubuntu til Arch. Når det gjelder server-distroer bruker vi primært Ubuntu, Debian og OpenBSD. Det legges ingen føringer på hvilke distroer våre medlemmer velger. (Så sant det fungerer :D)
 
-## Hva studerer medlemmene?
+## Hva studerer medlemmene våre?
 
-I skrivende stund så er det hovedsakelig studenter fra MatNat. De studerer blant annet datateknologi, datasikkerhet og datavitenskap. Vi har også én som studerer kognitiv vitenskap. Det er dog intet krav at man må studere et fag på Matematisk-Naturvitenskapelig fakultet.
+I skrivende stund så er det hovedsakelig studenter fra Matematisk-Naturvitenskapelig fakultet ved UiB, men også noen fra Samfunnsvitenskapelig. De studerer alt mellom Datateknologi til Kognitiv Vitenskap. Det er dog intet krav at man må studere ved UiB, eller at man må studere noe teknologisk. Hvilken som helst student fra en høyere utdanningsinstitusjon i Bergen kan søke seg inn!
 
-## Hva vil vi at våre medlemmer skal kunne før de begynner?
+## Hva må medlemmene våre kunne før man søker?
+
+Det er ingen krav om forkunnskaper for å kunne søke! Men et veldig godt utgangspunkt er å enten:
 
 - Ha grunnleggende kunnskap om Linux (UNIX-systemer) og/eller nettverk
+- Kunne grunnleggende Git
 - Kunne sette seg inn i bruk av nye systemer
 - Like å jobbe med datamaskiner
+- Ønske å lære nye ting
 
-## Hva vil vi at våre medlemmer skal kunne når de har vært med en stund?
+## Hva kan medlemmene våre etter å ha vært med en stund?
 
-- Sette opp nettverk
+- Rigge opp nettverk
 - Administrere Linux-servere
+- Versjonskontroll-verktøyet Git
 - Fordype seg i minst ett av følgende områder
   - Nettprogrammering
-  - Nettformgivning
-  - Systemadministrasjon
+  - Nett-formgivning
+  - System-administrasjon
   - Serverdrift
   - Nettverk
 
