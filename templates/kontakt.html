@@ -15,54 +15,36 @@
         Kundesupport: <a href="mailto:{{ config.extra.email_support }}">{{ config.extra.email_support }}</a>
     </li>
 </ul>
+{% set members_list = load_data(path="content/kontakt/members.json") %}
 
-<h2>Aktive medlemmer</h2>
-<div class="table-wrapper">
-    <table class="members active">
+{% for isActive, members in members_list | group_by(attribute="active") %}
+  {% if isActive == "true" %}
+    <h2>Aktive medlemmer</h2>
+  {% else %}
+    <h2>Inaktive medlemmer</h2>
+  {% endif %}
+  <div class="table-wrapper">
+    <table class="members {% if isActive == "true" %}active{% else %}inactive{% endif %}">
+      <tr>
+        <th>Navn</th>
+        <th>Stilling</th>
+        {% if isActive == "true" %}
+          <th>E-post</th>
+        {% endif %}
+      </tr>
+      {% for member in members %}
         <tr>
-            <th>Navn</th>
-            <th>Stilling</th>
-            <th>E-post</th>
+          <td>{{ member.name }}</td>
+          <td>{{ member.position }}</td>
+          {% if isActive == "true" %}
+            <td>
+              {% if member.email %}<a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}
+            </td>
+          {% endif %}
         </tr>
-        {% set members_active = load_data(path="content/kontakt/members.json") | filter(attribute="active", value=true) %}
-        {% set members_admin = members_active | filter(attribute="admin", value=true) %}
-        {% set members_regular = members_active | filter(attribute="position", value="Medlem") %}
-        {% set members_regular = members_regular | sort(attribute="name") %}
-        {% for admin in members_admin %}
-            <tr>
-                <td>{{ admin.name }}</td>
-                <td>{{ admin.position }}</td>
-                <td>
-                    <a href="mailto:{{ admin.email }}">{{ admin.email }}</a>
-                </td>
-            </tr>
-        {% endfor %}
-        {% for member in members_regular  %}
-            <tr>
-                <td>{{ member.name }}</td>
-                <td>{{ member.position }}</td>
-                <td>
-                  {% if member.email %}<a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}
-                </td>
-            </tr>
-        {% endfor %}
+      {% endfor %}
     </table>
-</div>
-<h2>Tidligere medlemmer</h2>
-<div class="table-wrapper">
-    <table class="members inactive">
-        <tr>
-            <th>Navn</th>
-            <th>Stilling</th>
-        </tr>
-        {% set members_inactive = load_data(path="content/kontakt/members.json") | filter(attribute="active", value=false) | sort(attribute="position") %}
-        {% for member in members_inactive %}
-            <tr>
-                <td>{{ member.name }}</td>
-                <td>{{ member.position }}</td>
-            </tr>
-        {% endfor %}
-    </table>
-    </table>
-</div>
+  </div>
+{% endfor %}
+
 {% endblock content %}

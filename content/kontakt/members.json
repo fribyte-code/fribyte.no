@@ -49,47 +49,6 @@
         "active": true
     },
     {
-        "name": "Ketil Kvifte",
-        "phone": "952 08 423",
-        "position": "Medlem",
-        "joined": null,
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Fredrik Heimsæter",
-        "phone": "478 10 665",
-        "email": "freheims@fribyte.no",
-        "position": "Inaktivt medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Stian Leander Wiken",
-        "phone": "906 12 741",
-        "position": "Medlem",
-        "joined": null,
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Simen Lone",
-        "phone": "936 89 984",
-        "position": "Medlem",
-        "joined": null,
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Johan Wergeland Anfinsen",
-        "phone": "450 56 820",
-        "position": "Medlem",
-        "joined": null,
-        "left": null,
-        "active": true
-    },
-    {
         "name": "Daniel Liland",
         "phone": null,
         "email": "daniel.liland@fribyte.no",
@@ -113,6 +72,38 @@
         "email": "magnus.farstad@fribyte.no",
         "position": "Medlem",
         "joined": "2020-09-08T00:00:00.000Z",
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Ketil Kvifte",
+        "phone": "952 08 423",
+        "position": "Medlem",
+        "joined": null,
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Stian Leander Wiken",
+        "phone": "906 12 741",
+        "position": "Medlem",
+        "joined": null,
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Simen Lone",
+        "phone": "936 89 984",
+        "position": "Medlem",
+        "joined": null,
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Johan Wergeland Anfinsen",
+        "phone": "450 56 820",
+        "position": "Medlem",
+        "joined": null,
         "left": null,
         "active": true
     },
@@ -368,6 +359,15 @@
     {
         "name": "Fredrik Vindenes",
         "phone": null,
+        "position": "Inaktivt medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Fredrik Heimsæter",
+        "phone": "478 10 665",
+        "email": "freheims@fribyte.no",
         "position": "Inaktivt medlem",
         "joined": null,
         "left": null,
