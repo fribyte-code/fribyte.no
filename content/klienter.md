@@ -18,7 +18,7 @@ Det Akademiske Kvarter har følgende tjenester hos oss:
 
 - Nettsider
 - Nettverkstjenester
-- Database-tjenester
+- Databasetjenester
 
 ### Bergen Student-TV
 
@@ -42,7 +42,7 @@ Studentradioen har følgende tjenester hos oss:
 - Verting og drift av en Django-server for podkast-distribusjon
 - Internt nettverk
 - Domene-administrering
-- Database-tjenester
+- Databasetjenester
 - Minecraft-server
 
 ### Studvest
