@@ -26,11 +26,11 @@ Det bestemmer medlemmene i stor grad selv, men de må regne med at det går med 
 
 ## Hvilke systemer bruker vi?
 
-Vi bruker hovedsakelig Linux-baserte OS-er til servere. På arbeidsstasjoner brukes distroer vi er komfortable med. Dette kan vært alt fra Ubuntu til Arch. Når det gjelder server-distroer bruker vi primært Ubuntu, Debian og OpenBSD. Det legges ingen føringer på hvilke distroer våre medlemmer velger. (Så sant det fungerer :D)
+Vi bruker hovedsakelig Linux-baserte OS-er til servere. På arbeidsstasjoner brukes distroer vi er komfortable med. Dette kan være alt fra Ubuntu til Arch. Når det gjelder server-distroer bruker vi primært Ubuntu, Debian og OpenBSD. Det legges ingen føringer på hvilke distroer våre medlemmer velger. (Så sant det fungerer :D)
 
 ## Hva studerer medlemmene våre?
 
-I skrivende stund så er det hovedsakelig studenter fra Matematisk-Naturvitenskapelig fakultet ved UiB, men også noen fra Samfunnsvitenskapelig. De studerer alt mellom Datateknologi til Kognitiv Vitenskap. Det er dog intet krav at man må studere ved UiB, eller at man må studere noe teknologisk. Hvilken som helst student fra en høyere utdanningsinstitusjon i Bergen kan bli medlem!
+I skrivende stund så er det hovedsakelig studenter fra Matematisk-Naturvitenskapelig fakultet ved UiB, men også noen fra Samfunnsvitenskapelig. De studerer alt fra Datateknologi til Kognitiv Vitenskap til Samfunnsøkonomi. Det er dog intet krav at man må studere ved UiB, eller at man må studere noe teknologisk. Hvilken som helst student fra en høyere utdanningsinstitusjon i Bergen kan bli medlem!
 
 ## Hva må medlemmene våre kunne før man søker?
 
@@ -49,7 +49,8 @@ Det er ingen krav om forkunnskaper for å kunne søke! Men et veldig godt utgang
 - Versjonskontroll-verktøyet Git
 - Fordype seg i minst ett av følgende områder
   - Nettprogrammering
-  - Nett-formgivning
+  - Nett-formgiving
+  - Nett-utvikling
   - System-administrasjon
   - Serverdrift
   - Nettverk
