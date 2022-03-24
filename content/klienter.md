@@ -4,7 +4,9 @@ path = "klienter"
 description = "Oversikt over våre klienter."
 +++
 
-Vi har flere klienter som vi yter våre tjenester til. Studentradioen i Bergen er den største, men flere andre har meldt sin interesse. Vi har også et tett samarbeid med IT-avdelingen på UiB.
+Vi har flere klienter som vi yter våre tjenester til, og en full liste ser du under. Vi leter alltid etter nye klienter, og står alltid klar til å svare på henvendelsene dine. Om du har noen spørsmål, eller ønsker våre tjenester, må du ikke nøle med å sende et ebrev til [post@fribyte.no](mailto:post@fribyte.no)!
+
+Vi har også et tett samarbeid med IT-avdelingen på UiB.
 
 ## Oversikt
 
@@ -12,13 +14,21 @@ Vi har flere klienter som vi yter våre tjenester til. Studentradioen i Bergen e
 
 Det Akademiske Kvarter er studentenes kulturhus, kafé, restaurant og utested i Bergen. De samarbeider tett med organisasjoner som Bergen Filmklubb, Studentteateret Immaturus og Studentersamfunnet i Bergen for å holde regelmessige arrangementer.
 
-Det Akademiske Kvarter får nettside-tjenester, nettverkstjenester og database-tjenester fra friByte
+Det Akademiske Kvarter har følgende tjenester hos oss:
+
+- Nettsider
+- Nettverkstjenester
+- Databasetjenester
 
 ### Bergen Student-TV
 
 Bergen Student-TV (BSTV) er et fjernsynsproduksjonsselskap for og av studenter ved de ulike utdanningsinstitusjonene i Bergen. De produserer, blant annet, nyhetsreportasjer, flerkameraproduksjoner, underholdningsserier, dokumentarer og direktesendt strømming.
 
-BSTV har sine nettsider og det interne nettverket drevet av friByte.
+BST har følgende tjenester hos oss:
+
+- Nettsider 
+- Interne ressurser (Rom-reservering)
+- Domene-administrering
 
 ### Studentradioen i Bergen
 
@@ -27,17 +37,22 @@ Studentradioen er en lokalradio som ble startet i 1982. De sender reklamefri rad
 Studentradioen har følgende tjenester hos oss:
 
 - Nettsider
-- IceCast-server for MP3/AAC-strømming (web-radio)
-- Verting av en Django-server for podkast-distribusjon
+- Interne ressurser (Wiki, rom-reservering, osv.)
+- IceCast2-server for strømming (nettradio og DAB+)
+- Verting og drift av en Django-server for podkast-distribusjon
 - Internt nettverk
-- Database-tjenester
-- Minecraft server
+- Domene-administrering
+- Databasetjenester
+- Minecraft-server
 
 ### Studvest
 
 Studvest er en gratis lokalavis som ble stiftet av studenter i 1945 under navnet And og Vilje. De er en ukentlig avis med en gjennomsnittlig sirkulering på 8500 aviser hver dag. De tar opp emner innen studentkulturen og nyheter som påvirker studentlivet.
-Studvest sitt interne nettverk leveres av friByte.
 
-## Interessert i noen ligendene?
+Studvest har følgende tjenester hos oss:
+
+- Internt nettverk
+
+## Er du interessert i noe lignende?
 
 {{ buttons(tjenester=true, kontakt=true) }}
