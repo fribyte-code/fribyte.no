@@ -33,6 +33,10 @@ footer = [
   { name = "Nyheter", path = "/nyheter" },
 ]
 
+social_media = [
+  { name = "Twitter", url = "https://twitter.com/fribyte" }
+]
+
 email_general = "post@fribyte.no"
 email_join = "bli-medlem@fribyte.no"
 email_support = "hjelp@fribyte.no"

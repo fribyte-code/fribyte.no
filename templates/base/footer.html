@@ -13,13 +13,14 @@
     <div class="footer--contact">
         <h1>Kontakt</h1>
         <ul class="footer--list">
-            <li>Org.nr. 984 397 569</li>
-            <li>
-		<a rel="me" href="https://sosial.fribyte.no/@fribyte" target="_blank" class="footer--link">Mastodon</a>
-            </li>
-            <li>
-                <a href="https://twitter.com/fribyte" target="_blank" class="footer--link">Twitter</a>
-            </li>
+          <li>Org.nr. 984 397 569</li>
+          {% if config.extra.social_media %}
+            {% for link in config.extra.social_media %}
+              <li>
+                <a href="{{ link.url }}" target="_blank" class="footer--link">{{ link.name }}</a>
+              </li>
+            {% endfor %}
+          {% endif %}
         </ul>
     </div>
     <div class="footer--copyright-developed-by">
