@@ -28,8 +28,8 @@ header {
       color: var(--font-color);
       font-family: $font-family-mono;
       &:hover {
-        background: $primary-color;
-        color: white;
+        background: var(--primary-color);
+        color: var(--button-text);
       }
       &::after {
         margin-left: 0.1em;
