@@ -20,6 +20,10 @@ taxonomies = [
 [markdown]
 highlight_code = true
 
+[languages.en]
+build_search_index = true
+description = "friByte is a student organization with the goal of running IT operations for other student organizations in Bergen. We offer affordable web and IT services tailored to student organizations."
+
 [extra]
 nav = [
   { name = "Tjenester", path = "/tjenester" },
