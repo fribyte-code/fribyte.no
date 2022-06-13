@@ -24,7 +24,7 @@
         "phone": null,
         "email": "kristian.takvam@fribyte.no",
         "position": "Økonomiansvarlig",
-        "joined": "2021-09-11T00:00:00.000Z",
+        "joined": "2021-09-10T00:00:00.000Z",
         "left": null,
         "admin": true,
         "active": true
@@ -71,31 +71,16 @@
         "phone": null,
         "email": "magnus.farstad@fribyte.no",
         "position": "Medlem",
-        "joined": "2020-09-08T00:00:00.000Z",
+        "joined": "2022-02-13T00:00:00.000Z",
         "left": null,
         "active": true
     },
     {
-        "name": "Ketil Kvifte",
-        "phone": "952 08 423",
+        "name": "Luca Blaauw Fossen",
+        "phone": null,
+        "email": "luca.fossen@fribyte.no",
         "position": "Medlem",
-        "joined": null,
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Stian Leander Wiken",
-        "phone": "906 12 741",
-        "position": "Medlem",
-        "joined": null,
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Simen Lone",
-        "phone": "936 89 984",
-        "position": "Medlem",
-        "joined": null,
+        "joined": "2022-03-10T00:00:00.000Z",
         "left": null,
         "active": true
     },
@@ -280,6 +265,30 @@
         "name": "Olav Smørholm",
         "phone": null,
         "position": "Guru wannabe",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Ketil Kvifte",
+        "phone": "952 08 423",
+        "position": "Inaktivt medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Stian Leander Wiken",
+        "phone": "906 12 741",
+        "position": "Inaktivt medlem",
+        "joined": null,
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Simen Lone",
+        "phone": "936 89 984",
+        "position": "Inaktivt medlem",
         "joined": null,
         "left": null,
         "active": false
