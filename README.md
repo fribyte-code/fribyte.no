@@ -1,86 +1,82 @@
-# friByte.no - Zola
+# friByte.no
 
-friByte sin nettside, laget med Zola.
+Made using [Zola][zola].
 
-## Quick start
+## Usage
 
-```
-zola serve # zola serve -O for å åpne direkte i nettleseren
-```
+1. Clone the repository, `git clone git@github.com:fribyte-code/fribyte.no.git`.
+2. Run `zola serve` to run Zola locally.
 
-## Oppsett
+## Deployment
 
-Installer [Zola](https://getzola.org)
+- The site is self-hosted on friByte's serveres (it's running Pengebingen).
+- When you push to `main` it deploys to Pengebingen.
 
-## Deploy
+## Things to know
 
-Når man dytter til `main` så deployes dette live på
-[fribyte.no](https://fribyte.no). Nettsiden bor på VM'en **nettsider** under
-Konrad.
+- [Zola][zola] is a static site generator.
+  - Check out their [documentation][zola_docs]
+  - There is a differrance between a _page_ and a _section_.
+- We use [SASS][sass] for styling.
+- We use [Prettier][prettier] for linting, so try to run Prettier in your editor
+  (if you can).
+- Navigation links is in `config.toml`.
 
-## Bruk
+### Git-branches
 
-Les gjerne litt i [dokumentasjonen til Zola](https://getzola.org/documentation).
+We practice feature-branches and use PRs frequently for all our features,
+bugfixes and doc changes. `main`-branch is protected and should not be pushed
+directly to.
 
-### Sider og seksjoner
+Examples:
+- `feature/<feature-name>`
+- `bugfix/<fix-name>`
+- `docs/<what-has-been-added/updated>`
 
-I Zola så er det to forskjellige typer sider, en vanlig _side_ og en _seksjon_.
-
-En side lever direkte i `content/`, eksempelvis `content/om.md`. En seksjon
-lever i en undermappe `content/<seksjonsnavn>`, denne trenger da en `_index.md`
-i sin mappe.
-
-#### Seksjon
-
-I en seksjon har man litt flere frontmatter variabler man kan styre, men de
-viktigste å tenke på er `template` og `page_template`. Hvis alle undersidene
-til seksjonen skal bruke samme template definerer man dette med `page_template`.
 
 ### Shortcodes
 
-I Zola finnes det noe som heter shortcodes, dette kan KUN brukes i
-Markdown-dokumenter. Vi har shortcodes for;
+We have a few shortcodes available to use in Markdown, [check them
+out][shortcodes]:
 
 - `buttons`
 - `illustration`
 - `alerts`
 
-Disse er enkle HTML-snutter som kan gi parametere, et eksempel i bruk;
+These are simple HTML-snippets that we can provide parameters:
 
 ```md
 {{ buttons(kontakt=true) }}
 ```
 
-Lag nye shortcodes hvis det er komponenter/HTML-snutter som (kan) brukes flere
-steder.
+Create new shortcodes if there is a component and/or HTML-snippets that can be
+used multiple places.
 
-### Nyheter
+### News
 
-For å publisere nyheter så lager man bare ett nytt dokument under
-`content/nyheter`. Et eksempel kan være `content/nyheter/2022-01-01-godt-nyttar.md`.
-Hvis denne nyheten skal inneholde bilder osv. er det nødvendig å lage en
-mappe istedenfor, for å forsette på forrige eksempel
-`content/nyheter/2022-01-01-godt-nyttar/index.md`. Nå er det `index.md` som
-holder selve "artikkelen", plasser alt av bilder og slik i samme mappe.
+In order to publish news we need to create a new markdown-file under
+`content/nyheter`. For example: 
+`content/nyheter/2022-01-01-godt-nyttar.md`.
+
+If this news were to contain pictures/images, it's neccessary to create a folder
+instead of a single markdown-file. Then it would look something like this:
+`content/nyheter/2022-01-01-godt-nyttar/index.md`. Now it's `index.md` that
+contains the _article_, and you can add the images in the same folder.
 
 ### Taxonomies
 
-Se på dette som en form for tags eller kategorisering. Man definerer nye
-taxonomies i `config.toml`. Hvis `feed = true` vil disse få en egen RSS-feed.
+We use these for tags/categories. You can defined new taxonomies in
+`config.toml`.
 
-De defineres på side- og seksjonsnivå slik;
+An example on how you can use them on _pages_ and _sections_:
 
 ```html
 [taxonomies] categories = ["Nyheter"]
-<!-- for flere ["Nyheter", "Driftsmelding"] -->
+<!-- for multiple ["Nyheter", "Driftsmelding"] -->
 ```
 
-### Navigasjon
-
-Menyene, hoved og footer defineres i `config.toml`.
-
-### Osv
-
-Det er masse annet gøy som går an å gjøre med Zola, men dette er hva vi har til
-nå. Vær flink å oppdater denne så fort man legger til mer funksjonalitet slik at
-alle kan være med å holde siden oppdatert :smile:
+[zola]: https://getzola.org
+[zola_docs]: https://getzola.org/documentation
+[sass]: https://sass-lang.com
+[prettier]: https://prettier.io/
+[shortcodes]: https://github.com/fribyte-code/fribyte.no/tree/main/templates/shortcodes
