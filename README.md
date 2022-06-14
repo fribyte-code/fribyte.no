@@ -9,7 +9,7 @@ Made using [Zola][zola].
 
 ## Deployment
 
-- The site is self-hosted on friBytes serveres. It's running Pengebingen.
+- The site is self-hosted on friByte's serveres (it's running Pengebingen).
 - When you push to `main` it deploys to Pengebingen.
 
 ## Things to know
@@ -55,7 +55,7 @@ used multiple places.
 ### News
 
 In order to publish news we need to create a new markdown-file under
-`content/nyheter`. An example can be
+`content/nyheter`. For example: 
 `content/nyheter/2022-01-01-godt-nyttar.md`.
 
 If this news were to contain pictures/images, it's neccessary to create a folder
