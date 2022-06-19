@@ -11,11 +11,14 @@
       <a href="{{ page.path }}">{{ page.name }}</a>
     </li>
     {% endfor %}
-    <li>
-      <label id="theme-switch" class="theme-switch" for="checkbox_theme">
+    <span class="theme-switcher">
+      {{ load_data(path="static/img/icons/light.svg") | safe }}
+      <label id="theme-switch" class="theme-switch switch" for="checkbox_theme">
         <input type="checkbox" id="checkbox_theme" />
+        <span class="slider round"></span>
       </label>
-    </li>
+      {{ load_data(path="static/img/icons/dark.svg") | safe }}
+    </span>
   </ul>
 </header>
 
