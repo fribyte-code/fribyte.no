@@ -71,10 +71,14 @@ header {
 .theme-switcher {
   display: flex;
   align-items: center;
+  
   gap: 0.5rem;
-
+  
   svg {
     width: 1.5rem;
+    position: relative;
+    top: -5;
+    bottom: 5;
   }
 }
 
@@ -82,8 +86,8 @@ header {
 .switch {
   position: relative;
   display: inline-block;
-  width: 4rem;
-  height: 2rem;
+  width:3.5rem;
+  height: 1.75rem;
 }
 
 /* Hide default HTML checkbox */
@@ -97,10 +101,10 @@ header {
 .slider {
   position: absolute;
   cursor: pointer;
-  top: 0;
+  top: -5;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 5;
   background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
@@ -109,10 +113,10 @@ header {
 .slider:before {
   position: absolute;
   content: "";
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 1.2rem;
+  width: 1.2rem;
   left: 4px;
-  bottom: 4px;
+  bottom: 5.5px;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
