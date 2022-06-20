@@ -76,6 +76,10 @@ header {
   svg {
     width: 1.5rem;
   }
+
+  label {
+    text-indent: -99999px;
+  }
 }
 
 /* The switch - the box around the slider */
