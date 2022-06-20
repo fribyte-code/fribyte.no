@@ -31,6 +31,8 @@
       <link rel="mask-icon" href="{{ logo | safe }}">
 
       <link rel="preload" href="{{ get_url(path="main.css") | safe }}" as="style"/> 
+      <meta name="color-scheme" content="light dark">
+
       <link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
 
       <link href="{{ get_url(path="rss.xml") | safe }}" rel="feed">
@@ -48,5 +50,6 @@
       </main>
       {% include "base/footer.html" %} 
     </div>
+    <script src="{{ get_url(path="js/theme.js") }}"></script>
   </body>
 </html>

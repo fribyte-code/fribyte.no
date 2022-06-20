@@ -5,10 +5,20 @@
   </a>
   <ul class="navigation">
     {% for page in config.extra.nav %}
-      {% set path = page.path ~'/' %}
-      <li class="nav--link {% if current_path and current_path == path %}current{% endif %}">
-        <a href="{{ page.path }}">{{ page.name }}</a>
-      </li>
+    {% set path = page.path ~'/' %}
+    <li
+      class="nav--link {% if current_path and current_path == path %}current{% endif %}">
+      <a href="{{ page.path }}">{{ page.name }}</a>
+    </li>
     {% endfor %}
+    <span class="theme-switcher">
+      {{ load_data(path="static/img/icons/light.svg") | safe }}
+      <label id="theme-switch" class="theme-switch switch" for="checkbox_theme">
+        Temabytter
+        <input type="checkbox" id="checkbox_theme" />
+        <span class="slider round"></span>
+      </label>
+      {{ load_data(path="static/img/icons/dark.svg") | safe }}
+    </span>
   </ul>
 </header>
