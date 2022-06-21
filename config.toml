@@ -26,15 +26,15 @@ description = "friByte is a student organization with the goal of running IT ope
 
 [extra]
 nav = [
-  { name = "Tjenester", path = "/tjenester" },
-  { name = "Kontakt", path = "/kontakt" },
-  { name = "Om oss", path = "/om" },
+  { name = "Tjenester", path = "@/tjenester.md" },
+  { name = "Kontakt", path = "@/kontakt/index.md" },
+  { name = "Om oss", path = "@/om.md" },
 ]
 
 footer = [
-  { name = "Våre klienter", path = "/klienter" },
-  { name = "Bli medlem", path = "/bli-medlem" },
-  { name = "Nyheter", path = "/nyheter" },
+  { name = "Våre klienter", path = "@/klienter.md" },
+  { name = "Bli medlem", path = "@/bli-medlem.md" },
+  { name = "Nyheter", path = "@/nyheter/_index.md" },
 ]
 
 social_media = [
