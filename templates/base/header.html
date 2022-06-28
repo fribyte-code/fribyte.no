@@ -8,7 +8,7 @@
     {% set path = page.path ~'/' %}
     <li
       class="nav--link {% if current_path and current_path == path %}current{% endif %}">
-      <a href="{{ page.path }}">{{ page.name }}</a>
+      <a href="{{ get_url(path=page.path) }}">{{ page.name }}</a>
     </li>
     {% endfor %}
     <span class="theme-switcher">

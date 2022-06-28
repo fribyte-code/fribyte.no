@@ -18,7 +18,7 @@
             <span class="post--date">{{ post.date | date(format="%Y-%m-%d") }}</span>
           </div>
           <div class="post--summary">
-            <a href="{{ post.path }}">{{ post.title }}</a>
+            <a href="{{ get_url(path=post.path) }}">{{ post.title }}</a>
             <span class="post--excerpt">
               {{ post.description }}
             </span>
