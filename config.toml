@@ -22,7 +22,27 @@ highlight_code = true
 
 [languages.en]
 build_search_index = true
+# generate_feed = true
 description = "friByte is a student organization with the goal of running IT operations for other student organizations in Bergen. We offer affordable web and IT services tailored to student organizations."
+title = "friByte"
+
+# Idk how to translate [extra], currently this is not working
+# [languages.en.extra]
+# nav = [
+#   { name = "Services", path = "/en/services" },
+#   { name = "Contact", path = "/en/contact" },
+#   { name = "About us", path = "/en/about-us" },
+# ]
+
+# footer = [
+#   { name = "Our clients", path = "/klienter/en" },
+#   { name = "Become a member", path = "/bli-medlem/en" },
+#   { name = "News", path = "/nyheter/en" },
+# ]
+
+# social_media = [
+#   { name = "Twitter", url = "https://twitter.com/fribyte" }
+# ]
 
 [extra]
 nav = [
