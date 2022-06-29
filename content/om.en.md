@@ -6,9 +6,9 @@ friByte is a student organization that originated from E-tjenesten, the Academic
 """
 +++
 
-{{ illustration(path="/img/illustrations/undraw_team.svg", alt="Maskoter som henger opp Linux distros. Illustrasjon") }}
+{{ illustration(path="/img/illustrations/undraw_team.svg", alt="Mascots hanging up Linux distros. Illustration") }}
 
-## What is friByte
+## What is friByte?
 
 friByte is a student organization that originated from E-tjenesten, the Academic Quarter's former IT department. In 2002, a group of students from E-tjenesten wanted to start an organization that focused on the operation of advanced IT systems. With that in mind, friByte was established to deliver secure and stable IT services to the student culture, student media and political student organizations.
 
