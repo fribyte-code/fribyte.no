@@ -29,4 +29,4 @@ We also focus on operating as many IT solutions as possible for various student 
 
 We do not have a physical meeting place or office, but we have a server room at the Faculty of Social Sciences. Of course, we want to change this and are currently looking for suitable premises.
 
-{{ buttons(kontakt=true, medlemmer=true, bli_medlem=true) }}
+{{ buttons(english=true, kontakt=true, medlemmer=true, bli_medlem=true) }}

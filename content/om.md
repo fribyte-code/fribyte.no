@@ -8,7 +8,7 @@ friByte er en studentorganisasjon som har sitt utspring fra Det Akademiske Kvart
 
 {{ illustration(path="/img/illustrations/undraw_team.svg", alt="Maskoter som henger opp Linux distros. Illustrasjon") }}
 
-## Hva er friByte
+## Hva er friByte?
 
 friByte er en studentorganisasjon som har sitt utspring fra Det Akademiske Kvarters tidligere IT-avdeling, E-tjenesten. En gruppe studenter fra E-tjenesten ønsket i 2002 å starte en organisasjon som rendyrket drift av avanserte IT-systemer. Med det ønsket, ble friByte opprettet for å levere sikre og stabile IT-tjenester til studentkulturen, studentmediene og politiske studentorganisasjoner.
 
@@ -23,7 +23,7 @@ Alle våre medlemmer er eller har vært studenter. Dette medfører at vi har en 
 - Pådriver for etisk bruk av programvare og persondata.
 - Være en bidragsyter for utvikling og forbedring av åpen og fri programvare.
 
-Vi satser også på å drifte mest mulig av IT-løsninger for diverse studentorganisasjoner. Se våre klienter for en oversikt over studentorganisasjonene vi bistår.
+Vi satser også på å drifte mest mulig av IT-løsninger for diverse studentorganisasjoner. Se [våre klienter](/klienter) for en oversikt over studentorganisasjonene vi bistår.
 
 ## Hvor holder vi til?
 

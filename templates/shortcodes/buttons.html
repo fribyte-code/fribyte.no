@@ -1,18 +1,43 @@
 <div class="button-container center">
-  {% if kontakt %}
-  <a href="mailto:post@fribyte.no?subject=Forespørsel&body=Kjære friByte," class="btn primary center underscore">Kontakt oss</a>
-  {% endif %}
-  {% if medlemmer %}
-  <a href="/kontakt" class="btn primary center">Medlemmer</a>
-  {% endif %}
-  {% if bli_medlem %}
-  <a href="/bli-medlem" class="btn primary center underscore">Bli medlem</a>
-  {% endif %}
-  {% if send_soknad %}
-    <a href="mailto:bli-medlem@fribyte.no?subject=Søknad&body=Kjære friByte," class="btn primary center underscore">Send søknad</a>
-  {% endif %}
-  {% if tjenester %}
-    <a href="/tjenester" class="btn primary center">Våre tjenester</a>
+  <!--
+    Currently, tags are just duplicated, with two tags (English and Norwegian) for each button.
+    If there is a more succinct way of doing this, please let me know (or just PR it.)
+    -Luca
+  -->
+  
+  <!-- English buttons here -->
+  {% if english %}
+    {% if kontakt %}
+    <a href="mailto:post@fribyte.no?subject=Request&body=Dear friByte," class="btn primary center underscore">Contact us</a>
+    {% endif %}
+    {% if medlemmer %}
+    <a href="/en/kontakt" class="btn primary center">Members</a>
+    {% endif %}
+    {% if bli_medlem %}
+    <a href="/en/bli-medlem" class="btn primary center underscore">Become a member</a>
+    {% endif %}
+    {% if send_soknad %}
+      <a href="mailto:bli-medlem@fribyte.no?subject=Application&body=Dear friByte," class="btn primary center underscore">Submit an application</a>
+    {% endif %}
+    {% if tjenester %}
+      <a href="/en/tjenester" class="btn primary center">Our services</a>
+    {% endif %}
+  <!-- Default (Norwegian) buttons here -->
+  {% else %}
+    {% if kontakt %}
+    <a href="mailto:post@fribyte.no?subject=Forespørsel&body=Kjære friByte," class="btn primary center underscore">Kontakt oss</a>
+    {% endif %}
+    {% if medlemmer %}
+    <a href="/kontakt" class="btn primary center">Medlemmer</a>
+    {% endif %}
+    {% if bli_medlem %}
+    <a href="/bli-medlem" class="btn primary center underscore">Bli medlem</a>
+    {% endif %}
+    {% if send_soknad %}
+      <a href="mailto:bli-medlem@fribyte.no?subject=Søknad&body=Kjære friByte," class="btn primary center underscore">Send søknad</a>
+    {% endif %}
+    {% if tjenester %}
+      <a href="/tjenester" class="btn primary center">Våre tjenester</a>
+    {% endif %}
   {% endif %}
 </div>
-
