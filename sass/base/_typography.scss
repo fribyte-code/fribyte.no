@@ -7,11 +7,11 @@ a {
 
   &:hover:not(.logo) {
     background: var(--primary-color) !important;
-    color: white;
+    color: var(--button-text);
   }
 }
 
 ::selection {
   background: var(--primary-color);
-  color: white;
+  color: var(--button-text);
 }

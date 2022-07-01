@@ -3,7 +3,7 @@
         <h1>Ressurser</h1>
         <ul class="footer--list footer--navigation">
             {% for page in config.extra.footer %}
-                <li><a class="footer--link" href="{{ page.path }}">{{ page.name }}</a></li>
+                <li><a class="footer--link" href="{{ get_url(path=page.path) }}">{{ page.name }}</a></li>
             {% endfor %}
             <li>
                 <a class="footer--link" href="/rss.xml">RSS</a>
