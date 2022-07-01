@@ -1,0 +1,26 @@
+{% extends "base/default.html" %}
+
+{% block head %}
+  {% set title = section.title ~ " - " ~ config.title %}
+  {% set description = section.description | default(value=config.description) %}
+{% endblock head %}
+
+{% block content %}
+<h1>{{ section.title }}</h1>
+
+
+{% for x in section.subsections %}
+  {% set y =  x | trim_end_matches(pat="/_index.md") %}
+  {% set z =  y | trim_start_matches(pat="dokumenter/") %}
+  
+  <ul>
+    <td><a href="{{y}}" target="_blank" class="footer--link">{{z}}</a></td>
+  </ul>
+  
+  {% endfor %}
+{% endblock content %}
+
+
+
+
+{# <a href="" target="_blank" class="footer--link">Dokumenter</a> #}
