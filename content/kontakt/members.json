@@ -13,7 +13,7 @@
         "name": "Mathias Haugsbø",
         "phone": null,
         "email": "mathias.haugsboe@fribyte.no",
-        "position": "Nestleder",
+        "position": "Medlem",
         "joined": "2020-09-08T00:00:00.000Z",
         "left": null,
         "admin": true,
@@ -61,7 +61,7 @@
         "name": "Rolf Martin Glomsrud",
         "phone": null,
         "email": "rolf.glomsrud@fribyte.no",
-        "position": "Medlem",
+        "position": "Nestleder",
         "joined": "2020-09-08T00:00:00.000Z",
         "left": null,
         "active": true
@@ -70,7 +70,7 @@
         "name": "Magnus Farstad",
         "phone": null,
         "email": "magnus.farstad@fribyte.no",
-        "position": "Medlem",
+        "position": "Inaktivt medlem",
         "joined": "2022-02-13T00:00:00.000Z",
         "left": null,
         "active": true
