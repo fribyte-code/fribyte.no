@@ -10,7 +10,7 @@ If you believe that friByte is a good fit for you, or that you are a good fit fo
 
 ## What is friByte?
 
-friByte is an independent student organisation which performs secure and stabile IT services for other student organisations in Bergen. We are a volunteer organisation, known for our great parties and rich learning environment! We have frequent meetings (around 1-2 times per month) to evaluate how things are going, do volunteer work, and socialize.
+friByte is an independent student organization which performs secure and stabile IT services for other student organizations in Bergen. We are a volunteer organization, known for our great parties and rich learning environment! We have frequent meetings (around 1-2 times per month) to evaluate how things are going, do volunteer work, and socialize.
 
 Most of our active members are students, and this implies that we keep a loose internal profile. Our founding document reflects this; The general assembly is required to be an excursion with a subsequent party! A lot of effort is put into sustaining social interactions, not just screen time.
 
@@ -19,7 +19,7 @@ Most of our active members are students, and this implies that we keep a loose i
 We require you to:
 - Attend crisis situations (server crashes, power failures, etc.)
 - Attend volunteer events (maintainance work, setup of new systems and services, etc.)
-- Partake in the organisation, work on a project (or ten)
+- Partake in the organization, work on a project (or ten)
 
 ## How much free time do I need to spend?
 

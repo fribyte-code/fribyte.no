@@ -11,16 +11,16 @@
     <a href="mailto:post@fribyte.no?subject=Request&body=Dear friByte," class="btn primary center underscore">Contact us</a>
     {% endif %}
     {% if medlemmer %}
-    <a href="{{ get_url(path="@/en/kontakt") }}" class="btn primary center">Members</a>
+    <a href="en/kontakt" class="btn primary center">Members</a>
     {% endif %}
     {% if bli_medlem %}
-    <a href="{{ get_url(path="@/en/bli-medlem") }}" class="btn primary center underscore">Become a member</a>
+    <a href="{{ get_url(path="@/bli-medlem.en.md") }}" class="btn primary center underscore">Become a member</a>
     {% endif %}
     {% if send_soknad %}
       <a href="mailto:bli-medlem@fribyte.no?subject=Application&body=Dear friByte," class="btn primary center underscore">Submit an application</a>
     {% endif %}
     {% if tjenester %}
-      <a href="{{ get_url(path="@/en/tjenester") }}" class="btn primary center">Our services</a>
+      <a href="{{ get_url(path="@/tjenester.en.md") }}" class="btn primary center">Our services</a>
     {% endif %}
   <!-- Default (Norwegian) buttons here -->
   {% else %}
