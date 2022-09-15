@@ -4,14 +4,14 @@ title = "Services"
 description = "A summary of the services that we provide."
 +++
 
-- [Web hosting](#Webhotel)
+- [Web hosting](#web-hosting)
 - [Capture the Flag](#capture-the-flag-ctf)
 - [Internal communication)](#internal-communication)
 - [Interal resources](#internal-resources)
 - [Development](#development)
 - [Specialized services](#specialized-services)
 
-## Webhotel
+## Web hosting
 
 friByte offers web hosting (or web hotels, as we say in norwegian 😉) to student organizations who need a place for their sites. In contrast to regular web hosts, we offer exactly the services your organization needs.
 
