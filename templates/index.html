@@ -13,7 +13,7 @@
           {{ config.description }} 
       </p>
       <div class="button-container center">
-          <a href="/bli-medlem" class="btn primary center underscore">Bli medlem</a>
+          <a href="{{ get_url(path="@/bli-medlem.md") }}" class="btn primary center underscore">Bli medlem</a>
       </div>
   </section>
 
@@ -45,12 +45,12 @@
       <ul>
       {% for post in news.pages | slice(end=5) | sort(attribute="date") | reverse %}
         <li>
-          <a href="{{ post.path }}">
+          <a href="{{ get_url(path=post.path) }}">
             {{ post.title }} ({{ post.date | date(format="%Y-%m-%d") }})
           </a>
         </li>
       {% endfor %}
       </ul>
-      <a href="/nyheter" class="btn primary">Flere nyheter...</a>
+      <a href="{{ get_url(path="@/nyheter/_index.md") }}" class="btn primary">Flere nyheter...</a>
   </section>
 {% endblock content %}
