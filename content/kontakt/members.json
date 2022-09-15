@@ -336,7 +336,7 @@
         "position": "Inaktivt medlem",
         "joined": "2022-02-13T00:00:00.000Z",
         "left": null,
-        "active": true
+        "active": false
     },
     {
         "name": "Bjarte Johansen",
