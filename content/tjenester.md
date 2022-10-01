@@ -2,14 +2,9 @@
 template = "page.html"
 title = "Tjenester"
 description = "Oversikt over de ulike tjenestene friByte har å tilby." 
+[extra]
+enable_toc = true
 +++
-
-- [Webhotell](#webhotell)
-- [Capture the Flag](#capture-the-flag-ctf)
-- [Intern kommunikasjon)](#intern-kommunikasjon)
-- [Interne ressurser](#interne-ressurser)
-- [Utvikling](#utvikling)
-- [Spesialiserte tjenester](#spesialiserte-tjenester)
 
 ## Webhotell
 
