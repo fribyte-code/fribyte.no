@@ -6,7 +6,7 @@ description = "Oversikt over de ulike tjenestene friByte har å tilby."
 
 - [Webhotell](#webhotell)
 - [Capture the Flag](#capture-the-flag-ctf)
-- [Intern kommunikasjon)](#intern-kommunikasjon)
+- [Intern kommunikasjon](#intern-kommunikasjon)
 - [Interne ressurser](#interne-ressurser)
 - [Utvikling](#utvikling)
 - [Spesialiserte tjenester](#spesialiserte-tjenester)
