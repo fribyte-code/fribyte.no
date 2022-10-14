@@ -1,7 +1,8 @@
 +++
-date = 2002-04-05 14:55:00
-title = "(Testdokument) Dagsorden styremøte i friByte"
+date = 2002-04-05
+title = "Dagsorden styremøte i friByte"
 +++
+
 
 # Valg av ordstyrer og referent
 

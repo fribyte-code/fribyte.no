@@ -31,7 +31,7 @@ nav = [
   { name = "Tjenester", path = "@/tjenester.md" },
   { name = "Kontakt", path = "@/kontakt/index.md" },
   { name = "Om oss", path = "@/om.md" },
-  { name = "Dokumenter", path = "/dokumenter" },
+  { name = "Dokumenter", path = "@/dokumenter/_index.md" }, 
 ]
 
 footer = [

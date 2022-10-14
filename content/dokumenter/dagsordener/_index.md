@@ -1,14 +1,8 @@
 +++
 template = "nyheter.html"
-title = "dagsordener" 
+title = "Dagsordener" 
 description = "Dagsordener"
 aliases = ["/dagsorden"]
-slug = "dokumenter"
+slug = "dagsordener"
+sort_by = "date"
 +++
-
-
-
-<a href="https://google.no" target="_blank" class="footer--link">Dokumenter</a>
-
-
-[Testdokument](/testdok)
