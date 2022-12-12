@@ -1,12 +1,12 @@
 [
     {
-        "name": "Christian Engelsen",
-        "phone": "995 87 363",
-        "email": "christian.engelsen@fribyte.no",
+        "name": "Sindre Kjelsrud",
+        "phone": null,
+        "email": "sindre.kjelsrud@fribyte.no",
         "position": "Leder",
-        "joined": "2020-09-08T00:00:00.000Z",
+        "joined": "2022-09-09T00:00:00.000Z",
+        "admin":true,
         "left": null,
-        "admin": true,
         "active": true
     },
     {
@@ -19,11 +19,50 @@
         "active": true
     },
     {
+        "name": "Johannes Skivdal",
+        "phone": null,
+        "email": "johannes.skivdal@fribyte.no",
+        "position": "Økonomiansvarlig",
+        "joined": "2022-10-04T00:00:00.000Z",
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Daniel Liland",
+        "phone": null,
+        "email": "daniel.liland@fribyte.no",
+        "position": "Presseansvarlig",
+        "joined": "2020-09-08T00:00:00.000Z",
+        "admin":true,
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Mathias Haugsbø",
+        "phone": null,
+        "email": "mathias.haugsboe@fribyte.no",
+        "position": "Sosialansvarlig",
+        "joined": "2020-09-08T00:00:00.000Z",
+        "left": null,
+        "admin": true,
+        "active": true
+    },
+    {
         "name": "Kristian Emil Takvam",
         "phone": null,
         "email": "kristian.takvam@fribyte.no",
-        "position": "Økonomiansvarlig",
+        "position": "Medlem",
         "joined": "2021-09-10T00:00:00.000Z",
+        "left": null,
+        "admin": true,
+        "active": true
+    },
+    {
+        "name": "Christian Engelsen",
+        "phone": "995 87 363",
+        "email": "christian.engelsen@fribyte.no",
+        "position": "Medlem",
+        "joined": "2020-09-08T00:00:00.000Z",
         "left": null,
         "admin": true,
         "active": true
@@ -48,25 +87,6 @@
         "active": true
     },
     {
-        "name": "Daniel Liland",
-        "phone": null,
-        "email": "daniel.liland@fribyte.no",
-        "position": "Medlem",
-        "joined": "2020-09-08T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Mathias Haugsbø",
-        "phone": null,
-        "email": "mathias.haugsboe@fribyte.no",
-        "position": "Medlem",
-        "joined": "2020-09-08T00:00:00.000Z",
-        "left": null,
-        "admin": true,
-        "active": true
-    },
-    {
         "name": "Luca Blaauw Fossen",
         "phone": null,
         "email": "luca.fossen@fribyte.no",
@@ -79,15 +99,6 @@
         "name": "Anders Tøkje",
         "phone": null,
         "email": "antok@fribyte.no",
-        "position": "Medlem",
-        "joined": "2022-09-09T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Sindre Kjelsrud",
-        "phone": null,
-        "email": "sindre.kjelsrud@fribyte.no",
         "position": "Medlem",
         "joined": "2022-09-09T00:00:00.000Z",
         "left": null,
