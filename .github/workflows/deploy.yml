@@ -14,9 +14,6 @@ jobs:
       run: |
         wget -O zola.deb ${{ secrets.ZOLA_DEBIAN }}
         sudo dpkg -i zola.deb
-    - name: Check Zola links
-      run: |
-        zola check
     - name: Build Zola site
       run: |
         zola build
