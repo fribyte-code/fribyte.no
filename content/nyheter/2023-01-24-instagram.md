@@ -1,7 +1,7 @@
 +++
 title = "Instagram konto!"
 date = 2023-01-24
-description = "Vi har fått en INstagram konto"
+description = "Vi har fått en Instagram konto"
 [taxonomies]
 categories = ["Nyheter"]
 [extra]
