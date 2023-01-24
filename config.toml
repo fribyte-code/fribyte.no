@@ -40,7 +40,8 @@ footer = [
 ]
 
 social_media = [
-  { name = "Twitter", url = "https://twitter.com/fribyte" }
+  { name = "Twitter", url = "https://twitter.com/fribyte" },
+  { name = "Instagram", url = "https://www.instagram.com/fribyteno/" }
 ]
 
 email_general = "post@fribyte.no"
