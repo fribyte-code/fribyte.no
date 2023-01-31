@@ -132,14 +132,6 @@
         "active": true
     },
     {
-        "name": "Johan Wergeland Anfinsen",
-        "phone": "450 56 820",
-        "position": "Medlem",
-        "joined": null,
-        "left": null,
-        "active": true
-    },
-    {
         "name": "Svein Harald Soleim",
         "phone": null,
         "position": "Guru",
@@ -346,6 +338,14 @@
         "email": "magnus.farstad@fribyte.no",
         "position": "Inaktivt medlem",
         "joined": "2022-02-13T00:00:00.000Z",
+        "left": null,
+        "active": false
+    },
+    {
+        "name": "Johan Wergeland Anfinsen",
+        "phone": null,
+        "position": "Inaktivt medlem",
+        "joined": null,
         "left": null,
         "active": false
     },
