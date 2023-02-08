@@ -14,7 +14,7 @@ nettverke lynraskt!
 
 <img src="/nyheter/ny-tech-fra-machina/7BC9306F-665F-42C0-81D9-C46761C56D15.jpg" width="400" />
 
-VI fikk også med noe merch, i form av raske briller 😎
+Vi fikk også med noe merch, i form av raske briller 😎
 
 ### Utstyr:
 
