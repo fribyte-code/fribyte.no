@@ -1,8 +1,7 @@
 +++
-template = "nyheter.html"
+template = "dagsordener.html"
 title = "Dagsordener" 
 description = "Dagsordener"
 aliases = ["/dagsorden"]
-slug = "dagsordener"
 sort_by = "date"
 +++

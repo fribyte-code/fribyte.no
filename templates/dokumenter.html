@@ -7,26 +7,14 @@
 
 {% block content %}
 <h1>{{ section.title }}</h1>
-
-<!-- Trims the page link into a single word (name of document). -->
+{# Trims the page link into a single word (name of document). #}
 {% for filePath in section.subsections %}
-  {% set prevFilePath = filePath | trim_end_matches(pat="/_index.md") %}  
+  {% set prevFilePath = filePath | trim_end_matches(pat="/_index.md") %}
   {% set dokuType = prevFilePath | trim_start_matches(pat="dokumenter/") | capitalize %}
-  
-
   {% set subsection = get_section(path=filePath) %}
-
-  <ul>  
-    <!-- <td><a href="{{filePath}}" target="_blank" class="footer--link">{{dokuType}}</a></td> -->
-    <td><a href="{{ get_url(path=subsection.path) }}">{{ subsection.title }}</a></td>
+  <ul>
+    {# Trims the page link into a single word (name of document). #}
+    <li><a href="{{ get_url(path=subsection.path) }}">{{ subsection.title }}</a></li>
   </ul>
-
-
-  
   {% endfor %}
 {% endblock content %}
-
-
-
-
-{# <a href="" target="_blank" class="footer--link">Dokumenter</a> #}

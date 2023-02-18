@@ -1,4 +1,5 @@
 {% extends "base/default.html" %}
+{# Inspired by nyheter.html #}
 
 {% block head %}
   {% set title = section.title ~ " - " ~ config.title %}
@@ -8,25 +9,22 @@
 {% block content %}
 <h1>{{ section.title }}</h1>
 
-<!-- Trims the page link into a single word (name of document). -->
-{% for filePath in section.subsections %}
-  {% set prevFilePath = filePath | trim_end_matches(pat="/_index.md") %}  
-  {% set dokuType = prevFilePath | trim_start_matches(pat="dokumenter/") | capitalize %}
-  
-
-  {% set subsection = get_section(path=filePath) %}
-
-  <ul>  
-    <!-- <td><a href="{{filePath}}" target="_blank" class="footer--link">{{dokuType}}</a></td> -->
-    <td><a href="{{ get_url(path=subsection.path) }}">{{ subsection.title }}</a></td>
+  {% for year, posts in section.pages | group_by(attribute="year") %}
+  <h2>{{ year }}</h2>
+  <ul class="latest-news--list">
+    {% for post in posts %}
+      <li class="latest-news--post">
+          <div class="post--metadata">
+            <span class="post--date">{{ post.date | date(format="%Y-%m-%d") }}</span>
+          </div>
+          <div class="post--summary">
+            <a href="{{ get_url(path=post.path) }}">{{ post.title }}</a>
+            <span class="post--excerpt">
+              {{ post.description }}
+            </span>
+          </div>
+        </li>
+      {% endfor %}
   </ul>
-
-
-  
   {% endfor %}
 {% endblock content %}
-
-
-
-
-{# <a href="" target="_blank" class="footer--link">Dokumenter</a> #}
