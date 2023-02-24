@@ -132,6 +132,24 @@
         "active": true
     },
     {
+        "name": "Amund Fremming",
+        "phone": null,
+        "email": "amund.fremming@fribyte.no",
+        "position": "Medlem",
+        "joined": "2023-02-23T00:00:00.000Z",
+        "left": null,
+        "active": true
+    },
+    {
+        "name": "Sigurd Vikene",
+        "phone": null,
+        "email": "sigurd@fribyte.no",
+        "position": "Medlem",
+        "joined": "2023-02-23T00:00:00.000Z",
+        "left": null,
+        "active": true
+    },
+    {
         "name": "Svein Harald Soleim",
         "phone": null,
         "position": "Guru",
