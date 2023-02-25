@@ -13,9 +13,7 @@ feed_filename = "rss.xml"
 
 minify_html = true
 
-taxonomies = [
-  { name = "categories", feed = false }
-]
+taxonomies = [{ name = "categories", feed = false }]
 
 [markdown]
 highlight_code = true
@@ -24,44 +22,23 @@ external_links_target_blank = true
 
 [languages.en]
 build_search_index = true
-# generate_feed = true
 description = "friByte is a student organization with the goal of running IT operations for other student organizations in Bergen. We offer affordable web and IT services tailored to student organizations."
 title = "friByte"
 
-# Idk how to translate [extra], currently this is not working
-# [languages.en.extra]
-# nav = [
-#   { name = "Services", path = "/en/services" },
-#   { name = "Contact", path = "/en/contact" },
-#   { name = "About us", path = "/en/about-us" },
-# ]
-
-# footer = [
-#   { name = "Our clients", path = "/klienter/en" },
-#   { name = "Become a member", path = "/bli-medlem/en" },
-#   { name = "News", path = "/nyheter/en" },
-# ]
-
-# social_media = [
-#   { name = "Twitter", url = "https://twitter.com/fribyte" }
-# ]
-
 [extra]
 nav = [
-  { name = "Tjenester", path = "@/tjenester.md" },
-  { name = "Kontakt", path = "@/kontakt/index.md" },
-  { name = "Om oss", path = "@/om.md" },
+  { path = "@/tjenester.md", type = "page" },
+  { path = "@/kontakt/index.md", type = "page" },
+  { path = "@/om.md", type = "page" },
 ]
 
 footer = [
-  { name = "Våre klienter", path = "@/klienter.md" },
-  { name = "Bli medlem", path = "@/bli-medlem.md" },
-  { name = "Nyheter", path = "@/nyheter/_index.md" },
+  { path = "@/klienter.md", type = "page" },
+  { path = "@/bli-medlem.md", type = "page" },
+  { path = "@/nyheter/_index.md", type = "section" },
 ]
 
-social_media = [
-  { name = "Twitter", url = "https://twitter.com/fribyte" }
-]
+social_media = [{ name = "Twitter", url = "https://twitter.com/fribyte" }]
 
 email_general = "post@fribyte.no"
 email_join = "bli-medlem@fribyte.no"
