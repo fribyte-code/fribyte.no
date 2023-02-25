@@ -49,8 +49,15 @@ footer = [
   { path = "@/nyheter/_index.md", type = "section" },
 ]
 
-social_media = [{ name = "Twitter", url = "https://twitter.com/fribyte" }]
+social_media = [
+  { name = "Twitter", url = "https://twitter.com/fribyte" },
+  { name = "Instagram", url = "https://www.instagram.com/fribyteno/" },
+]
 
 email_general = "post@fribyte.no"
 email_join = "bli-medlem@fribyte.no"
 email_support = "hjelp@fribyte.no"
+
+[link_checker]
+# Skip link checking for external URLs that start with these prefixes
+skip_prefixes = ["https://www.instagram.com", "https://instagram.com"]
