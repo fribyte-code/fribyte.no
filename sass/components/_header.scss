@@ -148,3 +148,30 @@ header {
     transform: translateX(calc(var(--containter-width) - calc(var(--toggle-size) + calc(var(--toggle-padding) * 2))));
   }
 }
+
+.breadcrumbs-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .translation {
+    margin-left: auto;
+  }
+}
+
+.breadcrumbs-list {
+  @media print {
+    display: none;
+  }
+
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &__item:not(:last-child)::after {
+    content: "/";
+    margin-inline: 0.5rem;
+  }
+}

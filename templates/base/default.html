@@ -1,3 +1,4 @@
+{% import "macros.html" as macros %}
 <html lang="{{ lang }}">
   <head>
 
@@ -43,6 +44,7 @@
     <div class="container">
       {% include "base/header.html" %}
       <main>
+        {{ macros::breadcrumbs() }}
         {% block content %}
         {% endblock content %}
       </main>
