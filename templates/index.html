@@ -1,56 +1,62 @@
 {% extends "base/default.html" %}
 
 {% block head %}
-  {% set title =  config.title %}
+  {% set title = config.title %}
   {% set description = config.description %}
 {% endblock head %}
 
 {% block content %}
   <section class="hero">
-      <img class="illustration" src="{{ get_url(path="/img/illustrations/undraw_server.svg") | safe }}" alt="Maskot med en server. Illustrasjon">
-        
-      <p>
-          {{ config.description }} 
-      </p>
-      <div class="button-container center">
-          <a href="{{ get_url(path="@/bli-medlem.md") }}" class="btn primary center underscore">Bli medlem</a>
-      </div>
+    <img class="illustration" src="{{ get_url(path="/img/illustrations/undraw_server.svg") | safe }}" alt="">
+
+    <p>
+      {{ config.description }}
+    </p>
+    <div class="button-container center">
+      <a href="{{ get_url(path="@/bli-medlem.md") }}" class="btn primary center underscore">{{ trans(key="bli_medlem", lang=lang) }}</a>
+    </div>
   </section>
 
-  <section class="contact">
+  {% if lang == 'no' %}
+    <section class="contact">
       <h2>Kontakt</h2>
       <p>
-          Hvis du er en studentorganisasjon som søker å inngå en avtale med oss, kontakt oss direkte på 
-          <a href="mailto:{{ config.extra.email_general }}">{{ config.extra.email_general }}</a>.
+        Hvis du er en studentorganisasjon som søker å inngå en avtale med oss, kontakt oss direkte på
+        <a href="mailto:{{ config.extra.email_general }}">{{ config.extra.email_general }}</a>.
       </p>
       <p>
-      Ta gjerne kontakt med oss om det er noe du lurer på. Du kan finne en liste over medlemmer og kontaktinformasjon på <a href="/kontakt">Kontakt oss</a>, og mer informasjon om organisasjonen friByte på <a href="/om" >Om oss</a>. 
+        Ta gjerne kontakt med oss om det er noe du lurer på. Du kan finne en liste over medlemmer og kontaktinformasjon på
+        <a href="/kontakt">Kontakt oss</a>, og mer informasjon om organisasjonen friByte på <a href="/om">Om oss</a>.
       </p>
       <p>
-          Vi prøver å være lett tilgjengelige og svare raskt på alle henvendelser. Ta også gjerne kontakt med oss om du har tilbakemeldinger på tjenestene vi leverer. Vi setter pris på all konstruktiv kritikk. :)
+        Vi prøver å være lett tilgjengelige og svare raskt på alle henvendelser. Ta også gjerne kontakt med oss om du har
+        tilbakemeldinger på tjenestene vi leverer. Vi setter pris på all konstruktiv kritikk. :)
       </p>
-  </section>
-  <section class="urgent-help">
+    </section>
+    <section class="urgent-help">
       <h2>Trenger du umiddelbar hjelp?</h2>
       {% set nestleder = load_data(path="content/kontakt/members.json") | filter(attribute="position", value="Nestleder")%}
       <p>
-      Skulle det oppstå akutte problemer ved tjenestene vi leverer, kan du kontakte vår nestleder
-      {{ nestleder[0].name }}, {% if nestleder[0].phone %}via telefon <a href="tel:{{ nestleder[0].phone }}">{{ nestleder[0].phone }}</a>{% else %}via e-post <a href="mailto:{{ nestleder[0].email }}">{{ nestleder[0].email }}{% endif %}</a>.
+        Skulle det oppstå akutte problemer ved tjenestene vi leverer, kan du kontakte vår nestleder
+        {{ nestleder[0].name }}, {% if nestleder[0].phone %}via telefon <a href="tel:{{ nestleder[0].phone }}">{{
+          nestleder[0].phone }}</a>{% else %}via e-post <a href="mailto:{{ nestleder[0].email }}">{{ nestleder[0].email }}{%
+          endif %}</a>.
       </p>
-  </section>
+    </section>
 
-  <section class="latest-news">
+    <section class="latest-news">
       <h2>Siste nytt</h2>
       {% set news = get_section(path="nyheter/_index.md") %}
       <ul>
-      {% for post in news.pages | slice(end=5) | sort(attribute="date") | reverse %}
+        {% for post in news.pages | slice(end=5) | sort(attribute="date") | reverse %}
         <li>
           <a href="{{ get_url(path=post.path) }}">
             {{ post.title }} ({{ post.date | date(format="%Y-%m-%d") }})
           </a>
         </li>
-      {% endfor %}
+        {% endfor %}
       </ul>
-      <a href="{{ get_url(path="@/nyheter/_index.md") }}" class="btn primary">Flere nyheter...</a>
-  </section>
+      <a href="{{ get_url(path=" @/nyheter/_index.md") }}" class="btn primary">Flere nyheter...</a>
+    </section>
+  {% endif %}
 {% endblock content %}
