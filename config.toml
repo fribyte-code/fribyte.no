@@ -22,6 +22,8 @@ external_links_target_blank = true
 
 [translations]
 bli_medlem = "Bli medlem"
+ressurser = "Ressurser"
+kontakt = "Kontakt"
 
 [languages.en]
 build_search_index = true
@@ -30,6 +32,8 @@ title = "friByte"
 
 [languages.en.translations]
 bli_medlem = "Become a member"
+ressurser = "Resources"
+kontakt = "Contact"
 
 
 [extra]

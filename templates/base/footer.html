@@ -1,6 +1,6 @@
 <footer>
   <div class="footer--resources">
-    <h1>Ressurser</h1>
+    <h1>{{ trans(key="ressurser", lang=lang) }}</h1>
     <ul class="footer--list footer--navigation">
       {% for menu_item in config.extra.nav %}
         {% set_global path = menu_item.path %}
@@ -32,7 +32,7 @@
     </ul>
   </div>
   <div class="footer--contact">
-    <h1>Kontakt</h1>
+    <h1>{{ trans(key="kontakt", lang=lang) }}</h1>
     <ul class="footer--list">
       <li>Org.nr. 984 397 569</li>
       {% if config.extra.social_media %}
@@ -46,7 +46,7 @@
   </div>
   <div class="footer--copyright-developed-by">
     <span class="footer--copyright">
-      Kopirett &copy; friByte {{ now() | date(format="%Y") }}
+      &copy; friByte {{ now() | date(format="%Y") }}
     </span>
     <span class="footer--developed-by">
       Utviklet av
