@@ -1,43 +1,31 @@
 <div class="button-container center">
-  <!--
-    Currently, tags are just duplicated, with two tags (English and Norwegian) for each button.
-    If there is a more succinct way of doing this, please let me know (or just PR it.)
-    -Luca
-  -->
-
-  <!-- English buttons here -->
-  {% if english %}
-    {% if kontakt %}
-    <a href="mailto:post@fribyte.no?subject=Request&body=Dear friByte," class="btn primary center underscore">Contact us</a>
+  {% if kontakt %}
+    <a href="mailto:post@fribyte.no?subject={{ trans(key='foresporsel', lang=lang) }}&body={{ trans(key='dear_fribyte', lang=lang) }},"
+      class="btn primary center underscore">
+        {{ trans(key="kontakt_oss", lang=lang) }}
+    </a>
     {% endif %}
-    {% if medlemmer %}
-    <a href="en/kontakt" class="btn primary center">Members</a>
-    {% endif %}
-    {% if bli_medlem %}
-    <a href="{{ get_url(path="@/bli-medlem.en.md") }}" class="btn primary center underscore">Become a member</a>
-    {% endif %}
-    {% if send_soknad %}
-      <a href="mailto:bli-medlem@fribyte.no?subject=Application&body=Dear friByte," class="btn primary center underscore">Submit an application</a>
-    {% endif %}
-    {% if tjenester %}
-      <a href="{{ get_url(path="@/tjenester.en.md") }}" class="btn primary center">Our services</a>
-    {% endif %}
-  <!-- Default (Norwegian) buttons here -->
-  {% else %}
-    {% if kontakt %}
-    <a href="mailto:post@fribyte.no?subject=Forespørsel&body=Kjære friByte," class="btn primary center underscore">Kontakt oss</a>
-    {% endif %}
-    {% if medlemmer %}
-    <a href="{{ get_url(path="@/kontakt/index.md") }}" class="btn primary center">Medlemmer</a>
-    {% endif %}
-    {% if bli_medlem %}
-    <a href="{{ get_url(path="@/bli-medlem.md") }}" class="btn primary center underscore">Bli medlem</a>
-    {% endif %}
-    {% if send_soknad %}
-      <a href="mailto:bli-medlem@fribyte.no?subject=Søknad&body=Kjære friByte," class="btn primary center underscore">Send søknad</a>
-    {% endif %}
-    {% if tjenester %}
-      <a href="{{ get_url(path="@/tjenester.md") }}" class="btn primary center">Våre tjenester</a>
-    {% endif %}
+  {% if medlemmer %}
+    <a href="{{ get_url(path="@/kontakt/index.md", lang=lang) }}" class="btn primary center">
+      {{ trans(key="medlemmer", lang=lang) }}
+    </a>
+  {% endif %}
+  {% if bli_medlem %}
+    <a href="{{ get_url(path="@/bli-medlem.md", lang=lang) }}"
+      class="btn primary center underscore">
+      {{ trans(key="bli_medlem", lang=lang) }}
+    </a>
+  {% endif %}
+  {% if send_soknad %}
+    <a href="mailto:bli-medlem@fribyte.no?subject={{ trans(key='soknad', lang=lang) }}&body={{ trans(key='dear_fribyte', lang=lang) }},"
+      class="btn primary center underscore">
+      {{ trans(key="send_soknad", lang=lang) }}
+    </a>
+  {% endif %}
+  {% if tjenester %}
+    <a href="{{ get_url(path="@/tjenester.md", lang=lang) }}"
+      class="btn primary center">
+        {{ trans(key="vare_tjenester", lang=lang) }}
+    </a>
   {% endif %}
 </div>

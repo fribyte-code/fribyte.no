@@ -42,6 +42,12 @@ inaktivt_medlem = "Inaktivt medlem"
 guru = "Guru"
 guru_wannabe = "Guru wannabe"
 not_guru = "!(Guru)"
+medlemmer = "Medlemmer"
+send_soknad = "Send søknad"
+vare_tjenester = "Våre tjenester"
+foresporsel = "Forespørsel"
+dear_fribyte = "Kjære friByte"
+soknad = "Søknad"
 
 [languages.en]
 build_search_index = true
@@ -70,6 +76,12 @@ inaktivt_medlem = "Inactive member"
 guru = "Guru"
 guru_wannabe = "Guru wannabe"
 not_guru = "!Guru"
+medlemmer = "Members"
+send_soknad = "Apply"
+vare_tjenester = "Our services"
+foresporsel = "Request"
+dear_fribyte = "Dear friByte"
+soknad = "Application"
 
 
 [extra]
