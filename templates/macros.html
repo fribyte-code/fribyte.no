@@ -1,0 +1,68 @@
+{% macro breadcrumbs() %}
+  {% set_global ancestors = [] %}
+  {% if section.ancestors %}
+    {% set_global ancestors = section.ancestors %}
+  {% elif page.ancestors %}
+    {% set_global ancestors = page.ancestors %}
+  {% endif %}
+
+  <div class="breadcrumbs-wrapper">
+    {% if ancestors | length > 0 %}
+      <nav aria-label="Breadcrumbs">
+        <ul class="breadcrumbs-list">
+          {% for ancestor_raw in ancestors %}
+            {% set ancestor = get_section(path=ancestor_raw) %}
+            <li class="breadcrumbs-list__item">
+              {% set_global defaultIndex = "Hjem" %}
+              {% if lang == "en" %}
+                {% set_global defaultIndex = "Index" %}
+              {% endif %}
+              <a href="{{ ancestor.permalink }}">{{ ancestor.title | default(value=defaultIndex) | safe }}</a>
+            </li>
+          {% endfor %}
+          <li class="breadcrumbs-list__item">
+            {{ section.title | default(value=page.title) | safe }}
+          </li>
+        </ul>
+      </nav>
+    {% endif %}
+    {{ self::translation() }}
+  </div>
+{% endmacro %}
+
+{% macro translation(prefix="") %}
+  {% set_global url = "/" %}
+  {% set_global translation = "" %}
+  {% set_global swap_lang = "" %}
+  {% if lang == "no" %}
+    {% set_global swap_lang = "en" %}
+    {% set_global url = "/en" %}
+  {% else %}
+    {% set_global swap_lang = "no" %}
+  {% endif %}
+
+  {% if page %}
+    {% set_global translation = page.translations %}
+  {% elif section %}
+    {% set_global translation = section.translations %}
+  {% endif %}
+  {% for trans in translation %}
+    {% if trans.lang == swap_lang %}
+      {% set_global url = trans.permalink %}
+    {% endif %}
+  {% endfor %}
+  {% set swap_lang_obj = load_data(literal='
+    {
+      "no": "🇳🇴 Norsk",
+      "en": "🇺🇸 English"
+    }
+  ', format="json") %}
+  <div class="{{ prefix }}translation">
+    {% if translation|length > 1 %}
+      <a class="translation__link" href="{{ url }}" hreflang="{{ swap_lang }}">
+         <span lang="{{ swap_lang }}">{{ swap_lang_obj[swap_lang] }}</span>
+      </a>
+    {% endif %}
+  </div>
+{% endmacro %}
+

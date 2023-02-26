@@ -13,45 +13,99 @@ feed_filename = "rss.xml"
 
 minify_html = true
 
-taxonomies = [
-  { name = "categories", feed = false }
-]
+taxonomies = [{ name = "categories", feed = false }]
 
 [markdown]
 highlight_code = true
 
 external_links_target_blank = true
 
+[translations]
+bli_medlem = "Bli medlem"
+ressurser = "Ressurser"
+kontakt = "Kontakt"
+kontakt_oss = "Kontakt oss"
+generell_kontakt = "Generell kontakt"
+kundesupport = "Kundesupport"
+aktive_medlemmer = "Aktive medlemmer"
+navn = "Navn"
+stilling = "Stilling"
+epost = "E-post"
+inaktive_medlemmer = "Inaktive medlemmer"
+leder = "Leder"
+nestleder = "Nestleder"
+okonomiansvarlig = "Økonomiansvarlig"
+presseansvarlig = "Presseansvarlig"
+sosialansvarlig = "Sosialansvarlig"
+medlem = "Medlem"
+inaktivt_medlem = "Inaktivt medlem"
+guru = "Guru"
+guru_wannabe = "Guru wannabe"
+not_guru = "!(Guru)"
+medlemmer = "Medlemmer"
+send_soknad = "Send søknad"
+vare_tjenester = "Våre tjenester"
+foresporsel = "Forespørsel"
+dear_fribyte = "Kjære friByte"
+soknad = "Søknad"
+
 [languages.en]
 build_search_index = true
 description = "friByte is a student organization with the goal of running IT operations for other student organizations in Bergen. We offer affordable web and IT services tailored to student organizations."
+title = "friByte"
+
+[languages.en.translations]
+bli_medlem = "Become a member"
+ressurser = "Resources"
+kontakt = "Contact"
+kontakt_oss = "Contact us"
+generell_kontakt = "General"
+kundesupport = "Customer support"
+aktive_medlemmer = "Active members"
+navn = "Name"
+stilling = "Role"
+epost = "E-mail"
+inaktive_medlemmer = "Inactive members"
+leder = "Leader"
+nestleder = "Deputy chairman"
+okonomiansvarlig = "Financial manager"
+presseansvarlig = "PR person"
+sosialansvarlig = "Social"
+medlem = "Member"
+inaktivt_medlem = "Inactive member"
+guru = "Guru"
+guru_wannabe = "Guru wannabe"
+not_guru = "!Guru"
+medlemmer = "Members"
+send_soknad = "Apply"
+vare_tjenester = "Our services"
+foresporsel = "Request"
+dear_fribyte = "Dear friByte"
+soknad = "Application"
+
 
 [extra]
 nav = [
-  { name = "Tjenester", path = "@/tjenester.md" },
-  { name = "Kontakt", path = "@/kontakt/index.md" },
-  { name = "Om oss", path = "@/om.md" },
+  { path = "@/tjenester.md", type = "page" },
+  { path = "@/kontakt/index.md", type = "page" },
+  { path = "@/om.md", type = "page" },
 ]
 
 footer = [
-  { name = "Våre klienter", path = "@/klienter.md" },
-  { name = "Bli medlem", path = "@/bli-medlem.md" },
-  { name = "Nyheter", path = "@/nyheter/_index.md" },
+  { path = "@/klienter.md", type = "page" },
+  { path = "@/bli-medlem.md", type = "page" },
+  { path = "@/nyheter/_index.md", type = "section" },
 ]
 
 social_media = [
   { name = "Twitter", url = "https://twitter.com/fribyte" },
-  { name = "Instagram", url = "https://www.instagram.com/fribyteno/" }
+  { name = "Instagram", url = "https://www.instagram.com/fribyteno/" },
 ]
 
 email_general = "post@fribyte.no"
 email_join = "bli-medlem@fribyte.no"
 email_support = "hjelp@fribyte.no"
 
-# Configuration of the link checker.
 [link_checker]
 # Skip link checking for external URLs that start with these prefixes
-skip_prefixes = [
-    "https://www.instagram.com",
-    "https://instagram.com"
-]
+skip_prefixes = ["https://www.instagram.com", "https://instagram.com"]

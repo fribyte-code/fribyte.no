@@ -1,41 +1,41 @@
 {% extends "base/default.html" %}
 
 {% block head %}
-  {% set title =  page.title ~ ' - ' ~ config.title %}
-  {% set description = page.description %}
+{% set title = page.title ~ ' - ' ~ config.title %}
+{% set description = page.description %}
 {% endblock head %}
 
 {% block content %}
-<h1>Kontakt oss</h1>
-<ul>
+  <h1>{{ trans(key="kontakt_oss", lang=lang) }}</h1>
+  <ul>
     <li>
-        Generell kontakt: <a href="mailto:{{ config.extra.email_general }}">{{ config.extra.email_general }}</a>
+      {{ trans(key="generell_kontakt", lang=lang) }}: <a href="mailto:{{ config.extra.email_general }}">{{ config.extra.email_general }}</a>
     </li>
     <li>
-        Kundesupport: <a href="mailto:{{ config.extra.email_support }}">{{ config.extra.email_support }}</a>
+      {{ trans(key="kundesupport", lang=lang) }}: <a href="mailto:{{ config.extra.email_support }}">{{ config.extra.email_support }}</a>
     </li>
-</ul>
-{% set members_list = load_data(path="content/kontakt/members.json") %}
+  </ul>
+  {% set members_list = load_data(path="content/kontakt/members.json") %}
 
-{% for isActive, members in members_list | group_by(attribute="active") %}
+  {% for isActive, members in members_list | group_by(attribute="active") %}
   {% if isActive == "true" %}
-    <h2>Aktive medlemmer</h2>
+    <h2>{{ trans(key="aktive_medlemmer", lang=lang) }}</h2>
   {% else %}
-    <h2>Inaktive medlemmer</h2>
+    <h2>{{ trans(key="inaktive_medlemmer", lang=lang) }}</h2>
   {% endif %}
   <div class="table-wrapper">
-    <table class="members {% if isActive == "true" %}active{% else %}inactive{% endif %}">
+    <table class="members {% if isActive == " true" %}active{% else %}inactive{% endif %}">
       <tr>
-        <th>Navn</th>
-        <th>Stilling</th>
+        <th>{{ trans(key="navn", lang=lang) }}</th>
+        <th>{{ trans(key="stilling", lang=lang) }}</th>
         {% if isActive == "true" %}
-          <th>E-post</th>
+          <th>{{ trans(key="epost", lang=lang) }}</th>
         {% endif %}
       </tr>
       {% for member in members %}
         <tr>
           <td>{{ member.name }}</td>
-          <td>{{ member.position }}</td>
+          <td>{{ trans(key=member.position, lang=lang) | default(value=member.position) }}</td>
           {% if isActive == "true" %}
             <td>
               {% if member.email %}<a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}
@@ -45,6 +45,5 @@
       {% endfor %}
     </table>
   </div>
-{% endfor %}
-
+  {% endfor %}
 {% endblock content %}

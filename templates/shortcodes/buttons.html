@@ -1,18 +1,31 @@
 <div class="button-container center">
   {% if kontakt %}
-  <a href="mailto:post@fribyte.no?subject=Forespørsel&body=Kjære friByte," class="btn primary center underscore">Kontakt oss</a>
-  {% endif %}
+    <a href="mailto:post@fribyte.no?subject={{ trans(key='foresporsel', lang=lang) }}&body={{ trans(key='dear_fribyte', lang=lang) }},"
+      class="btn primary center underscore">
+        {{ trans(key="kontakt_oss", lang=lang) }}
+    </a>
+    {% endif %}
   {% if medlemmer %}
-  <a href="{{ get_url(path="@/kontakt/index.md") }}" class="btn primary center">Medlemmer</a>
+    <a href="{{ get_url(path="@/kontakt/index.md", lang=lang) }}" class="btn primary center">
+      {{ trans(key="medlemmer", lang=lang) }}
+    </a>
   {% endif %}
   {% if bli_medlem %}
-  <a href="{{ get_url(path="@/bli-medlem.md") }}" class="btn primary center underscore">Bli medlem</a>
+    <a href="{{ get_url(path="@/bli-medlem.md", lang=lang) }}"
+      class="btn primary center underscore">
+      {{ trans(key="bli_medlem", lang=lang) }}
+    </a>
   {% endif %}
   {% if send_soknad %}
-    <a href="mailto:bli-medlem@fribyte.no?subject=Søknad&body=Kjære friByte," class="btn primary center underscore">Send søknad</a>
+    <a href="mailto:bli-medlem@fribyte.no?subject={{ trans(key='soknad', lang=lang) }}&body={{ trans(key='dear_fribyte', lang=lang) }},"
+      class="btn primary center underscore">
+      {{ trans(key="send_soknad", lang=lang) }}
+    </a>
   {% endif %}
   {% if tjenester %}
-    <a href="{{ get_url(path="@/tjenester.md") }}" class="btn primary center">Våre tjenester</a>
+    <a href="{{ get_url(path="@/tjenester.md", lang=lang) }}"
+      class="btn primary center">
+        {{ trans(key="vare_tjenester", lang=lang) }}
+    </a>
   {% endif %}
 </div>
-
