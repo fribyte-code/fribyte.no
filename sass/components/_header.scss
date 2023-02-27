@@ -16,11 +16,18 @@ header {
     svg {
       width: 80px;
       margin-right: 1em;
-      fill: var(--primary-color);
       transition: 250ms ease all;
 
       &:hover {
         transform: translateY(-0.5rem);
+      }
+
+      #bg {
+        fill: var(--primary-color);
+      }
+
+      #fb {
+        fill: var(--logo-font-color);
       }
     }
 

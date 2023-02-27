@@ -3,6 +3,7 @@ $primary-color: #800000;
 :root {
   --background-color: white;
   --font-color: black;
+  --logo-font-color: white;
   --primary-color: #{$primary-color};
   --button-text: white;
   --odd-bg-color: #eee;
@@ -13,6 +14,7 @@ $primary-color: #800000;
 [data-theme="dark"] {
   --background-color: #1C1F20;
   --font-color: white;
+  --logo-font-color: black;
   --primary-color: #00F5C9;
   --button-text: #171717;
   --odd-bg-color: #323536;
