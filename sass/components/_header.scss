@@ -122,7 +122,7 @@ header {
       width: var(--toggle-size);
       left: var(--toggle-padding);
       top: calc(50% - calc(var(--toggle-size) / 2));
-      background-color: white;
+      background-color: var(--theme-switcher-button);
       transition: 400ms;
     }
 
