@@ -3,15 +3,7 @@ author = "Rolf Martin Glomsrud"
 date = 2022-08-31
 title = "Allmøte V22"
 +++
----
-papersize: a4
-lang: no-NB
-title: Allmøte H22
-subtitle: 02.08.2022
-date: Sv fakultet UIB
-author: Rolf Martin Glomsrud
-numbersections: true
----
+
 
 
 # Program

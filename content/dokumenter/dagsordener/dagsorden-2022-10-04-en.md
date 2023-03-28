@@ -3,15 +3,7 @@ author = "Christian Engelsen"
 date = 2022-01-12
 title = "Allmeeting H22"
 +++
----
-papersize: a4
-lang: no-NB
-title: Allmeeting H22
-subtitle: 04.10.2022
-date: Seminarrom 202, Fosswinckels gate 6
-author: Christian Engelsen
-numbersections: true
----
+
 
 # Program
 

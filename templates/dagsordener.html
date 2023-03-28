@@ -14,17 +14,17 @@
   <ul class="latest-news--list">
     {% for post in posts %}
       <li class="latest-news--post">
-          <div class="post--metadata">
-            <span class="post--date">{{ post.date | date(format="%Y-%m-%d") }}</span>
-          </div>
-          <div class="post--summary">
-            <a href="{{ get_url(path=post.path) }}">{{ post.title }}</a>
-            <span class="post--excerpt">
-              {{ post.description }}
-            </span>
-          </div>
-        </li>
-      {% endfor %}
+        <div class="post--metadata">
+          <span class="post--date">{{ post.date | date(format="%Y-%m-%d") }}</span>
+        </div>
+        <div class="post--summary">
+          <a href="{{ get_url(path=post.path) }}">{{ post.title }}</a>
+          <span class="post--excerpt">
+            {{ post.description }}
+          </span>
+        </div>
+      </li>
+    {% endfor %}
   </ul>
   {% endfor %}
 {% endblock content %}

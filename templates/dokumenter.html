@@ -7,13 +7,9 @@
 
 {% block content %}
 <h1>{{ section.title }}</h1>
-{# Trims the page link into a single word (name of document). #}
 {% for filePath in section.subsections %}
-  {% set prevFilePath = filePath | trim_end_matches(pat="/_index.md") %}
-  {% set dokuType = prevFilePath | trim_start_matches(pat="dokumenter/") | capitalize %}
   {% set subsection = get_section(path=filePath) %}
   <ul>
-    {# Trims the page link into a single word (name of document). #}
     <li><a href="{{ get_url(path=subsection.path) }}">{{ subsection.title }}</a></li>
   </ul>
   {% endfor %}

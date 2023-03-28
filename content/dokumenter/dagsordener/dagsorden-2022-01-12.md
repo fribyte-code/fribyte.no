@@ -3,14 +3,7 @@ author = "Christian Engelsen"
 date = 2022-01-12
 title = "Allmøte V22"
 +++
----
-papersize: a4
-lang: no-NB
-title: Allmøte V22
-subtitle: 2022-01-12
-author: Christian Engelsen
-numbersections: true
----
+
 
 # Program
 

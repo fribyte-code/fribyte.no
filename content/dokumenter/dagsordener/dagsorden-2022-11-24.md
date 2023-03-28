@@ -3,14 +3,7 @@ author = "Rolf Martin Glomsrud"
 date = 2022-11-24
 title = "Allmeeting H22"
 +++
----
-papersize: a4
-lang: no-NB
-title: Utflukt H22
-subtitle: 2022-11-24
-author: Rolf Martin Glomsrud
-numbersections: true
----
+
 
 # Program
 

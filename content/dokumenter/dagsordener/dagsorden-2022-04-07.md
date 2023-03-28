@@ -3,15 +3,7 @@ author = "Christian Engelsen"
 date = 2022-04-07
 title = "Allmøte V22"
 +++
----
-papersize: a4
-lang: no-NB
-title: Allmøte V22
-subtitle: 07.04.2022 // 16:30-18:00
-date: Seminarrom 204, SV-fakultetet
-author: Christian Engelsen
-numbersections: true
----
+
 
 # Program
 
