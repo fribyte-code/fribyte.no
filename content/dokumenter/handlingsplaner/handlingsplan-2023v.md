@@ -1,7 +1,7 @@
 +++
 author = "Christian Engelsen, Mathias Haugsbø og Rolf Martin Glomsrud"
-date = 2023-11-23
-title = "Handlingsplan H23"
+date = 2023-11-22
+title = "Handlingsplan V23"
 +++
 
 # Innholdsliste
