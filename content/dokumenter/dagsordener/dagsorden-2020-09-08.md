@@ -1,0 +1,39 @@
++++
+author = "Morten Linderud"
+date = 2020-09-08
+title = "Dagsorden allmøte i friByte"
++++
+Sted : Videomøte - jitsi.org/fribyte Start : 18:00 Slutt : 19:00
+
+# Val av ordstyrar og referent
+
+# Godkjenning av dagsorden og innkalling
+
+# Godkjenning av referat
+
+Les før allmøtet om mogleg.
+
+# Orienteringssaker
+
+## Medlemmene orienterer om kva dei har gjort sidan sist.
+
+# Økonomi
+
+Økonomiansvarleg informerer
+
+# Innmelding av nye medlemmer
+
+Fribyte får nye medlemmer fra student radioen.
+
+# Planlegging av videre arbeidskvelder
+
+Det må planlegges videre arbeidskvelder for å sette opp et
+hensiktsmessig system for Fribyte fremover. Vi diskuterer muligheter!
+
+# Ris og Ros
+
+Konstruktiv kritikk mellom medlemane.
+
+# Ymse
+
+Ting vi kjem på undervegs.
