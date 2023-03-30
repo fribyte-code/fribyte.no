@@ -1,35 +1,59 @@
 <footer>
-    <div class="footer--resources">
-        <h1>Ressurser</h1>
-        <ul class="footer--list footer--navigation">
-            {% for page in config.extra.footer %}
-                <li><a class="footer--link" href="{{ get_url(path=page.path) }}">{{ page.name }}</a></li>
-            {% endfor %}
-            <li>
-                <a class="footer--link" href="/rss.xml">RSS</a>
-            </li>
-        </ul>
-    </div>
-    <div class="footer--contact">
-        <h1>Kontakt</h1>
-        <ul class="footer--list">
-          <li>Org.nr. 984 397 569</li>
-          {% if config.extra.social_media %}
-            {% for link in config.extra.social_media %}
-              <li>
-                <a href="{{ link.url }}" target="_blank" class="footer--link">{{ link.name }}</a>
-              </li>
-            {% endfor %}
+  <div class="footer--resources">
+    <h2 class="footer__heading">{{ trans(key="ressurser", lang=lang) }}</h2>
+    <ul class="footer--list footer--navigation">
+      {% for menu_item in config.extra.nav %}
+        {% set_global path = menu_item.path %}
+        {% if lang == "en" %}
+          {% set pre_path = path | split(pat=".") | first %}
+          {% set_global path = pre_path ~ "." ~ lang ~ ".md" %}
+        {% endif %}
+
+        {% set_global path = path | replace(from="@/", to="") %}
+        {% if menu_item.type == 'page' %}
+          {% set page = get_page(path=path) %}
+        {% else %}
+          {% set page = get_section(path=path) %}
+        {% endif %}
+        <li{% if current_url and current_url==page.permalink %} aria-current="true" {% endif %}>
+          {% if current_url and current_url == page.permalink %}
+            {{ page.title | safe }}
+          {% else %}
+            <a class="footer--link" href="{{ page.permalink }}">
+              {{ page.title | safe }}
+            </a>
           {% endif %}
-        </ul>
-    </div>
-    <div class="footer--copyright-developed-by">
-        <span class="footer--copyright">
-            Kopirett &copy; friByte {{ now() | date(format="%Y") }}
-        </span>
-        <span class="footer--developed-by">
-            Utviklet av 
-            <a href="https://timharek.no" target="_blank" class="footer--link">Tim Hårek</a>
-        </span>
-    </div>
+          </li>
+        {% endfor %}
+
+        <li>
+          <a class="footer--link" href="{{ get_url(path="@/dokumenter/_index.md") }}">Dokumenter</a>
+        </li>
+        <li>
+          <a class="footer--link" href="/rss.xml">RSS</a>
+        </li>
+    </ul>
+  </div>
+  <div class="footer--contact">
+    <h2 class="footer__heading">{{ trans(key="kontakt", lang=lang) }}</h2>
+    <ul class="footer--list">
+      <li>Org.nr. 984 397 569</li>
+      {% if config.extra.social_media %}
+      {% for link in config.extra.social_media %}
+      <li>
+        <a href="{{ link.url }}" target="_blank" class="footer--link">{{ link.name }}</a>
+      </li>
+      {% endfor %}
+      {% endif %}
+    </ul>
+  </div>
+  <div class="footer--copyright-developed-by">
+    <span class="footer--copyright">
+      &copy; friByte {{ now() | date(format="%Y") }}
+    </span>
+    <span class="footer--developed-by">
+      Utviklet av
+      <a href="https://timharek.no" target="_blank" class="footer--link">Tim Hårek</a>
+    </span>
+  </div>
 </footer>

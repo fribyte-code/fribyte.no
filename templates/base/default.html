@@ -1,6 +1,6 @@
+{% import "macros.html" as macros %}
 <html lang="{{ lang }}">
   <head>
-
       {% set logo = get_url(path="logo.svg") %}
       {% set cover = get_url(path="img/cover.png") %}
 
@@ -37,12 +37,16 @@
 
       <link href="{{ get_url(path="rss.xml") | safe }}" rel="feed">
       <title>{{ title }}</title>
+      <script defer>
+        {{ load_data(path="js/detect-theme.js") | safe }}
+      </script>
   </head>
 
   <body>
     <div class="container">
       {% include "base/header.html" %}
       <main>
+        {{ macros::breadcrumbs() }}
         {% block content %}
         {% endblock content %}
       </main>

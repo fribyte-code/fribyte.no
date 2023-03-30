@@ -1,6 +1,5 @@
 +++
 title = "Våre klienter"
-path = "klienter"
 description = "Oversikt over våre klienter."
 +++
 

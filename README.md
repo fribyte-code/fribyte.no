@@ -75,6 +75,19 @@ An example on how you can use them on _pages_ and _sections_:
 <!-- for multiple ["Nyheter", "Driftsmelding"] -->
 ```
 
+### Translation
+
+The default language is Norwegian, but we are also working to add support to the site in English.
+To translate a page to english, create a copy of the .md file you want to translate, and change the extension from `.md` to `.en.md.`
+Then, translate the content in the new file to english.
+
+To translate buttons, add the argument `english=true`, like so:
+`{{ buttons(tjenester=true}}` -> `{{ buttons(english=true, tjenester=true}}`
+
+Translation not currently supported for:
+- Header template
+- Footer template
+
 [zola]: https://getzola.org
 [zola_docs]: https://getzola.org/documentation
 [sass]: https://sass-lang.com

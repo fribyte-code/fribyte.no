@@ -8,5 +8,32 @@
 
 {% block content %}
   <h1>{{ page.title }}</h1>
+  {% if page.extra.enable_toc %}
+  <ul>
+    {% for item in page.toc %}
+      <li>
+        <a href="{{ item.permalink }}">{{ item.title }}</a>
+        {% if item.children %}
+          <ul>
+            {% for child in item.children %}
+              <li>
+                <a href="{{ child.permalink }}">{{ child.title }}</a>
+                {% if child.children %}
+                  <ul>
+                    {% for grand_child in child.children %}
+                      <li>
+                        <a href="{{ grand_child.permalink }}">{{ grand_child.title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
   {{ page.content | safe }}
 {% endblock content %}

@@ -16,21 +16,31 @@ header {
     svg {
       width: 80px;
       margin-right: 1em;
-      fill: var(--primary-color);
       transition: 250ms ease all;
 
       &:hover {
         transform: translateY(-0.5rem);
       }
+
+      #bg {
+        fill: var(--primary-color);
+      }
+
+      #fb {
+        fill: var(--logo-font-color);
+      }
     }
+
     .logo--text {
       display: inline-flex;
       color: var(--font-color);
       font-family: $font-family-mono;
+
       &:hover {
         background: var(--primary-color);
         color: var(--button-text);
       }
+
       &::after {
         margin-left: 0.1em;
         @include animation-underscore;
@@ -47,6 +57,7 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-weight: bold;
 
     .nav--link {
       font-size: 0.75em;
@@ -118,7 +129,7 @@ header {
       width: var(--toggle-size);
       left: var(--toggle-padding);
       top: calc(50% - calc(var(--toggle-size) / 2));
-      background-color: white;
+      background-color: var(--theme-switcher-button);
       transition: 400ms;
     }
 
@@ -132,20 +143,42 @@ header {
     }
   }
 
-  input:checked + .slider {
+  input:checked+.slider {
     background-color: var(--primary-color);
   }
 
-  input:focus + .slider {
+  input:focus+.slider {
     outline: 0.25rem solid var(--primary-color);
   }
 
-  input:checked + .slider:before {
-    transform: translateX(
-      calc(
-        var(--containter-width) -
-          calc(var(--toggle-size) + calc(var(--toggle-padding) * 2))
-      )
-    );
+  input:checked+.slider:before {
+    transform: translateX(calc(var(--containter-width) - calc(var(--toggle-size) + calc(var(--toggle-padding) * 2))));
+  }
+}
+
+.breadcrumbs-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .translation {
+    margin-left: auto;
+  }
+}
+
+.breadcrumbs-list {
+  @media print {
+    display: none;
+  }
+
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &__item:not(:last-child)::after {
+    content: "/";
+    margin-inline: 0.5rem;
   }
 }

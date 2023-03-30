@@ -3,14 +3,6 @@ author = "Christian Engelsen, Mathias Haugsbø og Rolf Martin Glomsrud"
 date = 2023-11-23
 title = "Handlingsplan H23"
 +++
----
-papersize: a4
-lang: no-NB
-title: Handlingsplan H23
-subtitle: 22.11.2023
-author: Christian Engelsen, Mathias Haugsbø og Rolf Martin Glomsrud
-numbersections: true
----
 
 # Innholdsliste
 
