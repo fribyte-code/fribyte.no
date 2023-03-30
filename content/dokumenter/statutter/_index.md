@@ -1,5 +1,4 @@
 +++
-template = "dokumenter.html"
-page_template = "post.html"
+template = "nyheter.html"
 title = "Statutter"
 +++
