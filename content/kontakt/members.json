@@ -87,24 +87,6 @@
     "active": true
   },
   {
-    "name": "Luca Blaauw Fossen",
-    "phone": null,
-    "email": "luca.fossen@fribyte.no",
-    "position": "medlem",
-    "joined": "2022-03-10T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Anders Tøkje",
-    "phone": null,
-    "email": "antok@fribyte.no",
-    "position": "medlem",
-    "joined": "2022-09-09T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
     "name": "Stefan Volden",
     "phone": null,
     "email": "stefan.volden@fribyte.no",
@@ -135,15 +117,6 @@
     "name": "Amund Fremming",
     "phone": null,
     "email": "amund.fremming@fribyte.no",
-    "position": "medlem",
-    "joined": "2023-02-23T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Sigurd Vikene",
-    "phone": null,
-    "email": "sigurd@fribyte.no",
     "position": "medlem",
     "joined": "2023-02-23T00:00:00.000Z",
     "left": null,
@@ -453,6 +426,33 @@
     "email": "freheims@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": null,
+    "left": null,
+    "active": false
+  },
+  {
+    "name": "Luca Blaauw Fossen",
+    "phone": null,
+    "email": "luca.fossen@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-03-10T00:00:00.000Z",
+    "left": null,
+    "active": false
+  },
+  {
+    "name": "Anders Tøkje",
+    "phone": null,
+    "email": "antok@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-09-09T00:00:00.000Z",
+    "left": null,
+    "active": false
+  },
+  {
+    "name": "Sigurd Vikene",
+    "phone": null,
+    "email": "sigurd@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2023-02-23T00:00:00.000Z",
     "left": null,
     "active": false
   }
