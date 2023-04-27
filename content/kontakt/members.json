@@ -81,10 +81,10 @@
     "name": "Morten Linderud",
     "phone": null,
     "email": "morten.linderud@fribyte.no",
-    "position": "medlem",
+    "position": "guru",
     "joined": null,
     "left": null,
-    "active": true
+    "active": false
   },
   {
     "name": "Stefan Volden",
