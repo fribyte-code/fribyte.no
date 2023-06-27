@@ -1,21 +1,22 @@
 [
   {
-    "name": "Sindre Kjelsrud",
+    "name": "Mathias Haugsbø",
     "phone": null,
-    "email": "sindre.kjelsrud@fribyte.no",
+    "email": "mathias.haugsboe@fribyte.no",
     "position": "leder",
-    "joined": "2022-09-09T00:00:00.000Z",
-    "admin": true,
+    "joined": "2020-09-08T00:00:00.000Z",
     "left": null,
+    "admin": true,
     "active": true
   },
   {
-    "name": "Rolf Martin Glomsrud",
+    "name": "Kristian Emil Takvam",
     "phone": null,
-    "email": "rolf.glomsrud@fribyte.no",
+    "email": "kristian.takvam@fribyte.no",
     "position": "nestleder",
-    "joined": "2020-09-08T00:00:00.000Z",
+    "joined": "2021-09-10T00:00:00.000Z",
     "left": null,
+    "admin": true,
     "active": true
   },
   {
@@ -28,19 +29,19 @@
     "active": true
   },
   {
-    "name": "Daniel Liland",
+    "name": "Sindre Kjelsrud",
     "phone": null,
-    "email": "daniel.liland@fribyte.no",
+    "email": "sindre.kjelsrud@fribyte.no",
     "position": "presseansvarlig",
-    "joined": "2020-09-08T00:00:00.000Z",
+    "joined": "2022-09-09T00:00:00.000Z",
     "admin": true,
     "left": null,
     "active": true
   },
   {
-    "name": "Mathias Haugsbø",
-    "phone": null,
-    "email": "mathias.haugsboe@fribyte.no",
+    "name": "Christian Engelsen",
+    "phone": "995 87 363",
+    "email": "christian.engelsen@fribyte.no",
     "position": "sosialansvarlig",
     "joined": "2020-09-08T00:00:00.000Z",
     "left": null,
@@ -48,23 +49,22 @@
     "active": true
   },
   {
-    "name": "Kristian Emil Takvam",
+    "name": "Rolf Martin Glomsrud",
     "phone": null,
-    "email": "kristian.takvam@fribyte.no",
+    "email": "rolf.glomsrud@fribyte.no",
     "position": "medlem",
-    "joined": "2021-09-10T00:00:00.000Z",
+    "joined": "2020-09-08T00:00:00.000Z",
     "left": null,
-    "admin": true,
     "active": true
   },
   {
-    "name": "Christian Engelsen",
-    "phone": "995 87 363",
-    "email": "christian.engelsen@fribyte.no",
-    "position": "guru",
+    "name": "Daniel Liland",
+    "phone": null,
+    "email": "daniel.liland@fribyte.no",
+    "position": "medlem",
     "joined": "2020-09-08T00:00:00.000Z",
-    "left": null,
     "admin": true,
+    "left": null,
     "active": true
   },
   {
