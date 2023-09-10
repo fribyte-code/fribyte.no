@@ -92,10 +92,10 @@ nav = [
 ]
 
 footer = [
-  { path = "@/klienter.md", type = "page" },
-  { path = "@/bli-medlem.md", type = "page" },
-  { path = "@/dokumenter/_index.md", type = "page" },
-  { path = "@/nyheter/_index.md", type = "section" },
+  { path = "@/klienter.md", type = "page", english = true },
+  { path = "@/bli-medlem.md", type = "page", english = true },
+  { path = "@/dokumenter/_index.md", type = "section", english = false },
+  { path = "@/nyheter/_index.md", type = "section", english = false },
 ]
 
 social_media = [
