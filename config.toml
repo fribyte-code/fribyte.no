@@ -94,7 +94,7 @@ nav = [
 footer = [
   { path = "@/klienter.md", type = "page" },
   { path = "@/bli-medlem.md", type = "page" },
-  { path = "@/dokumenter/_index.md", type = "page" },
+  { path = "@/dokumenter/_index.md", type = "section" },
   { path = "@/nyheter/_index.md", type = "section" },
 ]
 
