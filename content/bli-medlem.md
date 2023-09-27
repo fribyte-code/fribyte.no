@@ -10,7 +10,7 @@ Dersom du mener at friByte er det rette for deg, eller at du er den rette for fr
 
 ## Hva er friByte?
 
-friByte er uavhengig studentorganisasjon som leverer sikre og stabile datatjenester til studentorganisasjoner i Bergen. Vi er en frivillig organisasjon kjent for våre gode fester og lærerike miljø! Vi møter regelmessig, rundt 1-2 ganger i måneden, for å gjøre opp status, delta på dugnader og sosialisere oss litt.
+friByte er uavhengig studentorganisasjon som leverer sikre og stabile datatjenester til studentorganisasjoner i Bergen. Vi er en frivillig organisasjon kjent for våre gode fester og lærerike miljø! Vi møter regelmessig, rundt 3-4 ganger i måneden, for å gjøre opp status, delta på dugnader og sosialisere oss litt.
 
 De fleste av våre aktive medlemmer er studenter og dette medfører at vi har en løs profil innad. Vårt stiftelsesdokument reflekterer dette; Generalforsamlingen er tvunget til å være en utflukt med påfølgende fest! Mye innsats går med på å opprettholde det sosiale miljøet, ikke bare foran en skjerm.
 
@@ -22,7 +22,7 @@ De fleste av våre aktive medlemmer er studenter og dette medfører at vi har en
 
 ## Hvor mye fritid går med?
 
-Det bestemmer medlemmene i stor grad selv, men de må regne med at det går med ca 6-8 timer i uken. Dette kan variere avhengig av hva som må gjøres og studier tar selvfølgelig prioritet. Det forsøkes å unngå mye jobbing rundt eksamensperioder.
+Det bestemmer medlemmene i stor grad selv, men vi prøver som regel å ha 2 dugnader i uka. Medlemmene bestemmer selv hvor lenge de blir på dugnadene og om de har tid til å møte opp. Dette kan variere avhengig av hva som må gjøres og studier tar selvfølgelig prioritet. Det forsøkes å unngå mye jobbing rundt eksamensperioder.
 
 ## Hvilke systemer bruker vi?
 
@@ -30,7 +30,7 @@ Vi bruker hovedsakelig Linux-baserte OS-er til servere. På arbeidsstasjoner bru
 
 ## Hva studerer medlemmene våre?
 
-I skrivende stund så er det hovedsakelig studenter fra Matematisk-Naturvitenskapelig fakultet ved UiB, men også noen fra Samfunnsvitenskapelig. De studerer alt fra Datateknologi til Kognitiv Vitenskap til Samfunnsøkonomi. Det er dog intet krav at man må studere ved UiB, eller at man må studere noe teknologisk. Hvilken som helst student fra en høyere utdanningsinstitusjon i Bergen kan bli medlem!
+I skrivende stund så er det hovedsakelig studenter fra Matematisk-Naturvitenskapelig fakultet ved UiB, men også noen fra Samfunnsvitenskapelig. De studerer alt fra Datateknologi til Kognitiv Vitenskap til Samfunnsøkonomi. Vi har også studenter fra Høgskolen på Vestlandet, som studerer blant annet Informasjonsteknologi og Dataingeniør. Det er dog intet krav at man må studere ved UiB/HVL, eller at man må studere noe teknologisk. Hvilken som helst student fra en høyere utdanningsinstitusjon i Bergen kan bli medlem!
 
 ## Hva må medlemmene våre kunne før man søker?
 
