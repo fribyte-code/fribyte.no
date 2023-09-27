@@ -78,20 +78,11 @@
     "active": true
   },
   {
-    "name": "Morten Linderud",
-    "phone": null,
-    "email": "morten.linderud@fribyte.no",
-    "position": "guru",
-    "joined": null,
-    "left": null,
-    "active": false
-  },
-  {
     "name": "Stefan Volden",
     "phone": null,
     "email": "stefan.volden@fribyte.no",
     "position": "medlem",
-    "joined": "2022-02-09T00:00:00.000Z",
+    "joined": "2022-09-02T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -100,7 +91,52 @@
     "phone": null,
     "email": "dan.joar.heimvik@fribyte.no",
     "position": "medlem",
-    "joined": "2022-02-09T00:00:00.000Z",
+    "joined": "2022-09-02T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Johannes Lysne",
+    "phone": null,
+    "email": "johlys@fribyte.no",
+    "position": "medlem",
+    "joined": "2023-09-05T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Edoardo Fusa",
+    "phone": null,
+    "email": "edoardo@fribyte.no",
+    "position": "medlem",
+    "joined": "2023-09-05T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Adam LaPorta",
+    "phone": null,
+    "email": "adam@fribyte.no",
+    "position": "medlem",
+    "joined": "2023-09-05T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Christoffer Janson",
+    "phone": null,
+    "email": "christoffer@fribyte.no",
+    "position": "medlem",
+    "joined": "2023-09-05T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Anton Nydal",
+    "phone": null,
+    "email": "anton@fribyte.no",
+    "position": "medlem",
+    "joined": "2023-09-05T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -210,6 +246,15 @@
     "active": false
   },
   {
+    "name": "Morten Linderud",
+    "phone": null,
+    "email": "morten.linderud@fribyte.no",
+    "position": "guru",
+    "joined": null,
+    "left": null,
+    "active": false
+  },
+  {
     "name": "Sander Danielsen",
     "phone": null,
     "position": "guru",
@@ -306,41 +351,6 @@
     "active": false
   },
   {
-    "name": "Magnus Farstad",
-    "phone": null,
-    "email": "magnus.farstad@fribyte.no",
-    "position": "inaktivt_medlem",
-    "joined": "2022-02-13T00:00:00.000Z",
-    "left": null,
-    "active": false
-  },
-  {
-    "name": "Georg Hubert Maximillian von Bonhorst",
-    "phone": null,
-    "email": "georg.bonhorst@fribyte.no",
-    "position": "inaktivt_medlem",
-    "joined": "2022-02-09T00:00:00.000Z",
-    "left": null,
-    "active": false
-  },
-  {
-    "name": "Amund Fremming",
-    "phone": null,
-    "email": "amund.fremming@fribyte.no",
-    "position": "inaktivt_medlem",
-    "joined": "2023-02-23T00:00:00.000Z",
-    "left": null,
-    "active": false
-  },
-  {
-    "name": "Johan Wergeland Anfinsen",
-    "phone": null,
-    "position": "inaktivt_medlem",
-    "joined": null,
-    "left": null,
-    "active": false
-  },
-  {
     "name": "Bjarte Johansen",
     "phone": null,
     "position": "inaktivt_medlem",
@@ -430,11 +440,28 @@
     "active": false
   },
   {
+    "name": "Magnus Farstad",
+    "phone": null,
+    "email": "magnus.farstad@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-02-13T00:00:00.000Z",
+    "left": null,
+    "active": false
+  },
+  {
     "name": "Luca Blaauw Fossen",
     "phone": null,
     "email": "luca.fossen@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2022-03-10T00:00:00.000Z",
+    "left": null,
+    "active": false
+  },
+  {
+    "name": "Johan Wergeland Anfinsen",
+    "phone": null,
+    "position": "inaktivt_medlem",
+    "joined": null,
     "left": null,
     "active": false
   },
@@ -453,6 +480,24 @@
     "email": "sigurd@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2023-02-23T00:00:00.000Z",
+    "left": null,
+    "active": false
+  },
+  {
+    "name": "Amund Fremming",
+    "phone": null,
+    "email": "amund.fremming@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2023-02-23T00:00:00.000Z",
+    "left": null,
+    "active": false
+  },
+  {
+    "name": "Georg Hubert Maximillian von Bonhorst",
+    "phone": null,
+    "email": "georg.bonhorst@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-09-02T00:00:00.000Z",
     "left": null,
     "active": false
   }
