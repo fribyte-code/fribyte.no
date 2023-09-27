@@ -52,6 +52,30 @@ Studvest uses the following of our services:
 
 - Internal network
 
+### Studentparlamentet ved UiB
+
+The Student Parliament (SP) is the highest student political body at the University of Bergen. The Student Parliament works to safeguard the interests of UiB students, and is their most important voice against the university and other relevant actors.
+
+Studentparlamentet uses the following of our services:
+
+- Valgomaten
+
+### BTSI
+
+BTSI is the student sports association at the University of Western Norway in the Bergen region. They are a sub-organisation of BTS which focuses on sports for the students at HVL.
+
+BTSI uses the following of our services:
+
+- Website
+
+### Bergen Realistforening
+
+Bergen Realistforening, or RF, is one of five operating organizations at Det Akademiske Kvarter, and was founded in 1959. They organize concerts with well-known names from home and abroad.
+
+Bergen Realistforening uses the following of our services:
+
+- Website
+
 ## Are you interested in something similar?
 
 {{ buttons(english=true, tjenester=true, kontakt=true) }}
