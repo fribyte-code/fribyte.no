@@ -52,6 +52,30 @@ Studvest har følgende tjenester hos oss:
 
 - Internt nettverk
 
+### Studentparlamentet ved UiB
+
+Studentparlamentet (SP) er det øverste studentpolitiske organet ved Universitetet i Bergen. Studentparlamentet arbeider for å ivareta UiB-studentenes interesser, og er deres viktigste stemme opp mot universitetet og andre aktuelle aktører.
+
+Studentparlamentet har følgende tjenester hos oss:
+
+- Valgomaten
+
+### BTSI
+
+BTSI er studentidrettsforeningen på Høgskulen på Vestlandet nærregion Bergen. De er en underorganisasjon av BTS som fokuserer på idrett til studentene ved HVL.
+
+BTSI har følgende tjenester hos oss:
+
+- Nettside
+
+### Bergen Realistforening
+
+Bergen Realistforening, eller RF, er en av fem driftsorganisasjoner ved Det Akademiske Kvarter, og ble stiftet i 1959. De arrangerer konserter med kjente navn fra inn- og utland. 
+
+Bergen Realistforening har følgende tjenester hos oss:
+
+- Nettside
+
 ## Er du interessert i noe lignende?
 
 {{ buttons(tjenester=true, kontakt=true) }}
