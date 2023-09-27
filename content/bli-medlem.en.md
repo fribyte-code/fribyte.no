@@ -23,7 +23,7 @@ We require you to:
 
 ## How much free time do I need to spend?
 
-Members decide in large part how much time they want to spend, but you should plan to spend around 6-8 hours a week. This can vary depending on what needs to be done, and your studies obviously come ahead as a priority. We try to avoid working much during exam periods.
+At the time of writing, there are mainly students from the Faculty of Mathematics and Natural Sciences at UiB, but also some from Social Sciences. They study everything from Computer Technology to Cognitive Science to Social Economics. We also have students from Western University of Applied Sciences, who study Information Technology and Computer Engineering, among other things. However, there is no requirement that you have to study at UiB/HVL, or that you have to study something technological. Any student from a higher education institution in Bergen can become a member!
 
 ## What systems do we use?
 
