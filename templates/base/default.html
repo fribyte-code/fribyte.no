@@ -1,4 +1,5 @@
 {% import "macros.html" as macros %}
+<!DOCTYPE html>
 <html lang="{{ lang }}">
   <head>
       {% set logo = get_url(path="logo.svg") %}
@@ -37,7 +38,7 @@
 
       <link href="{{ get_url(path="rss.xml") | safe }}" rel="feed">
       <title>{{ title }}</title>
-      <script defer>
+      <script>
         {{ load_data(path="js/detect-theme.js") | safe }}
       </script>
   </head>

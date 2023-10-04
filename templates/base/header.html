@@ -27,7 +27,7 @@
         {% endif %}
       </li>
     {% endfor %}
-    <span class="theme-switcher">
+    <li class="theme-switcher">
       {{ load_data(path="static/img/icons/light.svg") | safe }}
       <label id="theme-switch" class="theme-switch switch" for="checkbox_theme">
         Temabytter
@@ -35,6 +35,6 @@
         <span class="slider round"></span>
       </label>
       {{ load_data(path="static/img/icons/dark.svg") | safe }}
-    </span>
+    </li>
   </ul>
 </header>
