@@ -67,8 +67,8 @@ passer akkurat din organisasjon best.
 ## Utvikling
 
 I friByte liker vi også å programmere. Og det er godt mulig at noe du vil ha
-utviklet, kan utvikles av oss. (Send oss gjerne et
-ebrev)[mailto:post@fribyte.no] og spør!
+utviklet, kan utvikles av oss. [Send oss gjerne et
+ebrev](mailto:post@fribyte.no) og spør!
 
 ## Spesialiserte tjenester
 
