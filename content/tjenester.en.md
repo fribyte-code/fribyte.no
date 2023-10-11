@@ -56,7 +56,7 @@ There are lots of alternatives, and friByte helps you find the best fit for your
 
 ## Development
 
-We like to program at friByte, and it's likely that we can develop what you need. Don't hesitate to (send us an e-mail)[mailto:post@fribyte.no] to find out!
+We like to program at friByte, and it's likely that we can develop what you need. Don't hesitate to [send us an e-mail](mailto:post@fribyte.no) to find out!
 
 ## Specialized services
 
