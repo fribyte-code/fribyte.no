@@ -141,6 +141,15 @@
     "active": true
   },
   {
+    "name": "Sigve Skåvik",
+    "phone": null,
+    "email": "sigve.skavik@fribyte.no",
+    "position": "medlem",
+    "joined": "2023-11-15T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
     "name": "Svein Harald Soleim",
     "phone": null,
     "position": "guru",
