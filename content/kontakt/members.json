@@ -1,39 +1,28 @@
 [
   {
-    "name": "Mathias Haugsbø",
-    "phone": null,
-    "email": "mathias.haugsboe@fribyte.no",
-    "position": "leder",
-    "joined": "2020-09-08T00:00:00.000Z",
-    "left": null,
-    "admin": true,
-    "active": true
-  },
-  {
-    "name": "Kristian Emil Takvam",
-    "phone": null,
-    "email": "kristian.takvam@fribyte.no",
-    "position": "nestleder",
-    "joined": "2021-09-10T00:00:00.000Z",
-    "left": null,
-    "admin": true,
-    "active": true
-  },
-  {
     "name": "Johannes Skivdal",
     "phone": null,
     "email": "johannes.skivdal@fribyte.no",
-    "position": "okonomiansvarlig",
+    "position": "leder",
     "joined": "2022-10-04T00:00:00.000Z",
     "left": null,
     "active": true
   },
   {
-    "name": "Sindre Kjelsrud",
+    "name": "Rolf Martin Glomsrud",
     "phone": null,
-    "email": "sindre.kjelsrud@fribyte.no",
-    "position": "presseansvarlig",
-    "joined": "2022-09-09T00:00:00.000Z",
+    "email": "rolf.glomsrud@fribyte.no",
+    "position": "nestleder",
+    "joined": "2020-09-08T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Daniel Liland",
+    "phone": null,
+    "email": "daniel.liland@fribyte.no",
+    "position": "okonomiansvarlig",
+    "joined": "2020-09-08T00:00:00.000Z",
     "admin": true,
     "left": null,
     "active": true
@@ -49,20 +38,30 @@
     "active": true
   },
   {
-    "name": "Rolf Martin Glomsrud",
+    "name": "Sigve Skåvik",
     "phone": null,
-    "email": "rolf.glomsrud@fribyte.no",
-    "position": "medlem",
-    "joined": "2020-09-08T00:00:00.000Z",
+    "email": "sigve.skavik@fribyte.no",
+    "position": "presseansvarlig",
+    "joined": "2023-11-02T00:00:00.000Z",
     "left": null,
     "active": true
   },
   {
-    "name": "Daniel Liland",
+    "name": "Mathias Haugsbø",
     "phone": null,
-    "email": "daniel.liland@fribyte.no",
-    "position": "medlem",
+    "email": "mathias.haugsboe@fribyte.no",
+    "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
+    "left": null,
+    "admin": true,
+    "active": true
+  },
+  {
+    "name": "Sindre Kjelsrud",
+    "phone": null,
+    "email": "sindre.kjelsrud@fribyte.no",
+    "position": "medlem",
+    "joined": "2022-09-09T00:00:00.000Z",
     "admin": true,
     "left": null,
     "active": true
@@ -75,6 +74,16 @@
     "joined": "2020-09-08T00:00:00.000Z",
     "left": null,
     "admin": false,
+    "active": true
+  },
+  {
+    "name": "Kristian Emil Takvam",
+    "phone": null,
+    "email": "kristian.takvam@fribyte.no",
+    "position": "medlem",
+    "joined": "2021-09-10T00:00:00.000Z",
+    "left": null,
+    "admin": true,
     "active": true
   },
   {
@@ -105,24 +114,6 @@
     "active": true
   },
   {
-    "name": "Edoardo Fusa",
-    "phone": null,
-    "email": "edoardo@fribyte.no",
-    "position": "medlem",
-    "joined": "2023-09-05T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Adam LaPorta",
-    "phone": null,
-    "email": "adam@fribyte.no",
-    "position": "medlem",
-    "joined": "2023-09-05T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
     "name": "Christoffer Janson",
     "phone": null,
     "email": "christoffer@fribyte.no",
@@ -137,15 +128,6 @@
     "email": "anton@fribyte.no",
     "position": "medlem",
     "joined": "2023-09-05T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Sigve Skåvik",
-    "phone": null,
-    "email": "sigve.skavik@fribyte.no",
-    "position": "medlem",
-    "joined": "2023-11-02T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -510,4 +492,22 @@
     "left": null,
     "active": false
   }
+    {
+    "name": "Edoardo Fusa",
+    "phone": null,
+    "email": "edoardo@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2023-09-05T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Adam LaPorta",
+    "phone": null,
+    "email": "adam@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2023-09-05T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
 ]
