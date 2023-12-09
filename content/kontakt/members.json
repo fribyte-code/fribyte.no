@@ -491,8 +491,8 @@
     "joined": "2022-09-02T00:00:00.000Z",
     "left": null,
     "active": false
-  }
-    {
+  },
+  {
     "name": "Edoardo Fusa",
     "phone": null,
     "email": "edoardo@fribyte.no",
@@ -509,5 +509,5 @@
     "joined": "2023-09-05T00:00:00.000Z",
     "left": null,
     "active": true
-  },
+  }
 ]
