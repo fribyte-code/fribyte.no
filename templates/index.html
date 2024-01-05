@@ -7,12 +7,16 @@
 
 {% block content %}
   <section class="hero">
-    <!-- Old website layout. Revert when conferance is done -->
-    <!-- <img class="illustration" src="{{ get_url(path="/img/illustrations/undraw_server.svg") | safe }}" alt="">
+    <!-- Main website layout, remove when using BOSkonf -->
+    <img class="illustration" src="{{ get_url(path="/img/illustrations/undraw_server.svg") | safe }}" alt="">
     <p>
       {{ config.description }}
-    </p> -->
-    <!-- <img class="illustration" src="{{ get_url(path="/img/boskonf_banner.svg") | safe }}" alt=""> -->
+    </p>
+    <div class="button-container center">
+      <a href="{{ get_url(path="@/bli-medlem.md") }}" class="btn primary center underscore">{{ trans(key="bli_medlem", lang=lang) }}</a>
+    </div>
+    <!-- Website layout for BOSkonf, only uncomment when BOSkonf is happening  -->
+    <!--
     <div id="banner">
 
     </div>
@@ -38,6 +42,7 @@
     <div class="button-container center">
       <a href="https://boskonf.no/" class="btn primary center underscore">boskonf.no</a>
     </div>
+    -->
   </section>
 
   {% if lang == 'no' %}
