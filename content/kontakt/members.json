@@ -499,7 +499,7 @@
     "position": "inaktivt_medlem",
     "joined": "2023-09-05T00:00:00.000Z",
     "left": null,
-    "active": true
+    "active": false
   },
   {
     "name": "Adam LaPorta",
@@ -508,6 +508,6 @@
     "position": "inaktivt_medlem",
     "joined": "2023-09-05T00:00:00.000Z",
     "left": null,
-    "active": true
+    "active": false
   }
 ]
