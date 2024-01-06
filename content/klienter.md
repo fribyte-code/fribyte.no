@@ -51,6 +51,7 @@ Studvest er en gratis lokalavis som ble stiftet av studenter i 1945 under navnet
 Studvest har følgende tjenester hos oss:
 
 - Internt nettverk
+- Fillagring
 
 ### Studentparlamentet ved UiB
 
@@ -73,6 +74,14 @@ BTSI har følgende tjenester hos oss:
 Bergen Realistforening, eller RF, er en av fem driftsorganisasjoner ved Det Akademiske Kvarter, og ble stiftet i 1959. De arrangerer konserter med kjente navn fra inn- og utland. 
 
 Bergen Realistforening har følgende tjenester hos oss:
+
+- Nettside
+
+### Mjøllnir
+
+Mjøllnir er linjeforeningen for geologistudentene ved UiB. Deres formål er å etablere et sosialt nettverk på tvers av årskull og studieretninger innenfor de ulike studieretningene, og spesielt innenfor studieretningene på det Matematiske og naturvitenskapelige fakultet.
+
+Mjøllnir har følgende tjenester hos oss:
 
 - Nettside
 
