@@ -51,6 +51,7 @@ Studvest is a free local newspaper that was founded by students in 1945 under th
 Studvest uses the following of our services:
 
 - Internal network
+- Filestorage
 
 ### Studentparlamentet ved UiB
 
@@ -73,6 +74,14 @@ BTSI uses the following of our services:
 Bergen Realistforening, or RF, is one of five operating organizations at Det Akademiske Kvarter, and was founded in 1959. They organize concerts with well-known names from home and abroad.
 
 Bergen Realistforening uses the following of our services:
+
+- Website
+
+## Mjøllnir
+
+Mjøllnir is the student society for geology students at the Department of Earth Science, at UiB. Their purpose is to establish a social network across grades and fields of study and especially within the Faculty of Mathematics and Natural Sciences. 
+
+Mjøllnir has the following services with us:
 
 - Website
 
