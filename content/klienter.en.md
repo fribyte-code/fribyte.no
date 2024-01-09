@@ -85,6 +85,12 @@ Mjøllnir has the following services with us:
 
 - Website
 
+### Bergen Open Source
+
+[Boskonf](https://boskonf.no) is a yearly tech conference in Bergen, hosted by friByte. The conference is a meeting place for technologists, students, and others interested in open source. The conference is held in Norwegian.
+
+Boskonf is hosting their website with us.
+
 ## Are you interested in something similar?
 
 {{ buttons(english=true, tjenester=true, kontakt=true) }}
