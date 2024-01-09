@@ -85,6 +85,12 @@ Mjøllnir har følgende tjenester hos oss:
 
 - Nettside
 
+### Bergen Open Source
+
+[Boskonf](https://boskonf.no) er en årlig teknologikonferanse i Bergen, som arrangeres av friByte. Konferansen er en møteplass for utviklere, studenter og andre som er interessert i teknologi.
+
+Boskonf vertet nettsiden sin hos oss.
+
 ## Er du interessert i noe lignende?
 
 {{ buttons(tjenester=true, kontakt=true) }}
