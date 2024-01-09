@@ -7,37 +7,40 @@
 
 {% block content %}
   <section class="hero">
-    <!-- Old website layout. Revert when conferance is done -->
-    <!-- <img class="illustration" src="{{ get_url(path="/img/illustrations/undraw_server.svg") | safe }}" alt="">
-    <p>
-      {{ config.description }}
-    </p> -->
-    <!-- <img class="illustration" src="{{ get_url(path="/img/boskonf_banner.svg") | safe }}" alt=""> -->
-    <div id="banner">
+    {% set boskonf_live = config.extra.boskonf_live %}
 
-    </div>
+    {% if boskonf_live %}
+      <div id="banner"></div>
 
+      <style>
+        [data-theme="dark"] #banner {
+          background: url({{get_url(path="/img/boskonf_banner_dark.svg") | safe }}) center / cover;
+        }
+        #banner {
+          width: 100%;
+          height: 350px;
+          display: block;
+          position: relative;
+          background: url({{get_url(path="/img/boskonf_banner.svg") | safe }}) center / cover no-repeat;
+          background-size: contain;
+        }
+      </style>
 
-    <style>
-      [data-theme="dark"] #banner {
-        background: url({{get_url(path="/img/boskonf_banner_dark.svg") | safe }}) center / cover;
-      }
-      #banner {
-        width: 100%;
-        height: 350px;
-        display: block;
-        position: relative;
-        background: url({{get_url(path="/img/boskonf_banner.svg") | safe }}) center / cover no-repeat;
-        background-size: contain;
-      }
-    </style>
-
-    <p>
-      Velkommen til <a href="https://boskonf.no/">Bergen Open Source</a>, arrangert av friByte! Utforsk åpen kildekode gjennom innsiktsfulle foredrag fra erfarne IT-utviklere og lidenskapelige entusiaster. Bli med og oppdag kraften av åpen kildekode i hjertet av Bergen!
-    </p>
-    <div class="button-container center">
-      <a href="https://boskonf.no/" class="btn primary center underscore">boskonf.no</a>
-    </div>
+      <p>
+        Velkommen til <a href="https://boskonf.no/">Bergen Open Source</a>, arrangert av friByte! Utforsk åpen kildekode gjennom innsiktsfulle foredrag fra erfarne IT-utviklere og lidenskapelige entusiaster. Bli med og oppdag kraften av åpen kildekode i hjertet av Bergen!
+      </p>
+      <div class="button-container center">
+        <a href="https://boskonf.no/" class="btn primary center underscore">boskonf.no</a>
+      </div>
+    {% else %}
+      <img class="illustration" src="{{ get_url(path="/img/illustrations/undraw_server.svg") | safe }}" alt="">
+      <p>
+        {{ config.description }}
+      </p>
+      <div class="button-container center">
+        <a href="{{ get_url(path="@/bli-medlem.md") }}" class="btn primary center underscore">{{ trans(key="bli_medlem", lang=lang) }}</a>
+      </div>
+    {% endif %}
   </section>
 
   {% if lang == 'no' %}
