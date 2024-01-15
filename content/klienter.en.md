@@ -9,16 +9,6 @@ We are also in close cooperation with the IT department at UiB.
 
 ## Overview
 
-### Det Akademiske Kvarter
-
-Det Akademiske Kvarter is the cultural house, café, restaurant, venue and bar for Bergenese students. They are cooperating tightly with organizations like Bergen filmklubb, Studentteateret Immaturus and Studentersamfunnet i Bergen to host regular events.
-
-Det Akademiske Kvarter uses the following of our services:
-
-- Website
-- Network services
-- Database services
-
 ### Bergen Student-TV
 
 Bergen Student-TV (BSTV) is a television production company for and by students at the various educational institutions in Bergen. They produce, among other things: news reports, multi-camera productions, entertainment series, documentaries and live streaming.
