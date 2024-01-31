@@ -17,13 +17,14 @@ Most of our active members are students, and this implies that we keep a loose i
 ## Which duties do I have as a member of friByte?
 
 We require you to:
+
 - Attend crisis situations (server crashes, power failures, etc.)
 - Attend volunteer events (maintainance work, setup of new systems and services, etc.)
 - Partake in the organization, work on a project (or ten)
 
 ## How much free time do I need to spend?
 
-At the time of writing, there are mainly students from the Faculty of Mathematics and Natural Sciences at UiB, but also some from Social Sciences. They study everything from Computer Technology to Cognitive Science to Social Economics. We also have students from Western University of Applied Sciences, who study Information Technology and Computer Engineering, among other things. However, there is no requirement that you have to study at UiB/HVL, or that you have to study something technological. Any student from a higher education institution in Bergen can become a member!
+The members decide themselves, but we try to have around 2 meeting each week. The members decide how long they can stay during the meetings and if they have time to meet up. This can vary depending on what needs to be done, but of course studies are always a priority. We try to avoid a ton of working/meetings around the exam periods.
 
 ## What systems do we use?
 
