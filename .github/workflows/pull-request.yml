@@ -8,8 +8,8 @@ jobs:
         name: compile themes
         runs-on: ubuntu-latest
         steps:
+        - uses: actions/checkout@master
         - name: Install Zola
-          uses: actions/checkout@master
           run: |
             wget -O zola.deb ${{ secrets.ZOLA_DEBIAN }}
             sudo dpkg -i zola.deb
