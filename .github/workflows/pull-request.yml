@@ -1,0 +1,18 @@
+on:
+    pull_request:
+        branches:
+            - main
+
+jobs:
+    zola-check:
+        name: compile themes
+        runs-on: ubuntu-latest
+        steps:
+        - name: Install Zola
+          uses: actions/checkout@master
+          run: |
+            wget -O zola.deb ${{ secrets.ZOLA_DEBIAN }}
+            sudo dpkg -i zola.deb
+        - name: Check Zola links
+          run: |
+            zola check
