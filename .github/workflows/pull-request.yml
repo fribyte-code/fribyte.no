@@ -5,7 +5,7 @@ on:
 
 jobs:
     zola-check:
-        name: compile themes
+        name: check zola links & build
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@master
@@ -16,3 +16,6 @@ jobs:
         - name: Check Zola links
           run: |
             zola check
+        - name: Check Zola build
+          run: |
+            zola build
