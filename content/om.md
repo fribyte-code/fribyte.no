@@ -1,10 +1,28 @@
 +++
-template = "om.html"
+template = "page.html"
 title = "Om oss"
 description = """
 friByte er en studentorganisasjon som har sitt utspring fra Det Akademiske Kvarters tidligere IT-avdeling, E-tjenesten. En gruppe studenter fra E-tjenesten ønsket i 2002 å starte en organisasjon som rendyrket drift av avanserte IT-systemer. Med det ønsket, ble friByte opprettet for å levere sikre og stabile IT-tjenester til studentkulturen, studentmediene og politiske studentorganisasjoner. 
 """
 +++
+
+<div id="illustration"></div>
+
+<style>
+[data-theme="dark"] #illustration {
+    background: url("/img/illustrations/dark_undraw_team.svg") no-repeat;
+    background-size: contain;
+}
+#illustration {
+    width: 100%;
+    height: 35vh;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    background: url("/img/illustrations/undraw_team.svg") no-repeat;
+    background-size: contain;
+}
+</style>
 
 ## Hva er friByte?
 
