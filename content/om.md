@@ -22,6 +22,12 @@ friByte er en studentorganisasjon som har sitt utspring fra Det Akademiske Kvart
     background: url("/img/illustrations/undraw_team.svg") no-repeat;
     background-size: contain;
 }
+@media (min-width: 992px) {
+    #illustration {
+        width: 60%;
+        height: 50vh;
+    }
+}
 </style>
 
 ## Hva er friByte?

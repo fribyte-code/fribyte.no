@@ -33,25 +33,26 @@
         <a href="https://boskonf.no/" class="btn primary center underscore">boskonf.no</a>
       </div>
     {% else %}
-      
-      <!--
-        <img class="illustration" src="{{ get_url(path="/img/illustrations/undraw_server.svg") | safe }}" alt="">
-      -->
-      
       <div id="illustration"></div>
 
       <style>
         [data-theme="dark"] #illustration {
-          background: url({{get_url(path="/img/illustrations/dark_undraw_server.svg") | safe }}) center / cover;
+          background: url({{get_url(path="/img/illustrations/dark_undraw_server.svg") | safe }}) center / cover no-repeat;
+          background-size: contain;
         }
         #illustration {
-          width: 75%;
-          height: 475px;
+          width: 100%;
+          height: 20vh;
           display: block;
           position: relative;
-          margin: 0 auto;
           background: url({{get_url(path="/img/illustrations/undraw_server.svg") | safe }}) center / cover no-repeat;
-          background-size: cover;
+          background-size: contain;
+        }
+        @media (min-width: 992px) {
+          #illustration {
+            width: 100%;
+            height: 60vh;
+          }
         }
       </style>
 
