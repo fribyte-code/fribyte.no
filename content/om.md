@@ -6,8 +6,6 @@ friByte er en studentorganisasjon som har sitt utspring fra Det Akademiske Kvart
 """
 +++
 
-<div id="illustration"></div>
-
 <style>
 [data-theme="dark"] #illustration {
     background: url("/img/illustrations/dark_undraw_team.svg") no-repeat;
@@ -29,6 +27,7 @@ friByte er en studentorganisasjon som har sitt utspring fra Det Akademiske Kvart
     }
 }
 </style>
+<div id="illustration"></div>
 
 ## Hva er friByte?
 
