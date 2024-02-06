@@ -6,7 +6,28 @@ friByte er en studentorganisasjon som har sitt utspring fra Det Akademiske Kvart
 """
 +++
 
-{{ illustration(path="/img/illustrations/undraw_team.svg", alt="Maskoter som henger opp Linux distros. Illustrasjon") }}
+<style>
+[data-theme="dark"] #illustration {
+    background: url("/img/illustrations/dark_undraw_team.svg") no-repeat;
+    background-size: contain;
+}
+#illustration {
+    width: 100%;
+    height: 35vh;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    background: url("/img/illustrations/undraw_team.svg") no-repeat;
+    background-size: contain;
+}
+@media (min-width: 992px) {
+    #illustration {
+        width: 60%;
+        height: 50vh;
+    }
+}
+</style>
+<div id="illustration"></div>
 
 ## Hva er friByte?
 

@@ -6,7 +6,28 @@ friByte is a student organization that originated from E-tjenesten, the Academic
 """
 +++
 
-{{ illustration(path="/img/illustrations/undraw_team.svg", alt="Mascots hanging up Linux distros. Illustration") }}
+<style>
+[data-theme="dark"] #illustration {
+    background: url("/img/illustrations/dark_undraw_team.svg") no-repeat;
+    background-size: contain;
+}
+#illustration {
+    width: 100%;
+    height: 35vh;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    background: url("/img/illustrations/undraw_team.svg") no-repeat;
+    background-size: contain;
+}
+@media (min-width: 992px) {
+    #illustration {
+        width: 60%;
+        height: 50vh;
+    }
+}
+</style>
+<div id="illustration"></div>
 
 ## What is friByte?
 

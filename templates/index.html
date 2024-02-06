@@ -10,8 +10,6 @@
     {% set boskonf_live = config.extra.boskonf_live %}
 
     {% if boskonf_live %}
-      <div id="banner"></div>
-
       <style>
         [data-theme="dark"] #banner {
           background: url({{get_url(path="/img/boskonf_banner_dark.svg") | safe }}) center / cover;
@@ -25,6 +23,7 @@
           background-size: contain;
         }
       </style>
+      <div id="banner"></div>
 
       <p>
         Velkommen til <a href="https://boskonf.no/">Bergen Open Source</a>, arrangert av friByte! Utforsk åpen kildekode gjennom innsiktsfulle foredrag fra erfarne IT-utviklere og lidenskapelige entusiaster. Bli med og oppdag kraften av åpen kildekode i hjertet av Bergen!
@@ -33,7 +32,28 @@
         <a href="https://boskonf.no/" class="btn primary center underscore">boskonf.no</a>
       </div>
     {% else %}
-      <img class="illustration" src="{{ get_url(path="/img/illustrations/undraw_server.svg") | safe }}" alt="">
+      <style>
+        [data-theme="dark"] #illustration {
+          background: url({{get_url(path="/img/illustrations/dark_undraw_server.svg") | safe }}) center / cover no-repeat;
+          background-size: contain;
+        }
+        #illustration {
+          width: 100%;
+          height: 20vh;
+          display: block;
+          position: relative;
+          background: url({{get_url(path="/img/illustrations/undraw_server.svg") | safe }}) center / cover no-repeat;
+          background-size: contain;
+        }
+        @media (min-width: 992px) {
+          #illustration {
+            width: 100%;
+            height: 60vh;
+          }
+        }
+      </style>
+      <div id="illustration"></div>
+
       <p>
         {{ config.description }}
       </p>
