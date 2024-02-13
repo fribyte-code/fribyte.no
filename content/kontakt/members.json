@@ -150,6 +150,14 @@
     "active": true
   },
   {
+    "name": "Erik Grunnaleite Ingebrigtsen",
+    "phone": null,
+    "email": "erik-gi@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-02-13T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
     "name": "Sigvard Helsingen",
     "phone": null,
     "email": "sigvard.helsingen@fribyte.no",
