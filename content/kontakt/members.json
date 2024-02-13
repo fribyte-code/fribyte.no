@@ -150,6 +150,15 @@
     "active": true
   },
   {
+    "name": "Sigvard Helsingen",
+    "phone": null,
+    "email": "sigvard.helsingen@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-02-13T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
     "name": "Svein Harald Soleim",
     "phone": null,
     "position": "guru",
