@@ -7,30 +7,30 @@
 
 {% block content %}
   <section class="hero">
-    {% set boskonf_live = config.extra.boskonf_live %}
+    {% set custom_hero = config.extra.custom_hero %}
 
-    {% if boskonf_live %}
-      <style>
-        [data-theme="dark"] #banner {
-          background: url({{get_url(path="/img/boskonf_banner_dark.svg") | safe }}) center / cover;
-        }
-        #banner {
-          width: 100%;
-          height: 350px;
-          display: block;
-          position: relative;
-          background: url({{get_url(path="/img/boskonf_banner.svg") | safe }}) center / cover no-repeat;
-          background-size: contain;
-        }
-      </style>
-      <div id="banner"></div>
-
-      <p>
-        Velkommen til <a href="https://boskonf.no/">Bergen Open Source</a>, arrangert av friByte! Utforsk åpen kildekode gjennom innsiktsfulle foredrag fra erfarne IT-utviklere og lidenskapelige entusiaster. Bli med og oppdag kraften av åpen kildekode i hjertet av Bergen!
-      </p>
-      <div class="button-container center">
-        <a href="https://boskonf.no/" class="btn primary center underscore">boskonf.no</a>
+    {% if custom_hero %}
+      <section class="pyro-container">
+        <div class="pyro">
+          <div class="before"></div>
+          <div class="after"></div>
+        </div>
+      </section>
+      <div class="banner-container center">
+        <h2 class="banner">Vi vant Årets Studentorganisasjon 2023!!🎉</h2>
       </div>
+      <br/>
+      <p>
+        15. februar var vi på Studentlivkonferansen på Det Akademiske Kvarter. Her ble årets studentorganisasjon 2023 kåret, og vi gikk av med seieren!!💫
+        Dette var helt utrolig gøy! 
+      </p>
+      <p>
+        Med disse midlene kan vi forbedre utstyret og tjenestene våre for å gi en enda bedre opplevelse for alle organisasjonene vi betjener.
+        Tusen takk til juryen for at de har valgt oss, og tusen takk til 
+        <a href="https://www.instagram.com/sammenbergen/" target="_blank">Sammen Bergen</a>, 
+        <a href="https://www.instagram.com/sammenstudentliv/ target="_blank"">Sammen Studentliv</a> og 
+        <a href="https://www.instagram.com/vtvest/" target="_blank">VtVest</a> for en fantastisk konferanse! 😍🙌🏽
+      </p>
     {% else %}
       <style>
         [data-theme="dark"] #illustration {
