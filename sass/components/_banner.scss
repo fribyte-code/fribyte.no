@@ -1,7 +1,6 @@
 .banner {
   display: inline-flex;
   padding: 0.75em 1em;
-  cursor: pointer;
   @include box;
   z-index: 1;
   opacity: 1;
