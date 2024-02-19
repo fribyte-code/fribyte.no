@@ -76,7 +76,7 @@ $box-shadow2: ();
   height: 5px;
   border-radius: 50%;
   box-shadow: $box-shadow2;
-  @include animation((2s bang ease-out backwards, 1s gravity ease-in backwards, 5s position linear infinite backwards));
+  @include animation((2s bang ease-out backwards, 1s gravity ease-in backwards, 5s position linear backwards));
 }
     
 .pyro > .after {
