@@ -33,15 +33,6 @@ jobs:
             exit 0
           fi
       
-      - name: Generate branch name
-        id: branch-name
-        run: echo "::set-output name=branch_name::update-docs-$(date +'%Y%m%d%H%M%S')"
-
-      - name: Create and checkout a new branch
-        run: |
-          git checkout -b ${{ steps.branch-name.outputs.branch_name }}
-          echo "Created and checked out new branch: ${{ steps.branch-name.outputs.branch_name }}"
-
       - name: Run script to update docs
         run: |
           # Make scripts executable
@@ -52,8 +43,8 @@ jobs:
           echo "Running script to convert front matter..."
           python3 scripts/convert_front_matter.py
           
-      - name: Push changes to the new branch
+      - name: Push changes to the 'update-docs' branch
         run: |
           git add .
           git commit -m "Update docs"
-          git push origin ${{ steps.branch-name.outputs.branch_name }}
+          git push origin HEAD:update-docs
