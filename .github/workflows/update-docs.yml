@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
 
       # Step to fetch changes from documents repository
       - name: Fetch changes from documents repository
