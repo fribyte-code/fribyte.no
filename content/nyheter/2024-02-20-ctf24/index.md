@@ -23,9 +23,9 @@ Vi håper så mange som mulig har lyst til å være med 🫶
 
 I år er det 70 ledige plasser!
 
-**Dato:** 14. mars kl 17:00-21:00
+**Dato:** 14. mars kl 18:00-21:00
 
-**Sted:** Høyteknologisenteret, Aktivt Rom 2+3
+**Sted:** Høyteknologisenteret, Rom: TBA
 
 **Påmelding:**
 [https://skjema.fribyte.no/index.php/257175?lang=nb](https://skjema.fribyte.no/index.php/257175?lang=nb)
