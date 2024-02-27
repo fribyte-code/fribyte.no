@@ -12,10 +12,10 @@ author = "Sigve Skåvik"
 
 Velkommen til årets friByte CTF!
 
-
 I år er det tredje året vi arrangerer CTF 🚩
 
-Om du er interessert i informatikk, koding, hacking, eller sikkerhet er dette noe for deg!
+Om du er interessert i informatikk, koding, hacking, eller sikkerhet er dette
+noe for deg!
 
 Det vil bli servert pizza! 🍕
 
@@ -25,7 +25,7 @@ I år er det 70 ledige plasser!
 
 **Dato:** 14. mars kl 17:00-21:00
 
-**Sted:** Høyteknologisenteret
+**Sted:** Høyteknologisenteret, Aktivt Rom 2+3
 
 **Påmelding:**
 [https://skjema.fribyte.no/index.php/257175?lang=nb](https://skjema.fribyte.no/index.php/257175?lang=nb)
