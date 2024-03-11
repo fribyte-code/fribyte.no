@@ -8,7 +8,7 @@ categories = ["Nyheter"]
 author = "Sigve Skåvik"
 +++
 
-<img src="/nyheter/ctf24/CTF-Logo.png" width="250" /> <br>
+<img src="/nyheter/ctf24/CTF logo mHeltSikker.png" width="250" /> <br>
 
 Velkommen til årets **friByte** x **Helt Sikker CTF**!
 
