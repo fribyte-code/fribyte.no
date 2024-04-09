@@ -168,6 +168,15 @@
     "active": true
   },
   {
+    "name": "Lukas Rysjedal",
+    "phone": null,
+    "email": "lukas.rysjedal@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-03-19T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
     "name": "Svein Harald Soleim",
     "phone": null,
     "position": "guru",
