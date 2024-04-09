@@ -67,16 +67,6 @@
     "active": true
   },
   {
-    "name": "Tim Hårek Andreassen",
-    "phone": null,
-    "email": "tim.harek@fribyte.no",
-    "position": "medlem",
-    "joined": "2020-09-08T00:00:00.000Z",
-    "left": null,
-    "admin": false,
-    "active": true
-  },
-  {
     "name": "Kristian Emil Takvam",
     "phone": null,
     "email": "kristian.takvam@fribyte.no",
@@ -562,6 +552,16 @@
     "position": "inaktivt_medlem",
     "joined": "2023-09-05T00:00:00.000Z",
     "left": null,
+    "active": false
+  },
+  {
+    "name": "Tim Hårek Andreassen",
+    "phone": null,
+    "email": "tim.harek@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2020-09-08T00:00:00.000Z",
+    "left": "2024-04-09T18:57:18.000Z",
+    "admin": false,
     "active": false
   }
 ]
