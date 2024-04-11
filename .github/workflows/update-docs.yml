@@ -1,0 +1,50 @@
+name: Update Docs
+
+on:
+  repository_dispatch:
+    types: [update-docs]
+
+jobs:
+  update_docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Step to fetch changes from documents repository
+      - name: Fetch changes from documents repository
+        run: |
+          git fetch https://github.com/fribyte-code/admin/dagsordener update-docs 
+          git diff --name-only FETCH_HEAD $(git rev-parse HEAD) -- admin/dagsordener > changed_files.txt
+          cat changed_files.txt
+
+      # Step to copy new/modified documents from documents repository to current repository
+      - name: Copy new/modified documents
+        run: |
+          xargs -I {} cp --parents {} content/dokumenter/dagsordener < changed_files.txt || echo "No new/modified documents to copy"
+      
+      - name: Check if changes are detected
+        run: |
+          if [ -s changed_files.txt ]; then
+            echo "Changes detected, proceeding with workflow."
+          else
+            echo "No changes detected, skipping further steps."
+            exit 0
+          fi
+      
+      - name: Run script to update docs
+        run: |
+          # Make scripts executable
+          chmod +x scripts/convertFiles.sh
+          chmod +x scripts/convert_front_matter.py
+
+          # Run the scripts
+          echo "Running script to convert front matter..."
+          python3 scripts/convert_front_matter.py
+          
+      - name: Push changes to the 'update-docs' branch
+        run: |
+          git add .
+          git commit -m "Update docs"
+          git push origin HEAD:update-docs
