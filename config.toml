@@ -48,7 +48,7 @@ vare_tjenester = "Våre tjenester"
 foresporsel = "Forespørsel"
 dear_fribyte = "Kjære friByte"
 soknad = "Søknad"
-sponsor = "Sponsor"
+stoettet_av = "Støttet av"
 
 [languages.en]
 build_search_index = true
@@ -83,7 +83,7 @@ vare_tjenester = "Our services"
 foresporsel = "Request"
 dear_fribyte = "Dear friByte"
 soknad = "Application"
-sponsor = "Sponsor"
+stoettet_av = "Supported by"
 
 [extra]
 nav = [
