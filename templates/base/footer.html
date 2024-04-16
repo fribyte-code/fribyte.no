@@ -31,6 +31,22 @@
       </li>
     </ul>
   </div>
+  <div class="footer--sponsors">
+    <h2 class="footer__heading">{{ trans(key="sponsor", lang=lang) }}</h2>
+    <a href="https://kulturstyret.no/" target="_blank">
+      <div id="vv-logo"></div>
+    </a>
+
+    <style>
+      [data-theme="dark"] #vv-logo {
+        background: url({{get_url(path="/img/sponsors/vv-logo-dark.png") | safe }}) center / cover no-repeat;
+      }
+
+      #vv-logo {
+        background: url({{get_url(path="/img/sponsors/vv-logo.png") | safe }}) center / cover no-repeat;
+      }
+    </style>
+  </div>
   <div class="footer--contact">
     <h2 class="footer__heading">{{ trans(key="kontakt", lang=lang) }}</h2>
     <ul class="footer--list">
