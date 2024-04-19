@@ -28,13 +28,12 @@
     "active": true
   },
   {
-    "name": "Christian Engelsen",
-    "phone": "995 87 363",
-    "email": "christian.engelsen@fribyte.no",
+    "name": "Sigvard Helsingen",
+    "phone": null,
+    "email": "sigvard.helsingen@fribyte.no",
     "position": "sosialansvarlig",
-    "joined": "2020-09-08T00:00:00.000Z",
+    "joined": "2024-02-13T00:00:00.000Z",
     "left": null,
-    "admin": true,
     "active": true
   },
   {
@@ -44,6 +43,16 @@
     "position": "presseansvarlig",
     "joined": "2023-11-02T00:00:00.000Z",
     "left": null,
+    "active": true
+  },
+  {
+    "name": "Christian Engelsen",
+    "phone": "995 87 363",
+    "email": "christian.engelsen@fribyte.no",
+    "position": "guru",
+    "joined": "2020-09-08T00:00:00.000Z",
+    "left": null,
+    "admin": true,
     "active": true
   },
   {
@@ -143,15 +152,6 @@
     "name": "Erik Grunnaleite Ingebrigtsen",
     "phone": null,
     "email": "erik-gi@fribyte.no",
-    "position": "medlem",
-    "joined": "2024-02-13T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Sigvard Helsingen",
-    "phone": null,
-    "email": "sigvard.helsingen@fribyte.no",
     "position": "medlem",
     "joined": "2024-02-13T00:00:00.000Z",
     "left": null,

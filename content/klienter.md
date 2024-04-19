@@ -81,6 +81,16 @@ Mjøllnir har følgende tjenester hos oss:
 
 Boskonf vertet nettsiden sin hos oss.
 
+### Root
+
+Root Linjeforening er en studentorganisasjon ved Høgskulen på Vestlandet for Data- og IT-studenter.
+
+Organisasjonen arrangerer blant annet sosiale arrangementer og arbeider for å knytte studentene nærmere næringslivet gjennom bedriftspresentasjoner.
+
+Root har følgende tjenester hos oss:
+
+- Nettside
+
 ## Er du interessert i noe lignende?
 
 {{ buttons(tjenester=true, kontakt=true) }}
