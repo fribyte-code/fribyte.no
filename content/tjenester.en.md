@@ -6,7 +6,7 @@ description = "A summary of the services that we provide."
 
 - [Web hosting](#web-hosting)
 - [Capture the Flag](#capture-the-flag-ctf)
-- [Internal communication)](#internal-communication)
+- [Internal communication](#internal-communication)
 - [Interal resources](#internal-resources)
 - [Development](#development)
 - [Specialized services](#specialized-services)
