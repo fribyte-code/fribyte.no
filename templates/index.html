@@ -6,9 +6,13 @@
 {% endblock head %}
 
 {% block content %}
-  {% set news = get_section(path="nyheter/_index.md") %}
+  {% set_global newsPath = "nyheter/_index.md" %}
+  {% if lang == "en" %}
+    {% set_global newsPath = "nyheter/_index.en.md" %}
+  {% endif %}
+  {% set news = get_section(path=newsPath) %}
   {% set featured_news = news.pages | sort(attribute="date") | reverse | filter(attribute="extra.is_featured", value=true) %}
-  {% if featured_news and lang == 'no' %}
+  {% if featured_news %}
     {% set post = featured_news[0] %}
     <div class="banner-container center">
       <h2 class="banner">{{ post.title }}</h2>
