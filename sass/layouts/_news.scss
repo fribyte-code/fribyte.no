@@ -3,18 +3,19 @@
   padding: 0;
 
   .latest-news--post {
+    width: 100%;
     margin-bottom: 1.5em;
     list-style: none;
     display: flex;
-
-    @media (max-width: $breakpoint-medium) {
-      display: block;
-    }
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
 
     .post--metadata {
-      margin-right: 1em;
-      max-width: 100px;
-      width: 100%;
+      font-family: $font-family-mono;
+
+      @media (max-width: $breakpoint-medium) {
+        width: 100%;
+      }
     }
 
     .post--summary {
