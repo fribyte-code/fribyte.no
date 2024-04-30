@@ -7,78 +7,34 @@
 
 {% block content %}
   <section class="hero">
-    {% set custom_hero = config.extra.custom_hero %}
-
-    {% if custom_hero %}
-      <div class="pyro-container">
-        <div class="pyro">
-          <div class="before"></div>
-          <div class="after"></div>
-        </div>
-      </div>
-      {% if lang == 'no' %}
-        <div class="banner-container center">
-          <h2 class="banner">Vi vant Årets Studentorganisasjon 2023!!🎉</h2>
-        </div>
-        <br/>
-        <p>
-          15. februar var vi på Studentlivkonferansen på Det Akademiske Kvarter. Her ble årets studentorganisasjon 2023 kåret, og vi gikk av med seieren!!💫
-          Dette var helt utrolig gøy! 
-        </p>
-        <p>
-          Med disse midlene kan vi forbedre utstyret og tjenestene våre for å gi en enda bedre opplevelse for alle organisasjonene vi betjener.
-          Tusen takk til juryen for at de har valgt oss, og tusen takk til 
-          <a href="https://www.instagram.com/sammenbergen/" target="_blank">Sammen Bergen</a>, 
-          <a href="https://www.instagram.com/sammenstudentliv/ target="_blank"">Sammen Studentliv</a> og 
-          <a href="https://www.instagram.com/vtvest/" target="_blank">VtVest</a> for en fantastisk konferanse! 😍🙌🏽
-        </p>
-      {% elif lang == 'en' %}
-        <div class="banner-container center">
-          <h2 class="banner">We won Student Organization of the Year 2023!!🎉</h2>
-        </div>
-        <br/>
-        <p>
-          On 15 February we attended the Student Life Conference at Kvarteret. This year's student organization was named, and we walked away with victory!!💫
-          This was incredibly fun!
-        </p>
-        <p>
-          With these funds, we can improve our equipment and services to provide an even better experience for all the organizations we serve.
-          Many thanks to the jury for choosing us, and many thanks to you
-          <a href="https://www.instagram.com/sammenbergen/" target="_blank">Sammen Bergen</a>, 
-          <a href="https://www.instagram.com/sammenstudentliv/" target="_blank">Sammen Studentliv</a> and 
-          <a href="https://www.instagram.com/vtvest/" target="_blank">VtVest</a> for a fantastic conference! 😍🙌🏽
-        </p>
-      {% endif %}
-    {% else %}
-      <style>
-        [data-theme="dark"] #illustration {
-          background: url({{get_url(path="/img/illustrations/dark_undraw_server.svg") | safe }}) center / cover no-repeat;
-          background-size: contain;
-        }
+    <style>
+      [data-theme="dark"] #illustration {
+        background: url({{get_url(path="/img/illustrations/dark_undraw_server.svg") | safe }}) center / cover no-repeat;
+        background-size: contain;
+      }
+      #illustration {
+        width: 100%;
+        height: 10vh;
+        display: block;
+        position: relative;
+        background: url({{get_url(path="/img/illustrations/undraw_server.svg") | safe }}) center / cover no-repeat;
+        background-size: contain;
+      }
+      @media (min-width: 992px) {
         #illustration {
           width: 100%;
           height: 20vh;
-          display: block;
-          position: relative;
-          background: url({{get_url(path="/img/illustrations/undraw_server.svg") | safe }}) center / cover no-repeat;
-          background-size: contain;
         }
-        @media (min-width: 992px) {
-          #illustration {
-            width: 100%;
-            height: 60vh;
-          }
-        }
-      </style>
-      <div id="illustration"></div>
+      }
+    </style>
+    <div id="illustration"></div>
 
-      <p>
-        {{ config.description }}
-      </p>
-      <div class="button-container center">
-        <a href="{{ get_url(path="@/bli-medlem.md") }}" class="btn primary center underscore">{{ trans(key="bli_medlem", lang=lang) }}</a>
-      </div>
-    {% endif %}
+    <p>
+      {{ config.description }}
+    </p>
+    <div class="button-container center">
+      <a href="{{ get_url(path="@/bli-medlem.md") }}" class="btn primary center underscore">{{ trans(key="bli_medlem", lang=lang) }}</a>
+    </div>
   </section>
 
   {% if lang == 'no' %}
