@@ -12,7 +12,7 @@
     <span class="date">{{ page.date | date(format="%b %d, %Y") }}</span>
     {% if page.authors | length > 0 %}
       -
-      <span class="author">Skrevet av {{ page.authors | join(sep=", ") }}</span>
+      <span class="author">{{ trans(key="skrevet_av", lang=lang) }} {{ page.authors | join(sep=", ") }}</span>
     {% endif %}
 </div>
   {{ page.content | safe }}

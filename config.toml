@@ -49,6 +49,7 @@ foresporsel = "Forespørsel"
 dear_fribyte = "Kjære friByte"
 soknad = "Søknad"
 stoettet_av = "Støttet av"
+skrevet_av = "Skrevet av"
 
 [languages.en]
 build_search_index = true
@@ -84,6 +85,7 @@ foresporsel = "Request"
 dear_fribyte = "Dear friByte"
 soknad = "Application"
 stoettet_av = "Supported by"
+skrevet_av = "Written by"
 
 [extra]
 nav = [
