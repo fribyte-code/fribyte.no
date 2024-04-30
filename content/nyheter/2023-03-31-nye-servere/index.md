@@ -2,10 +2,9 @@
 title = "Nye servere fra Comtec!"
 date = 2023-03-31
 description = ""
+authors = ["Daniel Lilad"]
 [taxonomies]
 categories = ["Nyheter"]
-[extra]
-author = "Daniel Lilad"
 +++
 
 Vi har nettopp hentet tre beist av servere fra Comtec!

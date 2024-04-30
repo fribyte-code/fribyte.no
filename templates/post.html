@@ -10,9 +10,9 @@
 <h1>{{ page.title }}</h1>
 <div class="metadata">
     <span class="date">{{ page.date | date(format="%b %d, %Y") }}</span>
-    {% if page.extra.author %}
+    {% if page.authors | length > 0 %}
       -
-      <span class="author">Skrevet av {{ page.extra.author }}</span>
+      <span class="author">Skrevet av {{ page.authors | join(sep=", ") }}</span>
     {% endif %}
 </div>
   {{ page.content | safe }}

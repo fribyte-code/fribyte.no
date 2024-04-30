@@ -2,10 +2,9 @@
 title = "Vi har fått donert hardware!"
 date = 2023-02-08
 description = ""
+authors = ["Daniel Lilad"]
 [taxonomies]
 categories = ["Nyheter"]
-[extra]
-author = "Daniel Lilad"
 +++
 
 Vi har vært så heldige og fått cutting-edge hardware fra Machina! De har gitt

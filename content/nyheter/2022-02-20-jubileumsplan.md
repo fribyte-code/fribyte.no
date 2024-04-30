@@ -2,10 +2,9 @@
 title = "Plan for jubileumsuken!"
 date = 2022-02-20
 description = "friByte fyller år 24. februar! I den anledning har vi planlagt et par arrangementer den uken."
+authors = ["Christian Kårbø Engelsen"]
 [taxonomies]
 categories = ["Nyheter"]
-[extra]
-author = "Christian Kårbø Engelsen"
 +++
 
 friByte blir 20 år den 24. februar og har dedikert uken til et par arrangementer
