@@ -2,8 +2,7 @@
 title = 'We won "Student Organization of the Year 2023"! 🎉'
 date = 2024-02-19
 description = "We walked away with victory!!💫"
-[extra]
-author = "Nick James Hipol"
+authors = ["Nick James Hipol"]
 +++
 
 <div class="pyro-container">

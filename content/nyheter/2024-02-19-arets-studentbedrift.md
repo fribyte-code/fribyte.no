@@ -2,10 +2,9 @@
 title = 'Vi vant "Årets Studentorganisasjon 2023"! 🎉'
 date = 2024-02-19
 description = "Vi gikk av med seieren!!💫"
+authors = ["Nick James Hipol"]
 [taxonomies]
 categories = ["Nyheter"]
-[extra]
-author = "Nick James Hipol"
 +++
 
 <div class="pyro-container">
