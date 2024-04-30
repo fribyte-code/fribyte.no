@@ -3,12 +3,11 @@ date = 2022-02-08
 updated = 2022-06-21
 title = "Jubileum CTF"
 aliases = ["/ctf"]
-[extra]
-author = "Rolf Martin Glomsrud"
+authors = ["Rolf Martin Glomsrud"]
 +++
 
-I anledning friByte sitt [20 års jubileum](@/nyheter/2022-01-12-jubileum.md) arrangerer vi Capture The
-Flag for alle informatikk studenter på UiB.
+I anledning friByte sitt [20 års jubileum](@/nyheter/2022-01-12-jubileum.md)
+arrangerer vi Capture The Flag for alle informatikk studenter på UiB.
 
 - Sted:
   [Aktivt rom (2+3), Høyteknologisenteret](https://link.mazemap.com/KMpUK7v7)

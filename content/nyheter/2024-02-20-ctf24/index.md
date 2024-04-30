@@ -2,10 +2,9 @@
 title = "CTF 2024 14. mars"
 date = 2024-02-20
 description = "Endelig kommer vår årlige CTF!"
+authors = ["Sigve Skåvik"]
 [taxonomies]
 categories = ["Nyheter"]
-[extra]
-author = "Sigve Skåvik"
 +++
 
 <img src="/nyheter/ctf24/CTF logo mHeltSikker.png" width="250" /> <br>

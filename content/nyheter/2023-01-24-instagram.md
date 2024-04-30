@@ -2,10 +2,9 @@
 title = "Instagram konto!"
 date = 2023-01-24
 description = "Vi har fått en Instagram konto"
+authors = ["Daniel Liland"]
 [taxonomies]
 categories = ["Nyheter"]
-[extra]
-author = "Daniel Liland"
 +++
 
 Vi har opprettet en Instagram konto!
