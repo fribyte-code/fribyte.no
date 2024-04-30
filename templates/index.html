@@ -6,36 +6,46 @@
 {% endblock head %}
 
 {% block content %}
-  <section class="hero">
-    <style>
-      [data-theme="dark"] #illustration {
-        background: url({{get_url(path="/img/illustrations/dark_undraw_server.svg") | safe }}) center / cover no-repeat;
-        background-size: contain;
-      }
-      #illustration {
-        width: 100%;
-        height: 10vh;
-        display: block;
-        position: relative;
-        background: url({{get_url(path="/img/illustrations/undraw_server.svg") | safe }}) center / cover no-repeat;
-        background-size: contain;
-      }
-      @media (min-width: 992px) {
+  {% set news = get_section(path="nyheter/_index.md") %}
+  {% set featured_news = news.pages | sort(attribute="date") | reverse | filter(attribute="extra.is_featured", value=true) %}
+  {% if featured_news and lang == 'no' %}
+    {% set post = featured_news[0] %}
+    <div class="banner-container center">
+      <h2 class="banner">{{ post.title }}</h2>
+    </div>
+    {{ post.content | safe  }}
+  {% else %}
+    <section class="hero">
+      <style>
+        [data-theme="dark"] #illustration {
+          background: url({{get_url(path="/img/illustrations/dark_undraw_server.svg") | safe }}) center / cover no-repeat;
+          background-size: contain;
+        }
         #illustration {
           width: 100%;
-          height: 20vh;
+          height: 10vh;
+          display: block;
+          position: relative;
+          background: url({{get_url(path="/img/illustrations/undraw_server.svg") | safe }}) center / cover no-repeat;
+          background-size: contain;
         }
-      }
-    </style>
-    <div id="illustration"></div>
+        @media (min-width: 992px) {
+          #illustration {
+            width: 100%;
+            height: 20vh;
+          }
+        }
+      </style>
+      <div id="illustration"></div>
 
-    <p>
-      {{ config.description }}
-    </p>
-    <div class="button-container center">
-      <a href="{{ get_url(path="@/bli-medlem.md") }}" class="btn primary center underscore">{{ trans(key="bli_medlem", lang=lang) }}</a>
-    </div>
-  </section>
+      <p>
+        {{ config.description }}
+      </p>
+      <div class="button-container center">
+        <a href="{{ get_url(path="@/bli-medlem.md") }}" class="btn primary center underscore">{{ trans(key="bli_medlem", lang=lang) }}</a>
+      </div>
+    </section>
+  {% endif %}
 
   {% if lang == 'no' %}
     <section class="contact">
@@ -66,7 +76,6 @@
 
     <section class="latest-news">
       <h2>Siste nytt</h2>
-      {% set news = get_section(path="nyheter/_index.md") %}
       <ul>
         {% for post in news.pages | slice(end=5) | sort(attribute="date") | reverse %}
         <li>
