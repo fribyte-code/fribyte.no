@@ -25,6 +25,8 @@ Use `zola --help` for more useful commands.
 - We use [Prettier][prettier] for linting, so try to run Prettier in your editor
   (if you can).
 - Navigation links is in `config.toml`.
+- Use `is_featured = true` in a news-post's frontmatter to make it featured on
+  the frontpage.
 
 ### Git-branches
 
