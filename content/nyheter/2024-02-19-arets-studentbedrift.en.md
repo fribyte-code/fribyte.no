@@ -3,8 +3,6 @@ title = 'We won "Student Organization of the Year 2023"! 🎉'
 date = 2024-02-19
 description = "We walked away with victory!!💫"
 authors = ["Nick James Hipol"]
-[extra]
-is_featured = true
 +++
 
 <div class="pyro-container">

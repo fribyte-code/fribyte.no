@@ -5,8 +5,6 @@ description = "Vi gikk av med seieren!!💫"
 authors = ["Nick James Hipol"]
 [taxonomies]
 categories = ["Nyheter"]
-[extra]
-is_featured = true
 +++
 
 <div class="pyro-container">
