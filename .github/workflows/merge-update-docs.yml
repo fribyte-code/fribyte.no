@@ -1,0 +1,20 @@
+name: Merge Update Docs
+
+on:
+  push:
+    branches:
+      - update-docs
+
+jobs:
+  merge_update_docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Merge update-docs into main
+        run: |
+          git checkout main
+          git merge update-docs
+          git push origin main
