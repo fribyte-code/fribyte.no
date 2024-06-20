@@ -9,21 +9,20 @@
     "active": true
   },
   {
-    "name": "Rolf Martin Glomsrud",
+    "name": "Nick James Hipol",
     "phone": null,
-    "email": "rolf.glomsrud@fribyte.no",
+    "email": "nheek@fribyte.no",
     "position": "nestleder",
-    "joined": "2020-09-08T00:00:00.000Z",
+    "joined": "2024-01-16T00:00:00.000Z",
     "left": null,
     "active": true
   },
   {
-    "name": "Daniel Liland",
+    "name": "Johannes Lysne",
     "phone": null,
-    "email": "daniel.liland@fribyte.no",
+    "email": "johlys@fribyte.no",
     "position": "okonomiansvarlig",
-    "joined": "2020-09-08T00:00:00.000Z",
-    "admin": true,
+    "joined": "2023-09-05T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -37,11 +36,31 @@
     "active": true
   },
   {
-    "name": "Sigve Skåvik",
+    "name": "Kristian Emil Takvam",
     "phone": null,
-    "email": "sigve.skavik@fribyte.no",
+    "email": "kristian.takvam@fribyte.no",
     "position": "presseansvarlig",
-    "joined": "2023-11-02T00:00:00.000Z",
+    "joined": "2021-09-10T00:00:00.000Z",
+    "left": null,
+    "admin": true,
+    "active": true
+  },
+  {
+    "name": "Rolf Martin Glomsrud",
+    "phone": null,
+    "email": "rolf.glomsrud@fribyte.no",
+    "position": "guru",
+    "joined": "2020-09-08T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Daniel Liland",
+    "phone": null,
+    "email": "daniel.liland@fribyte.no",
+    "position": "guru",
+    "joined": "2020-09-08T00:00:00.000Z",
+    "admin": true,
     "left": null,
     "active": true
   },
@@ -76,16 +95,6 @@
     "active": true
   },
   {
-    "name": "Kristian Emil Takvam",
-    "phone": null,
-    "email": "kristian.takvam@fribyte.no",
-    "position": "medlem",
-    "joined": "2021-09-10T00:00:00.000Z",
-    "left": null,
-    "admin": true,
-    "active": true
-  },
-  {
     "name": "Stefan Volden",
     "phone": null,
     "email": "stefan.volden@fribyte.no",
@@ -104,11 +113,11 @@
     "active": true
   },
   {
-    "name": "Johannes Lysne",
+    "name": "Sigve Skåvik",
     "phone": null,
-    "email": "johlys@fribyte.no",
+    "email": "sigve.skavik@fribyte.no",
     "position": "medlem",
-    "joined": "2023-09-05T00:00:00.000Z",
+    "joined": "2023-11-02T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -134,15 +143,6 @@
     "name": "Simen Strømsnes",
     "phone": null,
     "email": "zimen@fribyte.no",
-    "position": "medlem",
-    "joined": "2024-01-16T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Nick James Hipol",
-    "phone": null,
-    "email": "nheek@fribyte.no",
     "position": "medlem",
     "joined": "2024-01-16T00:00:00.000Z",
     "left": null,
