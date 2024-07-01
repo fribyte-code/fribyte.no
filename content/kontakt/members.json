@@ -113,15 +113,6 @@
     "active": true
   },
   {
-    "name": "Sigve Skåvik",
-    "phone": null,
-    "email": "sigve.skavik@fribyte.no",
-    "position": "medlem",
-    "joined": "2023-11-02T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
     "name": "Christoffer Janson",
     "phone": null,
     "email": "christoffer@fribyte.no",
@@ -484,15 +475,6 @@
     "active": false
   },
   {
-    "name": "Luca Blaauw Fossen",
-    "phone": null,
-    "email": "luca.fossen@fribyte.no",
-    "position": "inaktivt_medlem",
-    "joined": "2022-03-10T00:00:00.000Z",
-    "left": null,
-    "active": false
-  },
-  {
     "name": "Johan Wergeland Anfinsen",
     "phone": null,
     "position": "inaktivt_medlem",
@@ -501,12 +483,21 @@
     "active": false
   },
   {
+    "name": "Luca Blaauw Fossen",
+    "phone": null,
+    "email": "luca.fossen@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-03-10T00:00:00.000Z",
+    "left": "2023-04-26T00:00:00.000Z",
+    "active": false
+  },
+  {
     "name": "Anders Tøkje",
     "phone": null,
     "email": "antok@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2022-09-09T00:00:00.000Z",
-    "left": null,
+    "left": "2023-04-26T00:00:00.000Z",
     "active": false
   },
   {
@@ -515,7 +506,7 @@
     "email": "sigurd@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2023-02-23T00:00:00.000Z",
-    "left": null,
+    "left": "2023-04-26T00:00:00.000Z",
     "active": false
   },
   {
@@ -524,7 +515,7 @@
     "email": "amund.fremming@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2023-02-23T00:00:00.000Z",
-    "left": null,
+    "left": "2023-06-01T00:00:00.000Z",
     "active": false
   },
   {
@@ -533,7 +524,7 @@
     "email": "georg.bonhorst@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2022-09-02T00:00:00.000Z",
-    "left": null,
+    "left": "2023-06-01T00:00:00.000Z",
     "active": false
   },
   {
@@ -542,7 +533,7 @@
     "email": "edoardo@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2023-09-05T00:00:00.000Z",
-    "left": null,
+    "left": "2023-12-01T00:00:00.000Z",
     "active": false
   },
   {
@@ -551,7 +542,7 @@
     "email": "adam@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2023-09-05T00:00:00.000Z",
-    "left": null,
+    "left": "2023-12-01T00:00:00.000Z",
     "active": false
   },
   {
@@ -562,6 +553,15 @@
     "joined": "2020-09-08T00:00:00.000Z",
     "left": "2024-04-09T18:57:18.000Z",
     "admin": false,
+    "active": false
+  },
+  {
+    "name": "Sigve Skåvik",
+    "phone": null,
+    "email": "sigve.skavik@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2023-11-02T00:00:00.000Z",
+    "left": "2024-07-01T00:00:00.000Z",
     "active": false
   }
 ]
