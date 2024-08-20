@@ -61,8 +61,8 @@
     "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
     "admin": true,
-    "left": null,
-    "active": true
+    "left": "2024-08-20T00:00:00.000Z",
+    "active": false
   },
   {
     "name": "Christian Engelsen",
@@ -91,24 +91,6 @@
     "position": "medlem",
     "joined": "2022-09-09T00:00:00.000Z",
     "admin": true,
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Stefan Volden",
-    "phone": null,
-    "email": "stefan.volden@fribyte.no",
-    "position": "medlem",
-    "joined": "2022-09-02T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Dan Joar Heimvik",
-    "phone": null,
-    "email": "dan.joar.heimvik@fribyte.no",
-    "position": "medlem",
-    "joined": "2022-09-02T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -350,6 +332,24 @@
     "position": "guru_wannabe",
     "joined": null,
     "left": null,
+    "active": false
+  },
+  {
+    "name": "Stefan Volden",
+    "phone": null,
+    "email": "stefan.volden@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-09-02T00:00:00.000Z",
+    "left": "2024-08-20T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Dan Joar Heimvik",
+    "phone": null,
+    "email": "dan.joar.heimvik@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-09-02T00:00:00.000Z",
+    "left": "2024-08-20T00:00:00.000Z",
     "active": false
   },
   {
