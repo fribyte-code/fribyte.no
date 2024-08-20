@@ -62,7 +62,7 @@
     "joined": "2020-09-08T00:00:00.000Z",
     "admin": true,
     "left": null,
-    "active": true
+    "active": false
   },
   {
     "name": "Christian Engelsen",
@@ -107,10 +107,10 @@
     "name": "Dan Joar Heimvik",
     "phone": null,
     "email": "dan.joar.heimvik@fribyte.no",
-    "position": "medlem",
+    "position": "inaktivt_medlem",
     "joined": "2022-09-02T00:00:00.000Z",
     "left": null,
-    "active": true
+    "active": false
   },
   {
     "name": "Christoffer Janson",
