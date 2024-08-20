@@ -95,24 +95,6 @@
     "active": true
   },
   {
-    "name": "Stefan Volden",
-    "phone": null,
-    "email": "stefan.volden@fribyte.no",
-    "position": "inaktivt_medlem",
-    "joined": "2022-09-02T00:00:00.000Z",
-    "left": "2024-08-20T00:00:00.000Z",
-    "active": false
-  },
-  {
-    "name": "Dan Joar Heimvik",
-    "phone": null,
-    "email": "dan.joar.heimvik@fribyte.no",
-    "position": "inaktivt_medlem",
-    "joined": "2022-09-02T00:00:00.000Z",
-    "left": "2024-08-20T00:00:00.000Z",
-    "active": false
-  },
-  {
     "name": "Christoffer Janson",
     "phone": null,
     "email": "christoffer@fribyte.no",
@@ -350,6 +332,24 @@
     "position": "guru_wannabe",
     "joined": null,
     "left": null,
+    "active": false
+  },
+  {
+    "name": "Stefan Volden",
+    "phone": null,
+    "email": "stefan.volden@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-09-02T00:00:00.000Z",
+    "left": "2024-08-20T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Dan Joar Heimvik",
+    "phone": null,
+    "email": "dan.joar.heimvik@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-09-02T00:00:00.000Z",
+    "left": "2024-08-20T00:00:00.000Z",
     "active": false
   },
   {
