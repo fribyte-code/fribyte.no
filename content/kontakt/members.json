@@ -61,7 +61,7 @@
     "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
     "admin": true,
-    "left": null,
+    "left": "2024-08-20T00:00:00.000Z",
     "active": false
   },
   {
@@ -100,8 +100,8 @@
     "email": "stefan.volden@fribyte.no",
     "position": "medlem",
     "joined": "2022-09-02T00:00:00.000Z",
-    "left": null,
-    "active": true
+    "left": "2024-08-20T00:00:00.000Z",
+    "active": false
   },
   {
     "name": "Dan Joar Heimvik",
@@ -109,7 +109,7 @@
     "email": "dan.joar.heimvik@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2022-09-02T00:00:00.000Z",
-    "left": null,
+    "left": "2024-08-20T00:00:00.000Z",
     "active": false
   },
   {
