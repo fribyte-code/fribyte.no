@@ -48,6 +48,8 @@ internal dynamic, and our founding document reflects this; General meetings are
 supposed to be an outing with a following party! A lot of effort goes into
 maintaining the social environment, not just in front of a screen.
 
+Similar organizations can be found in our list of [sister organizations](/en/sosterorganisasjoner).
+
 ## What is the goal of friByte?
 
 - Deliver secure, high-quality IT services to student organizations.

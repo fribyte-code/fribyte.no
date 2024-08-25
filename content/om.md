@@ -48,6 +48,8 @@ profil innad, og vårt stiftelsesdokument reflekterer dette; Generalforsamlingen
 er tvunget til å være en utflukt med påfølgende fest! Mye innsats går med på å
 opprettholde det sosiale miljøet, ikke bare foran en skjerm.
 
+Lignende organisasjoner finner du i vår oversikt over  [søsterorganisasjoner](/sosterorganisasjoner).
+
 ## Hva er målet til friByte?
 
 - Levere sikre IT-tjenester av høy kvalitet til studentorganisasjoner.
