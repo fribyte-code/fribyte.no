@@ -36,13 +36,12 @@
     "active": true
   },
   {
-    "name": "Kristian Emil Takvam",
+    "name": "Adam Remøy",
     "phone": null,
-    "email": "kristian.takvam@fribyte.no",
+    "email": "adam.remoy@fribyte.no",
     "position": "presseansvarlig",
-    "joined": "2021-09-10T00:00:00.000Z",
+    "joined": "2024-09-03T00:00:00.000Z",
     "left": null,
-    "admin": true,
     "active": true
   },
   {
@@ -92,6 +91,16 @@
     "joined": "2022-09-09T00:00:00.000Z",
     "admin": true,
     "left": null,
+    "active": true
+  },
+  {
+    "name": "Kristian Emil Takvam",
+    "phone": null,
+    "email": "kristian.takvam@fribyte.no",
+    "position": "medlem",
+    "joined": "2021-09-10T00:00:00.000Z",
+    "left": null,
+    "admin": true,
     "active": true
   },
   {
@@ -145,15 +154,6 @@
     "email": "kai.waloen@fribyte.no",
     "position": "medlem",
     "joined": "2024-04-09T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Adam Remøy",
-    "phone": null,
-    "email": "adam.remoy@fribyte.no",
-    "position": "medlem",
-    "joined": "2024-09-03T00:00:00.000Z",
     "left": null,
     "active": true
   },
