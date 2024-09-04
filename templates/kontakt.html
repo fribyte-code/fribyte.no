@@ -21,10 +21,14 @@
   {% if isActive == "true" %}
     <h2>{{ trans(key="aktive_medlemmer", lang=lang) }}</h2>
   {% else %}
+  
     <h2>{{ trans(key="inaktive_medlemmer", lang=lang) }}</h2>
-   
-    {% set members = members | sort(attribute="position")%}
+    
+    {% set members = members | sort(attribute="position") %}
+
   {% endif %}
+  
+
   <div class="table-wrapper">
     <table class="members {% if isActive == " true" %}active{% else %}inactive{% endif %}">
       <tr>
