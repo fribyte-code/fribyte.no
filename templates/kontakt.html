@@ -16,19 +16,14 @@
     </li>
   </ul>
   {% set members_list = load_data(path="content/kontakt/members.json") %}
-
   {% for isActive, members in members_list | group_by(attribute="active") %}
   {% if isActive == "true" %}
     <h2>{{ trans(key="aktive_medlemmer", lang=lang) }}</h2>
   {% else %}
-  
     <h2>{{ trans(key="inaktive_medlemmer", lang=lang) }}</h2>
-    
     {% set members = members | sort(attribute="position") %}
-
   {% endif %}
   
-
   <div class="table-wrapper">
     <table class="members {% if isActive == " true" %}active{% else %}inactive{% endif %}">
       <tr>
