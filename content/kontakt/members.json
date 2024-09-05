@@ -155,6 +155,15 @@
     "joined": "2024-09-03T00:00:00.000Z",
     "left": null,
     "active": true
+  },   
+  {
+    "name": "Patrik Thormodsen",
+    "phone": null,
+    "email": "patrik.thormodsen@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-03T00:00:00.000Z",
+    "left": null,
+    "active": true
   },
   {
     "name": "Svein Harald Soleim",
