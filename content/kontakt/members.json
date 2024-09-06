@@ -60,7 +60,6 @@
     "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
     "left": null,
-    "admin": true,
     "active": true
   },
   {
@@ -70,7 +69,6 @@
     "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
     "left": null,
-    "admin": true,
     "active": true
   },
   {
@@ -79,7 +77,6 @@
     "email": "sindre.kjelsrud@fribyte.no",
     "position": "medlem",
     "joined": "2022-09-09T00:00:00.000Z",
-    "admin": true,
     "left": null,
     "active": true
   },
@@ -90,7 +87,6 @@
     "position": "medlem",
     "joined": "2021-09-10T00:00:00.000Z",
     "left": null,
-    "admin": true,
     "active": true
   },
   {
@@ -551,7 +547,6 @@
     "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
     "left": "2024-04-09T18:57:18.000Z",
-    "admin": false,
     "active": false
   },
   {
@@ -587,7 +582,6 @@
     "email": "daniel.liland@fribyte.no",
     "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
-    "admin": true,
     "left": "2024-08-20T00:00:00.000Z",
     "active": false
   }
