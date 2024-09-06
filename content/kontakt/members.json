@@ -1,7 +1,6 @@
 [
   {
     "name": "Johannes Skivdal",
-    "phone": null,
     "email": "johannes.skivdal@fribyte.no",
     "position": "leder",
     "joined": "2022-10-04T00:00:00.000Z",
@@ -10,7 +9,6 @@
   },
   {
     "name": "Nick James Hipol",
-    "phone": null,
     "email": "nheek@fribyte.no",
     "position": "nestleder",
     "joined": "2024-01-16T00:00:00.000Z",
@@ -19,7 +17,6 @@
   },
   {
     "name": "Johannes Lysne",
-    "phone": null,
     "email": "johlys@fribyte.no",
     "position": "okonomiansvarlig",
     "joined": "2023-09-05T00:00:00.000Z",
@@ -28,7 +25,6 @@
   },
   {
     "name": "Sigvard Helsingen",
-    "phone": null,
     "email": "sigvard.helsingen@fribyte.no",
     "position": "sosialansvarlig",
     "joined": "2024-02-13T00:00:00.000Z",
@@ -37,7 +33,6 @@
   },
   {
     "name": "Adam Remøy",
-    "phone": null,
     "email": "adam.remoy@fribyte.no",
     "position": "presseansvarlig",
     "joined": "2024-09-03T00:00:00.000Z",
@@ -46,7 +41,6 @@
   },
   {
     "name": "Rolf Martin Glomsrud",
-    "phone": null,
     "email": "rolf.glomsrud@fribyte.no",
     "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
@@ -55,7 +49,6 @@
   },
   {
     "name": "Christian Engelsen",
-    "phone": "995 87 363",
     "email": "christian.engelsen@fribyte.no",
     "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
@@ -64,7 +57,6 @@
   },
   {
     "name": "Mathias Haugsbø",
-    "phone": null,
     "email": "mathias.haugsboe@fribyte.no",
     "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
@@ -73,7 +65,6 @@
   },
   {
     "name": "Sindre Kjelsrud",
-    "phone": null,
     "email": "sindre.kjelsrud@fribyte.no",
     "position": "medlem",
     "joined": "2022-09-09T00:00:00.000Z",
@@ -82,7 +73,6 @@
   },
   {
     "name": "Kristian Emil Takvam",
-    "phone": null,
     "email": "kristian.takvam@fribyte.no",
     "position": "medlem",
     "joined": "2021-09-10T00:00:00.000Z",
@@ -91,7 +81,6 @@
   },
   {
     "name": "Christoffer Janson",
-    "phone": null,
     "email": "christoffer@fribyte.no",
     "position": "medlem",
     "joined": "2023-09-05T00:00:00.000Z",
@@ -100,7 +89,6 @@
   },
   {
     "name": "Anton Nydal",
-    "phone": null,
     "email": "anton@fribyte.no",
     "position": "medlem",
     "joined": "2023-09-05T00:00:00.000Z",
@@ -109,7 +97,6 @@
   },
   {
     "name": "Simen Strømsnes",
-    "phone": null,
     "email": "zimen@fribyte.no",
     "position": "medlem",
     "joined": "2024-01-16T00:00:00.000Z",
@@ -118,7 +105,6 @@
   },
   {
     "name": "Erik Grunnaleite Ingebrigtsen",
-    "phone": null,
     "email": "erik-gi@fribyte.no",
     "position": "medlem",
     "joined": "2024-02-13T00:00:00.000Z",
@@ -127,7 +113,6 @@
   },
   {
     "name": "Lukas Rysjedal",
-    "phone": null,
     "email": "lukas.rysjedal@fribyte.no",
     "position": "medlem",
     "joined": "2024-03-19T00:00:00.000Z",
@@ -136,7 +121,6 @@
   },
   {
     "name": "Kai Waløen",
-    "phone": null,
     "email": "kai.waloen@fribyte.no",
     "position": "medlem",
     "joined": "2024-04-09T00:00:00.000Z",
@@ -145,7 +129,6 @@
   },
   {
     "name": "Mathias Unneland",
-    "phone": null,
     "email": "mathias.unneland@fribyte.no",
     "position": "medlem",
     "joined": "2024-09-03T00:00:00.000Z",
@@ -154,7 +137,6 @@
   },   
   {
     "name": "Patrik Thormodsen",
-    "phone": null,
     "email": "patrik.thormodsen@fribyte.no",
     "position": "medlem",
     "joined": "2024-09-03T00:00:00.000Z",
@@ -163,7 +145,6 @@
   },
   {
     "name": "Svein Harald Soleim",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -171,7 +152,6 @@
   },
   {
     "name": "Tor Egil Hoftun Kvæstad",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -179,7 +159,6 @@
   },
   {
     "name": "Anders Paulsen",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -187,7 +166,6 @@
   },
   {
     "name": "Adrian Rutle",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -195,7 +173,6 @@
   },
   {
     "name": "Hallvar Helleseth",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -203,7 +180,6 @@
   },
   {
     "name": "Kjetil Nygård",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -211,7 +187,6 @@
   },
   {
     "name": "Kent Inge F. Simonsen",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -219,7 +194,6 @@
   },
   {
     "name": "Andreas Angerman",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -227,7 +201,6 @@
   },
   {
     "name": "Dag Viggo Lokøen",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -235,7 +208,6 @@
   },
   {
     "name": "Michael Mortensen",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -243,7 +215,6 @@
   },
   {
     "name": "Thomas Bjørnsen",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -251,7 +222,6 @@
   },
   {
     "name": "Knut Karevoll",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -260,7 +230,6 @@
   {
     "name": "Håkon H. Lerring",
     "email": "hakon.lerring@fribyte.no",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -268,7 +237,6 @@
   },
   {
     "name": "Morten Linderud",
-    "phone": null,
     "email": "morten.linderud@fribyte.no",
     "position": "guru",
     "joined": null,
@@ -277,7 +245,6 @@
   },
   {
     "name": "Sander Danielsen",
-    "phone": null,
     "position": "guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -285,7 +252,6 @@
   },
   {
     "name": "Mikal Sande",
-    "phone": null,
     "position": "guru_wannabe",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -293,7 +259,6 @@
   },
   {
     "name": "Nils Kr. Falch",
-    "phone": null,
     "position": "guru_wannabe",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -301,7 +266,6 @@
   },
   {
     "name": "Brynjar Eide",
-    "phone": null,
     "position": "guru_wannabe",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -309,7 +273,6 @@
   },
   {
     "name": "Erlend Birkenes",
-    "phone": null,
     "position": "guru_wannabe",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -317,7 +280,6 @@
   },
   {
     "name": "Bjørn Even Wahlstrøm",
-    "phone": null,
     "position": "guru_wannabe",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -325,7 +287,6 @@
   },
   {
     "name": "Vidar Drageide",
-    "phone": null,
     "position": "not_guru",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -333,7 +294,6 @@
   },
   {
     "name": "Marius Bakke",
-    "phone": null,
     "position": "guru_wannabe",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -341,7 +301,6 @@
   },
   {
     "name": "Olav Smørholm",
-    "phone": null,
     "position": "guru_wannabe",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -349,7 +308,6 @@
   },
   {
     "name": "Ketil Kvifte",
-    "phone": "952 08 423",
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -357,7 +315,6 @@
   },
   {
     "name": "Stian Leander Wiken",
-    "phone": "906 12 741",
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -365,7 +322,6 @@
   },
   {
     "name": "Simen Lone",
-    "phone": "936 89 984",
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -373,7 +329,6 @@
   },
   {
     "name": "Bjarte Johansen",
-    "phone": null,
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -381,7 +336,6 @@
   },
   {
     "name": "Paul Grant",
-    "phone": null,
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -389,7 +343,6 @@
   },
   {
     "name": "Vegar Rørvik",
-    "phone": null,
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -397,7 +350,6 @@
   },
   {
     "name": "Stian Fauskanger",
-    "phone": null,
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -405,7 +357,6 @@
   },
   {
     "name": "Christian Otterstad",
-    "phone": null,
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -413,7 +364,6 @@
   },
   {
     "name": "Erlend Hammer",
-    "phone": null,
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -421,7 +371,6 @@
   },
   {
     "name": "Trym Helle",
-    "phone": null,
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -429,7 +378,6 @@
   },
   {
     "name": "Mats Ryland",
-    "phone": null,
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -437,7 +385,6 @@
   },
   {
     "name": "Erik Vetle Larsen",
-    "phone": null,
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -445,7 +392,6 @@
   },
   {
     "name": "Fredrik Vindenes",
-    "phone": null,
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -453,7 +399,6 @@
   },
   {
     "name": "Fredrik Heimsæter",
-    "phone": "478 10 665",
     "email": "freheims@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": null,
@@ -462,7 +407,6 @@
   },
   {
     "name": "Magnus Farstad",
-    "phone": null,
     "email": "magnus.farstad@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2022-02-13T00:00:00.000Z",
@@ -471,7 +415,6 @@
   },
   {
     "name": "Johan Wergeland Anfinsen",
-    "phone": null,
     "position": "inaktivt_medlem",
     "joined": null,
     "left": "0001-01-01T00:00:00.000Z",
@@ -479,7 +422,6 @@
   },
   {
     "name": "Luca Blaauw Fossen",
-    "phone": null,
     "email": "luca.fossen@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2022-03-10T00:00:00.000Z",
@@ -488,7 +430,6 @@
   },
   {
     "name": "Anders Tøkje",
-    "phone": null,
     "email": "antok@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2022-09-09T00:00:00.000Z",
@@ -497,7 +438,6 @@
   },
   {
     "name": "Sigurd Vikene",
-    "phone": null,
     "email": "sigurd@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2023-02-23T00:00:00.000Z",
@@ -506,7 +446,6 @@
   },
   {
     "name": "Amund Fremming",
-    "phone": null,
     "email": "amund.fremming@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2023-02-23T00:00:00.000Z",
@@ -515,7 +454,6 @@
   },
   {
     "name": "Georg Hubert Maximillian von Bonhorst",
-    "phone": null,
     "email": "georg.bonhorst@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2022-09-02T00:00:00.000Z",
@@ -524,7 +462,6 @@
   },
   {
     "name": "Edoardo Fusa",
-    "phone": null,
     "email": "edoardo@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2023-09-05T00:00:00.000Z",
@@ -533,7 +470,6 @@
   },
   {
     "name": "Adam LaPorta",
-    "phone": null,
     "email": "adam@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2023-09-05T00:00:00.000Z",
@@ -542,7 +478,6 @@
   },
   {
     "name": "Tim Hårek Andreassen",
-    "phone": null,
     "email": "tim.harek@fribyte.no",
     "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
@@ -551,7 +486,6 @@
   },
   {
     "name": "Sigve Skåvik",
-    "phone": null,
     "email": "sigve.skavik@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2023-11-02T00:00:00.000Z",
@@ -560,7 +494,6 @@
   },
   {
     "name": "Stefan Volden",
-    "phone": null,
     "email": "stefan.volden@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2022-09-02T00:00:00.000Z",
@@ -569,7 +502,6 @@
   },
   {
     "name": "Dan Joar Heimvik",
-    "phone": null,
     "email": "dan.joar.heimvik@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2022-09-02T00:00:00.000Z",
@@ -578,7 +510,6 @@
   },
   {
     "name": "Daniel Liland",
-    "phone": null,
     "email": "daniel.liland@fribyte.no",
     "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
