@@ -1,594 +1,588 @@
 [
-    {
-        "name": "Johannes Skivdal",
-        "phone": null,
-        "email": "johannes.skivdal@fribyte.no",
-        "position": "leder",
-        "joined": "2022-10-04T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Nick James Hipol",
-        "phone": null,
-        "email": "nheek@fribyte.no",
-        "position": "nestleder",
-        "joined": "2024-01-16T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Johannes Lysne",
-        "phone": null,
-        "email": "johlys@fribyte.no",
-        "position": "okonomiansvarlig",
-        "joined": "2023-09-05T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Sigvard Helsingen",
-        "phone": null,
-        "email": "sigvard.helsingen@fribyte.no",
-        "position": "sosialansvarlig",
-        "joined": "2024-02-13T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Adam Remøy",
-        "phone": null,
-        "email": "adam.remoy@fribyte.no",
-        "position": "presseansvarlig",
-        "joined": "2024-09-03T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Rolf Martin Glomsrud",
-        "phone": null,
-        "email": "rolf.glomsrud@fribyte.no",
-        "position": "guru",
-        "joined": "2020-09-08T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Daniel Liland",
-        "phone": null,
-        "email": "daniel.liland@fribyte.no",
-        "position": "guru",
-        "joined": "2020-09-08T00:00:00.000Z",
-        "admin": true,
-        "left": "2024-08-20T00:00:00.000Z",
-        "active": false
-    },
-    {
-        "name": "Christian Engelsen",
-        "phone": "995 87 363",
-        "email": "christian.engelsen@fribyte.no",
-        "position": "guru",
-        "joined": "2020-09-08T00:00:00.000Z",
-        "left": null,
-        "admin": true,
-        "active": true
-    },
-    {
-        "name": "Mathias Haugsbø",
-        "phone": null,
-        "email": "mathias.haugsboe@fribyte.no",
-        "position": "guru",
-        "joined": "2020-09-08T00:00:00.000Z",
-        "left": null,
-        "admin": true,
-        "active": true
-    },
-    {
-        "name": "Sindre Kjelsrud",
-        "phone": null,
-        "email": "sindre.kjelsrud@fribyte.no",
-        "position": "medlem",
-        "joined": "2022-09-09T00:00:00.000Z",
-        "admin": true,
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Kristian Emil Takvam",
-        "phone": null,
-        "email": "kristian.takvam@fribyte.no",
-        "position": "medlem",
-        "joined": "2021-09-10T00:00:00.000Z",
-        "left": null,
-        "admin": true,
-        "active": true
-    },
-    {
-        "name": "Christoffer Janson",
-        "phone": null,
-        "email": "christoffer@fribyte.no",
-        "position": "medlem",
-        "joined": "2023-09-05T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Anton Nydal",
-        "phone": null,
-        "email": "anton@fribyte.no",
-        "position": "medlem",
-        "joined": "2023-09-05T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Simen Strømsnes",
-        "phone": null,
-        "email": "zimen@fribyte.no",
-        "position": "medlem",
-        "joined": "2024-01-16T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Erik Grunnaleite Ingebrigtsen",
-        "phone": null,
-        "email": "erik-gi@fribyte.no",
-        "position": "medlem",
-        "joined": "2024-02-13T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Lukas Rysjedal",
-        "phone": null,
-        "email": "lukas.rysjedal@fribyte.no",
-        "position": "medlem",
-        "joined": "2024-03-19T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Kai Waløen",
-        "phone": null,
-        "email": "kai.waloen@fribyte.no",
-        "position": "medlem",
-        "joined": "2024-04-09T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Mathias Unneland",
-        "phone": null,
-        "email": "mathias.unneland@fribyte.no",
-        "position": "medlem",
-        "joined": "2024-09-03T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Patrik Thormodsen",
-        "phone": null,
-        "email": "patrik.thormodsen@fribyte.no",
-        "position": "medlem",
-        "joined": "2024-09-03T00:00:00.000Z",
-        "left": null,
-        "active": true
-    },
-    {
-        "name": "Svein Harald Soleim",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Tor Egil Hoftun Kvæstad",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Anders Paulsen",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Adrian Rutle",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Hallvar Helleseth",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Kjetil Nygård",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Kent Inge F. Simonsen",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Andreas Angerman",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Dag Viggo Lokøen",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Michael Mortensen",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Thomas Bjørnsen",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Knut Karevoll",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Håkon H. Lerring",
-        "email": "hakon.lerring@fribyte.no",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Morten Linderud",
-        "phone": null,
-        "email": "morten.linderud@fribyte.no",
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Sander Danielsen",
-        "phone": null,
-        "position": "guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Mikal Sande",
-        "phone": null,
-        "position": "guru_wannabe",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Nils Kr. Falch",
-        "phone": null,
-        "position": "guru_wannabe",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Brynjar Eide",
-        "phone": null,
-        "position": "guru_wannabe",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Erlend Birkenes",
-        "phone": null,
-        "position": "guru_wannabe",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Bjørn Even Wahlstrøm",
-        "phone": null,
-        "position": "guru_wannabe",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Vidar Drageide",
-        "phone": null,
-        "position": "not_guru",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Marius Bakke",
-        "phone": null,
-        "position": "guru_wannabe",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Olav Smørholm",
-        "phone": null,
-        "position": "guru_wannabe",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Stefan Volden",
-        "phone": null,
-        "email": "stefan.volden@fribyte.no",
-        "position": "inaktivt_medlem",
-        "joined": "2022-09-02T00:00:00.000Z",
-        "left": "2024-08-20T00:00:00.000Z",
-        "active": false
-    },
-    {
-        "name": "Dan Joar Heimvik",
-        "phone": null,
-        "email": "dan.joar.heimvik@fribyte.no",
-        "position": "inaktivt_medlem",
-        "joined": "2022-09-02T00:00:00.000Z",
-        "left": "2024-08-20T00:00:00.000Z",
-        "active": false
-    },
-    {
-        "name": "Ketil Kvifte",
-        "phone": "952 08 423",
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Stian Leander Wiken",
-        "phone": "906 12 741",
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Simen Lone",
-        "phone": "936 89 984",
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Bjarte Johansen",
-        "phone": null,
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Paul Grant",
-        "phone": null,
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Vegar Rørvik",
-        "phone": null,
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Stian Fauskanger",
-        "phone": null,
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Christian Otterstad",
-        "phone": null,
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Erlend Hammer",
-        "phone": null,
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Trym Helle",
-        "phone": null,
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Mats Ryland",
-        "phone": null,
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Erik Vetle Larsen",
-        "phone": null,
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Fredrik Vindenes",
-        "phone": null,
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Fredrik Heimsæter",
-        "phone": "478 10 665",
-        "email": "freheims@fribyte.no",
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Magnus Farstad",
-        "phone": null,
-        "email": "magnus.farstad@fribyte.no",
-        "position": "inaktivt_medlem",
-        "joined": "2022-02-13T00:00:00.000Z",
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Johan Wergeland Anfinsen",
-        "phone": null,
-        "position": "inaktivt_medlem",
-        "joined": null,
-        "left": null,
-        "active": false
-    },
-    {
-        "name": "Luca Blaauw Fossen",
-        "phone": null,
-        "email": "luca.fossen@fribyte.no",
-        "position": "inaktivt_medlem",
-        "joined": "2022-03-10T00:00:00.000Z",
-        "left": "2023-04-26T00:00:00.000Z",
-        "active": false
-    },
-    {
-        "name": "Anders Tøkje",
-        "phone": null,
-        "email": "antok@fribyte.no",
-        "position": "inaktivt_medlem",
-        "joined": "2022-09-09T00:00:00.000Z",
-        "left": "2023-04-26T00:00:00.000Z",
-        "active": false
-    },
-    {
-        "name": "Sigurd Vikene",
-        "phone": null,
-        "email": "sigurd@fribyte.no",
-        "position": "inaktivt_medlem",
-        "joined": "2023-02-23T00:00:00.000Z",
-        "left": "2023-04-26T00:00:00.000Z",
-        "active": false
-    },
-    {
-        "name": "Amund Fremming",
-        "phone": null,
-        "email": "amund.fremming@fribyte.no",
-        "position": "inaktivt_medlem",
-        "joined": "2023-02-23T00:00:00.000Z",
-        "left": "2023-06-01T00:00:00.000Z",
-        "active": false
-    },
-    {
-        "name": "Georg Hubert Maximillian von Bonhorst",
-        "phone": null,
-        "email": "georg.bonhorst@fribyte.no",
-        "position": "inaktivt_medlem",
-        "joined": "2022-09-02T00:00:00.000Z",
-        "left": "2023-06-01T00:00:00.000Z",
-        "active": false
-    },
-    {
-        "name": "Edoardo Fusa",
-        "phone": null,
-        "email": "edoardo@fribyte.no",
-        "position": "inaktivt_medlem",
-        "joined": "2023-09-05T00:00:00.000Z",
-        "left": "2023-12-01T00:00:00.000Z",
-        "active": false
-    },
-    {
-        "name": "Adam LaPorta",
-        "phone": null,
-        "email": "adam@fribyte.no",
-        "position": "inaktivt_medlem",
-        "joined": "2023-09-05T00:00:00.000Z",
-        "left": "2023-12-01T00:00:00.000Z",
-        "active": false
-    },
-    {
-        "name": "Tim Hårek Andreassen",
-        "phone": null,
-        "email": "tim.harek@fribyte.no",
-        "position": "guru",
-        "joined": "2020-09-08T00:00:00.000Z",
-        "left": "2024-04-09T18:57:18.000Z",
-        "admin": false,
-        "active": false
-    },
-    {
-        "name": "Sigve Skåvik",
-        "phone": null,
-        "email": "sigve.skavik@fribyte.no",
-        "position": "inaktivt_medlem",
-        "joined": "2023-11-02T00:00:00.000Z",
-        "left": "2024-07-01T00:00:00.000Z",
-        "active": false
-    }
+  {
+    "name": "Johannes Skivdal",
+    "phone": null,
+    "email": "johannes.skivdal@fribyte.no",
+    "position": "leder",
+    "joined": "2022-10-04T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Nick James Hipol",
+    "phone": null,
+    "email": "nheek@fribyte.no",
+    "position": "nestleder",
+    "joined": "2024-01-16T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Johannes Lysne",
+    "phone": null,
+    "email": "johlys@fribyte.no",
+    "position": "okonomiansvarlig",
+    "joined": "2023-09-05T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Sigvard Helsingen",
+    "phone": null,
+    "email": "sigvard.helsingen@fribyte.no",
+    "position": "sosialansvarlig",
+    "joined": "2024-02-13T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Adam Remøy",
+    "phone": null,
+    "email": "adam.remoy@fribyte.no",
+    "position": "presseansvarlig",
+    "joined": "2024-09-03T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Rolf Martin Glomsrud",
+    "phone": null,
+    "email": "rolf.glomsrud@fribyte.no",
+    "position": "guru",
+    "joined": "2020-09-08T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Christian Engelsen",
+    "phone": "995 87 363",
+    "email": "christian.engelsen@fribyte.no",
+    "position": "guru",
+    "joined": "2020-09-08T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Mathias Haugsbø",
+    "phone": null,
+    "email": "mathias.haugsboe@fribyte.no",
+    "position": "guru",
+    "joined": "2020-09-08T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Sindre Kjelsrud",
+    "phone": null,
+    "email": "sindre.kjelsrud@fribyte.no",
+    "position": "medlem",
+    "joined": "2022-09-09T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Kristian Emil Takvam",
+    "phone": null,
+    "email": "kristian.takvam@fribyte.no",
+    "position": "medlem",
+    "joined": "2021-09-10T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Christoffer Janson",
+    "phone": null,
+    "email": "christoffer@fribyte.no",
+    "position": "medlem",
+    "joined": "2023-09-05T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Anton Nydal",
+    "phone": null,
+    "email": "anton@fribyte.no",
+    "position": "medlem",
+    "joined": "2023-09-05T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Simen Strømsnes",
+    "phone": null,
+    "email": "zimen@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-01-16T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Erik Grunnaleite Ingebrigtsen",
+    "phone": null,
+    "email": "erik-gi@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-02-13T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Lukas Rysjedal",
+    "phone": null,
+    "email": "lukas.rysjedal@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-03-19T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Kai Waløen",
+    "phone": null,
+    "email": "kai.waloen@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-04-09T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Mathias Unneland",
+    "phone": null,
+    "email": "mathias.unneland@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-03T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },   
+  {
+    "name": "Patrik Thormodsen",
+    "phone": null,
+    "email": "patrik.thormodsen@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-03T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Svein Harald Soleim",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Tor Egil Hoftun Kvæstad",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Anders Paulsen",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Adrian Rutle",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Hallvar Helleseth",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Kjetil Nygård",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Kent Inge F. Simonsen",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Andreas Angerman",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Dag Viggo Lokøen",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Michael Mortensen",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Thomas Bjørnsen",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Knut Karevoll",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Håkon H. Lerring",
+    "email": "hakon.lerring@fribyte.no",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Morten Linderud",
+    "phone": null,
+    "email": "morten.linderud@fribyte.no",
+    "position": "guru",
+    "joined": null,
+    "left": "2021-06-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Sander Danielsen",
+    "phone": null,
+    "position": "guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Mikal Sande",
+    "phone": null,
+    "position": "guru_wannabe",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Nils Kr. Falch",
+    "phone": null,
+    "position": "guru_wannabe",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Brynjar Eide",
+    "phone": null,
+    "position": "guru_wannabe",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Erlend Birkenes",
+    "phone": null,
+    "position": "guru_wannabe",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Bjørn Even Wahlstrøm",
+    "phone": null,
+    "position": "guru_wannabe",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Vidar Drageide",
+    "phone": null,
+    "position": "not_guru",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Marius Bakke",
+    "phone": null,
+    "position": "guru_wannabe",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Olav Smørholm",
+    "phone": null,
+    "position": "guru_wannabe",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Ketil Kvifte",
+    "phone": "952 08 423",
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Stian Leander Wiken",
+    "phone": "906 12 741",
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Simen Lone",
+    "phone": "936 89 984",
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Bjarte Johansen",
+    "phone": null,
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Paul Grant",
+    "phone": null,
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Vegar Rørvik",
+    "phone": null,
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Stian Fauskanger",
+    "phone": null,
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Christian Otterstad",
+    "phone": null,
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Erlend Hammer",
+    "phone": null,
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Trym Helle",
+    "phone": null,
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Mats Ryland",
+    "phone": null,
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Erik Vetle Larsen",
+    "phone": null,
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Fredrik Vindenes",
+    "phone": null,
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Fredrik Heimsæter",
+    "phone": "478 10 665",
+    "email": "freheims@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Magnus Farstad",
+    "phone": null,
+    "email": "magnus.farstad@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-02-13T00:00:00.000Z",
+    "left": "2022-09-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Johan Wergeland Anfinsen",
+    "phone": null,
+    "position": "inaktivt_medlem",
+    "joined": null,
+    "left": "0001-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Luca Blaauw Fossen",
+    "phone": null,
+    "email": "luca.fossen@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-03-10T00:00:00.000Z",
+    "left": "2023-04-26T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Anders Tøkje",
+    "phone": null,
+    "email": "antok@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-09-09T00:00:00.000Z",
+    "left": "2023-04-26T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Sigurd Vikene",
+    "phone": null,
+    "email": "sigurd@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2023-02-23T00:00:00.000Z",
+    "left": "2023-04-26T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Amund Fremming",
+    "phone": null,
+    "email": "amund.fremming@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2023-02-23T00:00:00.000Z",
+    "left": "2023-06-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Georg Hubert Maximillian von Bonhorst",
+    "phone": null,
+    "email": "georg.bonhorst@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-09-02T00:00:00.000Z",
+    "left": "2023-06-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Edoardo Fusa",
+    "phone": null,
+    "email": "edoardo@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2023-09-05T00:00:00.000Z",
+    "left": "2023-12-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Adam LaPorta",
+    "phone": null,
+    "email": "adam@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2023-09-05T00:00:00.000Z",
+    "left": "2023-12-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Tim Hårek Andreassen",
+    "phone": null,
+    "email": "tim.harek@fribyte.no",
+    "position": "guru",
+    "joined": "2020-09-08T00:00:00.000Z",
+    "left": "2024-04-09T18:57:18.000Z",
+    "active": false
+  },
+  {
+    "name": "Sigve Skåvik",
+    "phone": null,
+    "email": "sigve.skavik@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2023-11-02T00:00:00.000Z",
+    "left": "2024-07-01T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Stefan Volden",
+    "phone": null,
+    "email": "stefan.volden@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-09-02T00:00:00.000Z",
+    "left": "2024-08-20T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Dan Joar Heimvik",
+    "phone": null,
+    "email": "dan.joar.heimvik@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2022-09-02T00:00:00.000Z",
+    "left": "2024-08-20T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Daniel Liland",
+    "phone": null,
+    "email": "daniel.liland@fribyte.no",
+    "position": "guru",
+    "joined": "2020-09-08T00:00:00.000Z",
+    "left": "2024-08-20T00:00:00.000Z",
+    "active": false
+  }
 ]
