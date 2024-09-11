@@ -144,6 +144,14 @@
     "active": true
   },
   {
+    "name": "Martin Styve Pedersen",
+    "email": "martin@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-10T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
     "name": "Svein Harald Soleim",
     "position": "guru",
     "joined": null,
