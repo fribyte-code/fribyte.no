@@ -134,7 +134,7 @@
     "joined": "2024-09-03T00:00:00.000Z",
     "left": null,
     "active": true
-  },   
+  },
   {
     "name": "Patrik Thormodsen",
     "email": "patrik.thormodsen@fribyte.no",
@@ -146,6 +146,14 @@
   {
     "name": "Martin Styve Pedersen",
     "email": "martin@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-10T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Julian Hjartholm Bosdal",
+    "email": "julian@fribyte.no",
     "position": "medlem",
     "joined": "2024-09-10T00:00:00.000Z",
     "left": null,
