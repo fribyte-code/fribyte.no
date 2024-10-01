@@ -151,7 +151,15 @@
     "left": null,
     "active": true
   },
-  {
+   {
+    "name": "Hodan Salsal",
+    "email": "Hodandsalsal@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-10T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+   {
     "name": "Julian Hjartholm Bosdal",
     "email": "julian@fribyte.no",
     "position": "medlem",
