@@ -1,8 +1,8 @@
 +++
-title = "Bergen Open Source 2023"
+title = "Bergen Open Source 2024"
 date = 2024-10-01
 description = "BOS Konferansen - Bergens første tech-konferanse arrangert av friByte"
-authors = ["Mathias Haugsbø"]
+authors = ["Hodan Salsal"]
 [taxonomies]
 categories = ["Nyheter"]
 +++
