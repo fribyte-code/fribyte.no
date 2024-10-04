@@ -144,18 +144,34 @@
     "active": true
   },
   {
-    "name": "Martin Styve Pedersen",
-    "email": "martin@fribyte.no",
+    "name": "Lars Erik Haukås",
+    "email": "lars@fribyte.no",
     "position": "medlem",
-    "joined": "2024-09-10T00:00:00.000Z",
+    "joined": "2024-09-03T00:00:00.000Z",
     "left": null,
     "active": true
   },
   {
-    "name": "Erik Dahle Finne",
-    "email": "erikdf@fribyte.no",
+    "name": "Paula Taibo Suarez",
+    "email": "p.taibo@fribyte.no",
     "position": "medlem",
-    "joined": "2024-09-24T00:00:00.000Z",
+    "joined": "2024-09-03T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Åsmund Aarvik",
+    "email": "aasmund@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-03T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Martin Styve Pedersen",
+    "email": "martin@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-10T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -199,6 +215,25 @@
     "left": null,
     "active": true
   },
+  {
+    "name": "Duniya Mohamed Jami",
+    "email": "duniyamj@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-10T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Karo Zacharski",
+    "email": "karo.zacharski@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-10T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Aleksander Berg",
+    "email": "aleksanderrberg@fribyte.no",
     "position": "medlem",
     "joined": "2024-09-10T00:00:00.000Z",
     "left": null,
@@ -209,6 +244,14 @@
     "email": "matkar@fribyte.no",
     "position": "medlem",
     "joined": "2024-09-17T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Erik Dahle Finne",
+    "email": "erikdf@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-24T00:00:00.000Z",
     "left": null,
     "active": true
   },
