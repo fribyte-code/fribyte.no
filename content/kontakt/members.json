@@ -168,6 +168,14 @@
     "active": true
   },
   {
+    "name": "Mathilde Karlstad",
+    "email": "matkar@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-17T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
     "name": "Svein Harald Soleim",
     "position": "guru",
     "joined": null,
