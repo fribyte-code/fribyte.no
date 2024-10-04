@@ -2,7 +2,7 @@
   {
     "name": "Johannes Skivdal",
     "email": "johannes.skivdal@fribyte.no",
-    "position": "leder",
+    "position": "leder_guru_wannabe",
     "joined": "2022-10-04T00:00:00.000Z",
     "left": null,
     "active": true
@@ -134,7 +134,7 @@
     "joined": "2024-09-03T00:00:00.000Z",
     "left": null,
     "active": true
-  },   
+  },
   {
     "name": "Patrik Thormodsen",
     "email": "patrik.thormodsen@fribyte.no",
@@ -156,6 +156,38 @@
     "email": "jo.skoglund@fribyte.no",
     "position": "medlem",
     "joined": "2024-09-24T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Stine Svensson",
+    "email": "stinesvensson@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-10T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Hodan Salsal",
+    "email": "Hodandsalsal@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-10T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Julian Hjartholm Bosdal",
+    "email": "julian@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-10T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Mathilde Karlstad",
+    "email": "matkar@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-17T00:00:00.000Z",
     "left": null,
     "active": true
   },
