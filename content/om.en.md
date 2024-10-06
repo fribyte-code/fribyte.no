@@ -40,7 +40,7 @@ organizations.
 
 friByte is a "non-profit" organization, which means that we do not take
 dividends from the profits, and that the members volunteer instead of recieving
-compensation. friByte has been active for 19 years and has now grown to include
+compensation. friByte has been active for 22 years and has now grown to include
 a selection of dedicated students and professional clients.
 
 All our members are or have been students. This means that we have a relaxed

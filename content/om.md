@@ -40,7 +40,7 @@ studentorganisasjoner.
 
 friByte er en "null-profitt" organisasjon, som innebærer at vi ikke tar utbytte
 av overskuddet, og at medlemmene ikke mottar økonomisk kompensasjon for deres
-deltagelse. friByte driver nå på sitt 21. år og har nå vokst til å inkludere et
+deltagelse. friByte driver nå på sitt 22. år og har nå vokst til å inkludere et
 utvalg dedikerte studenter og profesjonelle kunder.
 
 Alle våre medlemmer er eller har vært studenter. Dette medfører at vi har en løs
