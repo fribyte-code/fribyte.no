@@ -256,6 +256,14 @@
     "active": true
   },
   {
+    "name": "Thomas Barth",
+    "email": "thomas.barth@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-10-08T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
     "name": "Svein Harald Soleim",
     "position": "guru",
     "joined": null,
