@@ -88,14 +88,6 @@
     "active": true
   },
   {
-    "name": "Anton Nydal",
-    "email": "anton@fribyte.no",
-    "position": "medlem",
-    "joined": "2023-09-05T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
     "name": "Simen Strømsnes",
     "email": "zimen@fribyte.no",
     "position": "medlem",
@@ -626,6 +618,14 @@
     "position": "inaktivt_medlem",
     "joined": "2022-09-02T00:00:00.000Z",
     "left": "2024-08-20T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Anton Nydal",
+    "email": "anton@fribyte.no",
+    "position": "medlem",
+    "joined": "2023-09-05T00:00:00.000Z",
+    "left": "2023-12-01T00:00:00.000Z",
     "active": false
   },
   {
