@@ -2,7 +2,7 @@
   {
     "name": "Johannes Skivdal",
     "email": "johannes.skivdal@fribyte.no",
-    "position": "leder_guru_wannabe",
+    "position": "leder_guru",
     "joined": "2022-10-04T00:00:00.000Z",
     "left": null,
     "active": true
@@ -66,7 +66,7 @@
   {
     "name": "Sindre Kjelsrud",
     "email": "sindre.kjelsrud@fribyte.no",
-    "position": "medlem",
+    "position": "guru",
     "joined": "2022-09-09T00:00:00.000Z",
     "left": null,
     "active": true
@@ -623,7 +623,7 @@
   {
     "name": "Anton Nydal",
     "email": "anton@fribyte.no",
-    "position": "medlem",
+    "position": "inaktivt_medlem",
     "joined": "2023-09-05T00:00:00.000Z",
     "left": "2023-12-01T00:00:00.000Z",
     "active": false
