@@ -1,16 +1,8 @@
 [
   {
-    "name": "Johannes Skivdal",
-    "email": "johannes.skivdal@fribyte.no",
-    "position": "leder_guru",
-    "joined": "2022-10-04T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Nick James Hipol",
-    "email": "nheek@fribyte.no",
-    "position": "nestleder",
+    "name": "Simen Strømsnes",
+    "email": "zimen@fribyte.no",
+    "position": "leder",
     "joined": "2024-01-16T00:00:00.000Z",
     "left": null,
     "active": true
@@ -18,24 +10,32 @@
   {
     "name": "Johannes Lysne",
     "email": "johlys@fribyte.no",
-    "position": "okonomiansvarlig",
+    "position": "nestleder",
     "joined": "2023-09-05T00:00:00.000Z",
     "left": null,
     "active": true
   },
   {
-    "name": "Sigvard Helsingen",
-    "email": "sigvard.helsingen@fribyte.no",
-    "position": "sosialansvarlig",
-    "joined": "2024-02-13T00:00:00.000Z",
+    "name": "Kai Waløen",
+    "email": "kai.waloen@fribyte.no",
+    "position": "okonomiansvarlig",
+    "joined": "2024-04-09T00:00:00.000Z",
     "left": null,
     "active": true
   },
   {
-    "name": "Adam Remøy",
-    "email": "adam.remoy@fribyte.no",
+    "name": "Thomas Barth",
+    "email": "thomas.barth@fribyte.no",
+    "position": "sosialansvarlig",
+    "joined": "2024-10-08T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Hodan Salsal",
+    "email": "hodandsalsal@fribyte.no",
     "position": "presseansvarlig",
-    "joined": "2024-09-03T00:00:00.000Z",
+    "joined": "2024-09-10T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -72,6 +72,14 @@
     "active": true
   },
   {
+    "name": "Johannes Skivdal",
+    "email": "johannes.skivdal@fribyte.no",
+    "position": "guru",
+    "joined": "2022-10-04T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
     "name": "Kristian Emil Takvam",
     "email": "kristian.takvam@fribyte.no",
     "position": "medlem",
@@ -88,10 +96,18 @@
     "active": true
   },
   {
-    "name": "Simen Strømsnes",
-    "email": "zimen@fribyte.no",
+    "name": "Nick James Hipol",
+    "email": "nheek@fribyte.no",
     "position": "medlem",
     "joined": "2024-01-16T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Sigvard Helsingen",
+    "email": "sigvard.helsingen@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-02-13T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -112,10 +128,10 @@
     "active": true
   },
   {
-    "name": "Kai Waløen",
-    "email": "kai.waloen@fribyte.no",
+    "name": "Adam Remøy",
+    "email": "adam.remoy@fribyte.no",
     "position": "medlem",
-    "joined": "2024-04-09T00:00:00.000Z",
+    "joined": "2024-09-03T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -192,14 +208,6 @@
     "active": true
   },
   {
-    "name": "Hodan Salsal",
-    "email": "Hodandsalsal@fribyte.no",
-    "position": "medlem",
-    "joined": "2024-09-10T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
     "name": "Julian Hjartholm Bosdal",
     "email": "julian@fribyte.no",
     "position": "medlem",
@@ -244,14 +252,6 @@
     "email": "erikdf@fribyte.no",
     "position": "medlem",
     "joined": "2024-09-24T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Thomas Barth",
-    "email": "thomas.barth@fribyte.no",
-    "position": "medlem",
-    "joined": "2024-10-08T00:00:00.000Z",
     "left": null,
     "active": true
   },
