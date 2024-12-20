@@ -64,14 +64,6 @@
     "active": true
   },
   {
-    "name": "Sindre Kjelsrud",
-    "email": "sindre.kjelsrud@fribyte.no",
-    "position": "guru",
-    "joined": "2022-09-09T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
     "name": "Johannes Skivdal",
     "email": "johannes.skivdal@fribyte.no",
     "position": "guru",
@@ -634,6 +626,14 @@
     "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
     "left": "2024-08-20T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Sindre Kjelsrud",
+    "email": "sindre.kjelsrud@fribyte.no",
+    "position": "guru",
+    "joined": "2022-09-09T00:00:00.000Z",
+    "left": "2024-12-18T00:00:00.00Z",
     "active": false
   }
 ]
