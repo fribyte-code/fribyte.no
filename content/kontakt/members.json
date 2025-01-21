@@ -154,10 +154,10 @@
   {
     "name": "Paula Taibo Suarez",
     "email": "p.taibo@fribyte.no",
-    "position": "medlem",
+    "position": "inaktivt_medlem",
     "joined": "2024-09-03T00:00:00.000Z",
-    "left": null,
-    "active": true
+    "left": "2024-09-03T00:00:00.000Z",
+    "active": false
   },
   {
     "name": "Åsmund Aarvik",
@@ -210,10 +210,10 @@
   {
     "name": "Karo Zacharski",
     "email": "karo.zacharski@fribyte.no",
-    "position": "medlem",
+    "position": "inaktivt_medlem",
     "joined": "2024-09-10T00:00:00.000Z",
-    "left": null,
-    "active": true
+    "left": "2025-01-01T00:00:00.000Z",
+    "active": false
   },
   {
     "name": "Aleksander Berg",
