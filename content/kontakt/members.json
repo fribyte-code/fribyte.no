@@ -192,14 +192,6 @@
     "active": true
   },
   {
-    "name": "Stine Svensson",
-    "email": "stinesvensson@fribyte.no",
-    "position": "medlem",
-    "joined": "2024-09-10T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
     "name": "Julian Hjartholm Bosdal",
     "email": "julian@fribyte.no",
     "position": "medlem",
@@ -634,6 +626,14 @@
     "position": "guru",
     "joined": "2022-09-09T00:00:00.000Z",
     "left": "2024-12-18T00:00:00.00Z",
+    "active": false
+  },
+  {
+    "name": "Stine Svensson",
+    "email": "stinesvensson@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2024-09-10T00:00:00.000Z",
+    "left": "2025-01-21T00:00:00.000Z",
     "active": false
   }
 ]
