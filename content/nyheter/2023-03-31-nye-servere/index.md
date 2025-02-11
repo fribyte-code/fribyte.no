@@ -17,4 +17,4 @@ veldig gamle servere, så dette vil holde oss gående i en god stund fremover.
 
 <img src="/nyheter/nye-servere/1D8855DD-990E-48F3-B44C-E49914F0FC49.jpg" width="400" />
 
-Takk til [Comtec](https://serit.no/avdeling/comtec/)
+Takk til [Comtec](https://serit.no/)
