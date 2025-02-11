@@ -15,7 +15,7 @@
   {% if featured_news %}
     {% set post = featured_news[0] %}
     <div class="banner-container center">
-      <h2 class="banner">{{ post.title }}</h2>
+      <h2 class="banner"><a href="{{ get_url(path=post.path) }}">{{ post.title }}</a></h2>
     </div>
     {{ post.content | safe  }}
   {% else %}
