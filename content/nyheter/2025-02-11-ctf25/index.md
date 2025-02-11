@@ -25,12 +25,13 @@ Det blir servert pizza iløpet av arrangementet 🍕 og det vil også være muli
 I år er det **45 ledige plasser**! Så her er det bare å hive seg rundt og melde
 seg på  med lenken under:
 
-[https://skjema.fribyte.no/index.php/763462?lang=nb](https://skjema.fribyte.no/index.php/763462?lang=nb)
+<https://skjema.fribyte.no/index.php/763462?lang=nb>
+
+> For avmelding, eller andre spørsmål, send en epost til *post@fribyte.no*
 
 ## Sted:
-Høyteknologisenteret (Thormøhlens gate 55, 5008 Bergen), Rom:
-Programmerbar, lesesalen i 1. etasje på Høyteknologisenteret.
+Høyteknologisenteret (Thormøhlens gate 55, 5008 Bergen)
 
-[https://www.openstreetmap.org/node/11694509556](https://www.openstreetmap.org/node/11694509556)
+Rom: Programmerbar, lesesalen i 1. etasje på Høyteknologisenteret.
 
-For avmelding, eller andre spørsmål, send en epost til *post@fribyte.no*
+<https://www.openstreetmap.org/node/11694509556>
