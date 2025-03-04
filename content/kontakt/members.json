@@ -84,7 +84,7 @@
     "email": "christoffer@fribyte.no",
     "position": "medlem",
     "joined": "2023-09-05T00:00:00.000Z",
-    "left": null,
+    "left": "2025-03-04T00:00:00.000Z",
     "active": false
   },
   {
@@ -148,7 +148,7 @@
     "email": "lars@fribyte.no",
     "position": "medlem",
     "joined": "2024-09-03T00:00:00.000Z",
-    "left": null,
+    "left": "2025-03-04T00:00:00.000Z",
     "active": false
   },
   {
@@ -164,7 +164,7 @@
     "email": "aasmund@fribyte.no",
     "position": "medlem",
     "joined": "2024-09-03T00:00:00.000Z",
-    "left": null,
+    "left": "2025-03-04T00:00:00.000Z",
     "active": false
   },
   {
@@ -180,7 +180,7 @@
     "email": "niklasfar1@fribyte.no",
     "position": "medlem",
     "joined": "2024-09-10T00:00:00.000Z",
-    "left": null,
+    "left": "2025-03-04T00:00:00.000Z",
     "active": false
   },
   {
@@ -197,14 +197,14 @@
     "position": "medlem",
     "joined": "2024-09-10T00:00:00.000Z",
     "left": null,
-    "active": false
+    "active": true
   },
   {
     "name": "Duniya Mohamed Jami",
     "email": "duniyamj@fribyte.no",
     "position": "medlem",
     "joined": "2024-09-10T00:00:00.000Z",
-    "left": null,
+    "left": "2025-03-04T00:00:00.000Z",
     "active": false
   },
   {
@@ -228,7 +228,7 @@
     "email": "matkar@fribyte.no",
     "position": "medlem",
     "joined": "2024-09-17T00:00:00.000Z",
-    "left": null,
+    "left": "2025-03-04T00:00:00.000Z",
     "active": false
   },
   {
