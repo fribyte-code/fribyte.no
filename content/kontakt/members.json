@@ -78,15 +78,7 @@
     "joined": "2021-09-10T00:00:00.000Z",
     "left": null,
     "active": true
-  },
-  {
-    "name": "Christoffer Janson",
-    "email": "christoffer@fribyte.no",
-    "position": "medlem",
-    "joined": "2023-09-05T00:00:00.000Z",
-    "left": "2025-03-04T00:00:00.000Z",
-    "active": false
-  },
+  }, 
   {
     "name": "Nick James Hipol",
     "email": "nheek@fribyte.no",
@@ -142,31 +134,7 @@
     "joined": "2024-09-03T00:00:00.000Z",
     "left": null,
     "active": true
-  },
-  {
-    "name": "Lars Erik Haukås",
-    "email": "lars@fribyte.no",
-    "position": "medlem",
-    "joined": "2024-09-03T00:00:00.000Z",
-    "left": "2025-03-04T00:00:00.000Z",
-    "active": false
-  },
-  {
-    "name": "Paula Taibo Suarez",
-    "email": "p.taibo@fribyte.no",
-    "position": "inaktivt_medlem",
-    "joined": "2024-09-03T00:00:00.000Z",
-    "left": "2025-01-01T00:00:00.000Z",
-    "active": false
-  },
-  {
-    "name": "Åsmund Aarvik",
-    "email": "aasmund@fribyte.no",
-    "position": "medlem",
-    "joined": "2024-09-03T00:00:00.000Z",
-    "left": "2025-03-04T00:00:00.000Z",
-    "active": false
-  },
+  }, 
   {
     "name": "Martin Styve Pedersen",
     "email": "martin@fribyte.no",
@@ -174,15 +142,7 @@
     "joined": "2024-09-10T00:00:00.000Z",
     "left": null,
     "active": true
-  },
-  {
-    "name": "Niklas Faraasen",
-    "email": "niklasfar1@fribyte.no",
-    "position": "medlem",
-    "joined": "2024-09-10T00:00:00.000Z",
-    "left": "2025-03-04T00:00:00.000Z",
-    "active": false
-  },
+  }, 
   {
     "name": "Jo Øvrevik Skoglund",
     "email": "jo.skoglund@fribyte.no",
@@ -198,15 +158,7 @@
     "joined": "2024-09-10T00:00:00.000Z",
     "left": null,
     "active": true
-  },
-  {
-    "name": "Duniya Mohamed Jami",
-    "email": "duniyamj@fribyte.no",
-    "position": "medlem",
-    "joined": "2024-09-10T00:00:00.000Z",
-    "left": "2025-03-04T00:00:00.000Z",
-    "active": false
-  },
+  }, 
   {
     "name": "Karo Zacharski",
     "email": "karo.zacharski@fribyte.no",
@@ -222,15 +174,7 @@
     "joined": "2024-09-10T00:00:00.000Z",
     "left": null,
     "active": true
-  },
-  {
-    "name": "Mathilde Karlstad",
-    "email": "matkar@fribyte.no",
-    "position": "medlem",
-    "joined": "2024-09-17T00:00:00.000Z",
-    "left": "2025-03-04T00:00:00.000Z",
-    "active": false
-  },
+  }, 
   {
     "name": "Erik Dahle Finne",
     "email": "erikdf@fribyte.no",
@@ -629,11 +573,67 @@
     "active": false
   },
   {
+    "name": "Paula Taibo Suarez",
+    "email": "p.taibo@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2024-09-03T00:00:00.000Z",
+    "left": "2025-01-01T00:00:00.000Z",
+    "active": false
+  },
+  {
     "name": "Stine Svensson",
     "email": "stinesvensson@fribyte.no",
     "position": "inaktivt_medlem",
     "joined": "2024-09-10T00:00:00.000Z",
     "left": "2025-01-21T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Christoffer Janson",
+    "email": "christoffer@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2023-09-05T00:00:00.000Z",
+    "left": "2025-03-04T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Lars Erik Haukås",
+    "email": "lars@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2024-09-03T00:00:00.000Z",
+    "left": "2025-03-04T00:00:00.000Z",
+    "active": false
+  }, 
+  {
+    "name": "Åsmund Aarvik",
+    "email": "aasmund@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2024-09-03T00:00:00.000Z",
+    "left": "2025-03-04T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Niklas Faraasen",
+    "email": "niklasfar1@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2024-09-10T00:00:00.000Z",
+    "left": "2025-03-04T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Duniya Mohamed Jami",
+    "email": "duniyamj@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2024-09-10T00:00:00.000Z",
+    "left": "2025-03-04T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Mathilde Karlstad",
+    "email": "matkar@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2024-09-17T00:00:00.000Z",
+    "left": "2025-03-04T00:00:00.000Z",
     "active": false
   }
 ]
