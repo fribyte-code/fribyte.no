@@ -5,8 +5,6 @@ description = "friByte sin årlige CTF 2025"
 authors = ["Simen Strømsnes"]
 [taxonomies]
 categories = ["Nyheter"]
-[extra]
-is_featured = true
 +++
 
 <img src="/nyheter/ctf25/CTF25LINKEDINBANNER.png" width="100%"/> <br>
