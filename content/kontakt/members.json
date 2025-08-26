@@ -66,10 +66,10 @@
   {
     "name": "Hodan Salsal",
     "email": "hodandsalsal@fribyte.no",
-    "position": "medlem",
+    "position": "inaktivt_medlem",
     "joined": "2024-09-10T00:00:00.000Z",
-    "left": null,
-    "active": true
+    "left": "2025-08-26T00:00:00.000Z",
+    "active": false
   },
   {
     "name": "Christian Engelsen",
@@ -122,10 +122,10 @@
   {
     "name": "Lukas Rysjedal",
     "email": "lukas.rysjedal@fribyte.no",
-    "position": "medlem",
+    "position": "inaktivt_medlem",
     "joined": "2024-03-19T00:00:00.000Z",
-    "left": null,
-    "active": true
+    "left": "2025-08-26T00:00:00.000Z",
+    "active": false
   },
   {
     "name": "Adam Remøy",
@@ -146,18 +146,18 @@
   {
     "name": "Jo Øvrevik Skoglund",
     "email": "jo.skoglund@fribyte.no",
-    "position": "medlem",
+    "position": "inaktivt_medlem",
     "joined": "2024-09-10T00:00:00.000Z",
     "left": null,
-    "active": true
+    "active": false
   },
   {
     "name": "Julian Hjartholm Bosdal",
     "email": "julian@fribyte.no",
-    "position": "medlem",
+    "position": "inaktivt_medlem",
     "joined": "2024-09-10T00:00:00.000Z",
-    "left": null,
-    "active": true
+    "left": "2025-08-26T00:00:00.000Z",
+    "active": false
   }, 
   {
     "name": "Karo Zacharski",
@@ -170,10 +170,10 @@
   {
     "name": "Aleksander Berg",
     "email": "aleksanderrberg@fribyte.no",
-    "position": "medlem",
+    "position": "inaktivt_medlem",
     "joined": "2024-09-10T00:00:00.000Z",
-    "left": null,
-    "active": true
+    "left": "2025-08-26T00:00:00.000Z",
+    "active": false
   }, 
   {
     "name": "Erik Dahle Finne",
