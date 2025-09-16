@@ -651,5 +651,13 @@
     "joined": "2025-04-29T00:00:00.000Z",
     "left": null,
     "active": true
+  },
+
+  {
+    "name": "Ole Martin Amundsen",
+    "position": "medlem",
+    "joined": "2025-09-09T00:00:00.000Z",
+    "left": null,
+    "active": true
   }
 ]
