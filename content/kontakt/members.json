@@ -120,6 +120,14 @@
     "active": true
   },
   {
+    "name": "Bendik Aarvik",
+    "email": "bendik.aarvik@fribyte.no",
+    "position": "medlem",
+    "joined": "2025-09-30T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
     "name": "Lukas Rysjedal",
     "email": "lukas.rysjedal@fribyte.no",
     "position": "inaktivt_medlem",
