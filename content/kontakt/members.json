@@ -1,25 +1,33 @@
 [
   {
+    "name": "Domas Gostautas",
+    "email": "greyceles@fribyte.no",
+    "position": "leder",
+    "joined": "2025-04-29T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
     "name": "Simen Strømsnes",
     "email": "simen.stromsnes@fribyte.no",
-    "position": "leder",
+    "position": "nestleder",
     "joined": "2024-01-16T00:00:00.000Z",
     "left": null,
     "active": true
   },
   {
-    "name": "Patrik Thormodsen",
-    "email": "patrik.thormodsen@fribyte.no",
-    "position": "nestleder",
+    "name": "Adam Remøy",
+    "email": "adam.remoy@fribyte.no",
+    "position": "økonomiansvarlig",
     "joined": "2024-09-03T00:00:00.000Z",
     "left": null,
     "active": true
   },
   {
-    "name": "Martin Styve Pedersen",
-    "email": "martin@fribyte.no",
-    "position": "okonomiansvarlig",
-    "joined": "2024-09-10T00:00:00.000Z",
+    "name": "Silvija Smailyte",
+    "email": "snisma@fribyte.no",
+    "position": "sosialansvarlig",
+    "joined": "2025-04-08T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -28,6 +36,22 @@
     "email": "nheek@fribyte.no",
     "position": "presseansvarlig",
     "joined": "2024-01-16T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Patrik Thormodsen",
+    "email": "patrik.thormodsen@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-03T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Martin Styve Pedersen",
+    "email": "martin@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-10T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -53,7 +77,7 @@
     "position": "medlem",
     "joined": "2024-10-08T00:00:00.000Z",
     "left": null,
-    "active": true
+    "active": false
   },
   {
     "name": "Hodan Salsal",
@@ -136,14 +160,6 @@
     "active": false
   },
   {
-    "name": "Adam Remøy",
-    "email": "adam.remoy@fribyte.no",
-    "position": "medlem",
-    "joined": "2024-09-03T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
     "name": "Mathias Unneland",
     "email": "mathias.unneland@fribyte.no",
     "position": "medlem",
@@ -189,7 +205,7 @@
     "position": "medlem",
     "joined": "2024-09-24T00:00:00.000Z",
     "left": null,
-    "active": true
+    "active": false
   },
   {
     "name": "Svein Harald Soleim",
@@ -645,27 +661,18 @@
     "active": false
   },
   {
-    "name": "Silvija Smailyte",
-    "email": "snisma@fribyte.no",
-    "position": "medlem",
-    "joined": "2025-04-08T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Domas Gostautas",
-    "email": "greyceles@fribyte.no",
-    "position": "medlem",
-    "joined": "2025-04-29T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-
-  {
     "name": "Ole Martin Amundsen",
     "email": "omamundsen42@fribyte.no",
     "position": "medlem",
     "joined": "2025-09-09T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Vegard Kartveit",
+    "email": "vegardkartveit@fribyte.no",
+    "position": "medlem",
+    "joined": "2026-01-10T00:00:00.000Z",
     "left": null,
     "active": true
   }
