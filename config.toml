@@ -106,9 +106,10 @@ footer = [
 ]
 
 social_media = [
+  { name = "GitHub", url = "https://github.com/fribyte-code" },
+  { name = "LinkedIn", url = "https://linkedin.com/company/fribyte" },
   { name = "Twitter", url = "https://twitter.com/fribyte" },
   { name = "Instagram", url = "https://www.instagram.com/fribyteno/" },
-  { name = "GitHub", url = "https://github.com/fribyte-code" },
 ]
 
 email_general = "post@fribyte.no"
@@ -119,4 +120,4 @@ boskonf_live = false
 
 [link_checker]
 # Skip link checking for external URLs that start with these prefixes
-skip_prefixes = ["https://www.instagram.com", "https://instagram.com"]
+skip_prefixes = ["https://www.instagram.com", "https://instagram.com", "https://serit.no", "https://www.serit.no"]
