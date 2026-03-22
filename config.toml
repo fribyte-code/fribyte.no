@@ -120,4 +120,4 @@ boskonf_live = false
 
 [link_checker]
 # Skip link checking for external URLs that start with these prefixes
-skip_prefixes = ["https://www.instagram.com", "https://instagram.com"]
+skip_prefixes = ["https://www.instagram.com", "https://instagram.com", "https://serit.no", "https://www.serit.no"]
