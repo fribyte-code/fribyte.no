@@ -106,9 +106,10 @@ footer = [
 ]
 
 social_media = [
+  { name = "GitHub", url = "https://github.com/fribyte-code" },
+  { name = "LinkedIn", url = "https://linkedin.com/company/fribyte" },
   { name = "Twitter", url = "https://twitter.com/fribyte" },
   { name = "Instagram", url = "https://www.instagram.com/fribyteno/" },
-  { name = "GitHub", url = "https://github.com/fribyte-code" },
 ]
 
 email_general = "post@fribyte.no"
