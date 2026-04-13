@@ -1,5 +1,5 @@
 +++
-title = "CTF 2026 28.April"
+title = "CTF 2026 29.April"
 date = 2026-04-10
 description = "friByte sin årlige CTF 2026"
 authors = ["Domas Gostautas"]
