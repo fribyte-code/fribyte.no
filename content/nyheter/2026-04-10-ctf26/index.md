@@ -1,5 +1,5 @@
 +++
-title = "CTF 2026 29.April"
+title = "CTF 2026 5. Mai"
 date = 2026-04-10
 description = "friByte sin årlige CTF 2026"
 authors = ["Domas Gostautas"]
@@ -9,7 +9,7 @@ categories = ["Nyheter"]
 
 <img src="/nyheter/ctf26/CTF26LINKEDINBANNER.png" width="100%"/> <br>
 
-Hei, og velkommen til **friByte** sin årlige CTF konkurranse den **29. April kl. 17-20**!
+Hei, og velkommen til **friByte** sin årlige CTF konkurranse den **5. Mai kl. 17-20**!
 
 Nå i **2026** markere vi vår femte årlige CTF, med samme format hvor man enten går alene eller setter seg i lag og løser oppgaver for å oppnå flest mulig poeng og vinne!
 
