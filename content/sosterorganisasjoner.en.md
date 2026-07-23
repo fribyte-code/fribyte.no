@@ -6,7 +6,7 @@ description = "Similar organizations around Norge."
 
 ## Bergen
 
-- [E-tjenesten @ Kvarteret](https://kvarteret.no/e-tjenesten-info/) ~ Kvarteret's IT group responsible for managing all digital tools at Kvarteret.
+- [E-tjenesten @ Kvarteret](https://www.samfunnetibergen.no/nb) ~ Kvarteret's IT group responsible for managing all digital tools at Kvarteret.
 
 - [Bergen Open Source](https://boskonf.no) ~ Organization focusing on organizing conferences every year, with a focus on open source code, privacy and ethical use of technology.
 
