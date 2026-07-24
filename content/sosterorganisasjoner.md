@@ -6,7 +6,7 @@ description = "Liknende organisasjoner rundt omkring i Norge."
 
 ## Bergen
 
-- [E-tjenesten @ Kvarteret](https://www.samfunnetibergen.no) ~ Kvarterets IT-gruppe som drifter alt av digitale verktøy hos Kvarteret.
+- [E-tjenesten @ Kvarteret](https://www.samfunnetibergen.no/nb/grupper/e-tjenesten) ~ Kvarterets IT-gruppe som drifter alt av digitale verktøy hos Kvarteret.
 
 - [Bergen Open Source](https://boskonf.no) ~ Organisasjon som arrangerer konferanser hvert år, med fokus på åpen kildekode, personvern og etisk bruk av teknologi.
 
