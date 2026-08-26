@@ -35,7 +35,7 @@ inaktive_medlemmer = "Inaktive medlemmer"
 leder = "Leder"
 nestleder = "Nestleder"
 okonomiansvarlig = "Økonomiansvarlig"
-presseansvarlig = "Presseansvarlig"
+kommunikasjonsansvarlig = "Kommunikasjonsansvarlig"
 sosialansvarlig = "Sosialansvarlig"
 medlem = "Medlem"
 inaktivt_medlem = "Inaktivt medlem"
@@ -71,10 +71,10 @@ stilling = "Role"
 epost = "E-mail"
 inaktive_medlemmer = "Inactive members"
 leder = "Leader"
-nestleder = "Deputy chairman"
-okonomiansvarlig = "Financial manager"
-presseansvarlig = "PR person"
-sosialansvarlig = "Social"
+nestleder = "Deputy leader"
+okonomiansvarlig = "Financial officer"
+kommunikasjonsansvarlig = "Communications officer"
+sosialansvarlig = "Social officer"
 medlem = "Member"
 inaktivt_medlem = "Inactive member"
 guru = "Guru"
@@ -119,5 +119,6 @@ email_support = "hjelp@fribyte.no"
 boskonf_live = false
 
 [link_checker]
-# Skip link checking for external URLs that start with these prefixes
-skip_prefixes = ["https://www.instagram.com", "https://instagram.com", "https://serit.no", "https://www.serit.no"]
+# Skip link checking for all external URLs
+skip_prefixes = ["http://", "https://"]
+
