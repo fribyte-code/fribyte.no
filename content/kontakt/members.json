@@ -40,6 +40,22 @@
     "active": true
   },
   {
+    "name": "Rolf Martin Glomsrud",
+    "email": "rolf.glomsrud@fribyte.no",
+    "position": "guru",
+    "joined": "2020-09-08T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Kristian Emil Takvam",
+    "email": "kristian.takvam@fribyte.no",
+    "position": "medlem",
+    "joined": "2021-09-10T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
     "name": "Nick James Hipol",
     "email": "nheek@fribyte.no",
     "position": "medlem",
@@ -60,6 +76,22 @@
     "email": "patrik.thormodsen@fribyte.no",
     "position": "medlem",
     "joined": "2024-09-03T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Mathias Unneland",
+    "email": "mathias.unneland@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-03T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Bendik Aarvik",
+    "email": "bendik.aarvik@fribyte.no",
+    "position": "medlem",
+    "joined": "2025-09-30T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -112,14 +144,6 @@
     "active": false
   },
   {
-    "name": "Kristian Emil Takvam",
-    "email": "kristian.takvam@fribyte.no",
-    "position": "medlem",
-    "joined": "2021-09-10T00:00:00.000Z",
-    "left": null,
-    "active": true
-  }, 
-  {
     "name": "Sigvard Helsingen",
     "email": "sigvard.helsingen@fribyte.no",
     "position": "inaktivt_medlem",
@@ -134,38 +158,6 @@
     "joined": "2024-02-13T00:00:00.000Z",
     "left": "2026-08-25T00:00:00.000Z",
     "active": false
-  },
-  {
-    "name": "Bendik Aarvik",
-    "email": "bendik.aarvik@fribyte.no",
-    "position": "medlem",
-    "joined": "2025-09-30T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Rolf Martin Glomsrud",
-    "email": "rolf.glomsrud@fribyte.no",
-    "position": "guru",
-    "joined": "2020-09-08T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Lukas Rysjedal",
-    "email": "lukas.rysjedal@fribyte.no",
-    "position": "inaktivt_medlem",
-    "joined": "2024-03-19T00:00:00.000Z",
-    "left": "2025-08-26T00:00:00.000Z",
-    "active": false
-  },
-  {
-    "name": "Mathias Unneland",
-    "email": "mathias.unneland@fribyte.no",
-    "position": "medlem",
-    "joined": "2024-09-03T00:00:00.000Z",
-    "left": null,
-    "active": true
   },
   {
     "name": "Jo Øvrevik Skoglund",
@@ -189,6 +181,14 @@
     "position": "inaktivt_medlem",
     "joined": "2024-09-10T00:00:00.000Z",
     "left": "2026-08-25T00:00:00.000Z",
+    "active": false
+  },
+  {
+    "name": "Lukas Rysjedal",
+    "email": "lukas.rysjedal@fribyte.no",
+    "position": "inaktivt_medlem",
+    "joined": "2024-03-19T00:00:00.000Z",
+    "left": "2025-08-26T00:00:00.000Z",
     "active": false
   },
   {
