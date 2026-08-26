@@ -1,9 +1,9 @@
 [
   {
-    "name": "Domas Gostautas",
-    "email": "greyceles@fribyte.no",
+    "name": "Johannes Skivdal",
+    "email": "johannes.skivdal@fribyte.no",
     "position": "leder",
-    "joined": "2025-04-29T00:00:00.000Z",
+    "joined": "2022-10-04T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -16,10 +16,10 @@
     "active": true
   },
   {
-    "name": "Adam Remøy",
-    "email": "adam.remoy@fribyte.no",
+    "name": "Domas Gostautas",
+    "email": "greyceles@fribyte.no",
     "position": "okonomiansvarlig",
-    "joined": "2024-09-03T00:00:00.000Z",
+    "joined": "2025-04-29T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -32,10 +32,26 @@
     "active": true
   },
   {
+    "name": "Christian Engelsen",
+    "email": "christian.engelsen@fribyte.no",
+    "position": "kommunikasjonsansvarlig",
+    "joined": "2020-09-08T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
     "name": "Nick James Hipol",
     "email": "nheek@fribyte.no",
-    "position": "presseansvarlig",
+    "position": "medlem",
     "joined": "2024-01-16T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Adam Remøy",
+    "email": "adam.remoy@fribyte.no",
+    "position": "medlem",
+    "joined": "2024-09-03T00:00:00.000Z",
     "left": null,
     "active": true
   },
@@ -88,26 +104,10 @@
     "active": false
   },
   {
-    "name": "Christian Engelsen",
-    "email": "christian.engelsen@fribyte.no",
-    "position": "guru",
-    "joined": "2020-09-08T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
     "name": "Mathias Haugsbø",
     "email": "mathias.haugsboe@fribyte.no",
     "position": "guru",
     "joined": "2020-09-08T00:00:00.000Z",
-    "left": null,
-    "active": true
-  },
-  {
-    "name": "Johannes Skivdal",
-    "email": "johannes.skivdal@fribyte.no",
-    "position": "guru",
-    "joined": "2022-10-04T00:00:00.000Z",
     "left": null,
     "active": true
   },
