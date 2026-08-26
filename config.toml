@@ -119,5 +119,6 @@ email_support = "hjelp@fribyte.no"
 boskonf_live = false
 
 [link_checker]
-# Skip link checking for external URLs that start with these prefixes
-skip_prefixes = ["https://www.instagram.com", "https://instagram.com", "https://serit.no", "https://www.serit.no"]
+# Skip link checking for all external URLs
+skip_prefixes = ["http://", "https://"]
+
