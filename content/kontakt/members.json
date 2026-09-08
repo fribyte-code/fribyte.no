@@ -104,6 +104,14 @@
     "active": true
   },
   {
+    "name": "Mannat Gabria",
+    "email": "mannat.gabria@fribyte.no",
+    "position": "medlem",
+    "joined": "2026-09-08T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
     "name": "Martin Styve Pedersen",
     "email": "martin@fribyte.no",
     "position": "inaktivt_medlem",
