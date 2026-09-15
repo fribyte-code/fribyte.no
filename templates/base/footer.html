@@ -48,9 +48,8 @@
     </style>
   </div>
   <div class="footer--contact">
-    <h2 class="footer__heading">{{ trans(key="kontakt", lang=lang) }}</h2>
+    <h2 class="footer__heading">{{ trans(key="profiler", lang=lang) }}</h2>
     <ul class="footer--list">
-      <li>Org.nr. 984 397 569</li>
       {% if config.extra.social_media %}
       {% for link in config.extra.social_media %}
       <li>
@@ -61,6 +60,7 @@
     </ul>
   </div>
   <div class="footer--copyright-developed-by">
+    <span>Org.nr. 984 397 569</span>
     <span class="footer--copyright">
       &copy; friByte {{ now() | date(format="%Y") }}
     </span>
