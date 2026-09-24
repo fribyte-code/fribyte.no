@@ -59,7 +59,7 @@ Similar organizations can be found in our list of [sister organizations](/en/sos
   software.
 
 We also focus on operating as many IT solutions as possible for various student
-organizations. See [our clients](/en/our_clients) for an overview of the student
+organizations. See [our clients](/en/klienter) for an overview of the student
 organizations we assist.
 
 ## Where are we located?
