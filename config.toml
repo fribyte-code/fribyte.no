@@ -8,22 +8,23 @@ default_language = "no"
 compile_sass = true
 build_search_index = false
 
-generate_feed = true
-feed_filename = "rss.xml"
+generate_feeds = true
+feed_filenames = ["rss.xml"]
 
 minify_html = true
 
 taxonomies = [{ name = "categories", feed = false }]
 
+generate_sitemap = true
+
 [markdown]
-highlight_code = true
 
 external_links_target_blank = true
 
 [translations]
 bli_medlem = "Bli medlem"
 ressurser = "Ressurser"
-kontakt = "Kontakt"
+profiler = "Profiler"
 kontakt_oss = "Kontakt oss"
 generell_kontakt = "Generell kontakt"
 kundesupport = "Kundesupport"
@@ -61,7 +62,7 @@ title = "friByte"
 [languages.en.translations]
 bli_medlem = "Become a member"
 ressurser = "Resources"
-kontakt = "Contact"
+profiler = "Profiles"
 kontakt_oss = "Contact us"
 generell_kontakt = "General"
 kundesupport = "Customer support"
@@ -110,6 +111,8 @@ social_media = [
   { name = "LinkedIn", url = "https://linkedin.com/company/fribyte" },
   { name = "Twitter", url = "https://twitter.com/fribyte" },
   { name = "Instagram", url = "https://www.instagram.com/fribyteno/" },
+  { name = "BlueSky", url = "https://bsky.app/profile/fribyte.no"}
+
 ]
 
 email_general = "post@fribyte.no"

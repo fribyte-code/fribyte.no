@@ -6,56 +6,93 @@ description = "Do you want to become a member of friByte? Have a look here!"
 
 ## How do I become a member?
 
-If you believe that friByte is a good fit for you, or that you are a good fit for friByte, just send a short application to [bli-medlem@fribyte.no](mailto:bli-medlem@fribyte.no). Tell us a little bit about who you are, your abilities and why you want to become a member. If you are still wondering what being a member is like, you may find the answer below. If not, don't hesitate to ask!
+If you believe that friByte is the right fit for you, or that you are the right fit for friByte, just send a short application to [bli-medlem@fribyte.no](mailto:bli-medlem@fribyte.no). Tell us a little about who you are, what you can do, and why you want to become a member. If you are still wondering what it is like to be a member of friByte, you may find the answer below, and if not, just ask!
 
 ## What is friByte?
 
-friByte is an independent student organization which performs secure and stabile IT services for other student organizations in Bergen. We are a volunteer organization, known for our great parties and rich learning environment! We have frequent meetings (around 1-2 times per month) to evaluate how things are going, do volunteer work, and socialize.
+friByte is an independent student organization that delivers secure and stable IT services to student organizations in Bergen. We are a volunteer organization known for our great parties and rich learning environment! We meet regularly, around 3–4 times a month, to check in on how things are going, take part in volunteer work, and socialize a bit.
 
-Most of our active members are students, and this implies that we keep a loose internal profile. Our founding document reflects this; The general assembly is required to be an excursion with a subsequent party! A lot of effort is put into sustaining social interactions, not just screen time.
+Most of our active members are students, and this means we keep a loose internal profile. Our founding document reflects this; the general assembly is required to be an excursion with a subsequent party! A lot of effort goes into maintaining the social environment, not just time in front of a screen.
 
 ## Which duties do I have as a member of friByte?
 
-We require you to:
+- Show up in crisis situations (server downtime, power outages, etc.)
+- Show up for volunteer work (maintenance, setting up new systems and services, etc.)
+- Take part, and have a project or ten
 
-- Attend crisis situations (server crashes, power failures, etc.)
-- Attend volunteer events (maintainance work, setup of new systems and services, etc.)
-- Partake in the organization, work on a project (or ten)
+## How much free time does it take?
 
-## How much free time do I need to spend?
-
-The members decide themselves, but we try to have around 2 meeting each week. The members decide how long they can stay during the meetings and if they have time to meet up. This can vary depending on what needs to be done, but of course studies are always a priority. We try to avoid a ton of working/meetings around the exam periods.
+The members largely decide this themselves, but we usually try to have 2 volunteer sessions a week, around 2–3 hours each. Members decide for themselves how long they stay and whether they have time to show up. This can vary depending on what needs to be done, and studies of course take priority. We try to avoid a lot of work around exam periods.
 
 ## What systems do we use?
 
-We mainly use Linux-based operating systems for servers. On work stations we use distros we are comfortable with. This can be anything from Ubuntu to Arch. When it comes to server distros we primarily use Ubuntu, Debian and OpenBSD. There are no rules on which distros our members choose. (As long as they work :D)
-
+We mainly use Linux-based operating systems for servers. On workstations we use distros we are comfortable with. This can be anything from Ubuntu to Arch. When it comes to server distros we primarily use Ubuntu, Debian and OpenBSD. There are no requirements on which distros our members choose. (As long as they work :D)
 
 ## What do our members study?
 
-At the time of writing, we mainly have students from the faculty of mathematics and natural sciences at UiB, but we also have some from the faculty of social sciences. They study everything from Computer Technology to Cognitive Science to Economics. There is also no requirement that you have to study at UiB, or that you have to study something technological. Any student in higher education in Bergen can become a member!
+The most common, and most natural, fields of study among our members are informatics or information science at UiB, information technology or computer engineering at HVL, or cybersecurity at Kristiania University College. There is no requirement that you study at a specific institution, or that you study something technological. Any student from a higher education institution in Bergen can become a member!
 
-## What do I need to know before I apply?
+These are the study programs we see as most relevant:
 
-There are no knowledge requirements to apply! Although you are well on track if any of these apply to you:
+**University of Bergen**
 
-- Basic knowledge of Linux (UNIX-systems) and/or networks
-- Basic knowledge of Git
-- Ability to delve into using new systems
-- Interest in working with computers
-- A wish to learn new things
+- Computer Technology
+- Bioinformatics
+- Computer Security
+- Informatics-Mathematics-Economics
+- Information Technology and Economics
+- Information Science
+- Geoscience and Informatics
+- Integrated Master's in Quantum Technology
 
-## What do our members know after having been here for a while?
+**Western Norway University of Applied Sciences**
 
-- Setting up networks
-- Administrating Linux-servers
-- Git, the version control tool
-- Deeper understanding in at least one of the following areas:
-  - Web programming
-  - Web design
-  - Web development
-  - System administration
-  - Server operation
-  - Networks
+- Information Technology
+- Computer Engineering
+
+**Kristiania University College**
+
+- Cybersecurity
+- Information Technology
+
+**Noroff**
+
+- Cyber Security
+- Applied Data Science
+- Digital Assurance and Security Management
+- Networks and IT Security
+- Backend Development
+- Frontend Development
+
+*It is also recommended that you are at least a second-year student, but this is not a requirement*
+
+## What do our members need to know before applying?
+
+There are no prior-knowledge requirements to apply! A very good starting point is to:
+
+- Have experience with Linux, networks and/or virtualization
+- Be comfortable working in the terminal
+- Have an interest in hardware and technology
+- Have experience with Git
+- Be able to work independently
+- Have curiosity for the subject and a willingness to learn
+
+## What can our members do after having been with us for a while?
+
+- Configure firewalls and networks between machines
+- Navigate the terminal on Linux and OpenBSD
+- Configure and manage virtual machines
+- Administer and configure DNS for various domains
+- Set up physical machines as part of a server farm
+- Experience with tools such as:
+  - SSH
+  - Git
+  - Tailscale
+  - Vim/NeoVim/Nano
+  - Tmux
+  - NFS
+  - Ansible
+  - ProxMox
+  - SQL
 
 {{ buttons(english=true, send_soknad=true) }}

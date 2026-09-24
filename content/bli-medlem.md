@@ -22,7 +22,7 @@ De fleste av våre aktive medlemmer er studenter og dette medfører at vi har en
 
 ## Hvor mye fritid går med?
 
-Det bestemmer medlemmene i stor grad selv, men vi prøver som regel å ha 2 dugnader i uka. Medlemmene bestemmer selv hvor lenge de blir på dugnadene og om de har tid til å møte opp. Dette kan variere avhengig av hva som må gjøres og studier tar selvfølgelig prioritet. Det forsøkes å unngå mye jobbing rundt eksamensperioder.
+Det bestemmer medlemmene i stor grad selv, men vi prøver som regel å ha 2 dugnader i uka på rundt 2-3 timer hver. Medlemmene bestemmer selv hvor lenge de blir på dugnadene og om de har tid til å møte opp. Dette kan variere avhengig av hva som må gjøres og studier tar selvfølgelig prioritet. Det forsøkes å unngå mye jobbing rundt eksamensperioder.
 
 ## Hvilke systemer bruker vi?
 
@@ -30,29 +30,69 @@ Vi bruker hovedsakelig Linux-baserte OS-er til servere. På arbeidsstasjoner bru
 
 ## Hva studerer medlemmene våre?
 
-I skrivende stund så er det hovedsakelig studenter fra Matematisk-Naturvitenskapelig fakultet ved UiB, men også noen fra Samfunnsvitenskapelig. De studerer alt fra Datateknologi til Kognitiv Vitenskap til Samfunnsøkonomi. Vi har også studenter fra Høgskolen på Vestlandet, som studerer blant annet Informasjonsteknologi og Dataingeniør. Det er dog intet krav at man må studere ved UiB/HVL, eller at man må studere noe teknologisk. Hvilken som helst student fra en høyere utdanningsinstitusjon i Bergen kan bli medlem!
+De vanligste, og mest naturlige, studieretningene blant medlemmene våre er informatikk eller informasjonsvitenskap ved UiB, informasjonsteknologi eller dataingeniør ved HVL, eller cybersikkerhet ved Høyskolen Kristiania. Det er dog intet krav at man må studere ved en spesifikk institusjon, eller at man må studere noe teknologisk. Hvilken som helst student fra en høyere utdanningsinstitusjon i Bergen kan bli medlem! 
+
+Men disse studielinjene er de vi ser på som mest relevante:
+
+**Universitetet i Bergen**
+
+- Datateknologi
+- Bioinformatikk
+- Datasikkerhet
+- Informatikk-matematikk-økonomi
+- Informasjonsteknologi og økonomi
+- Informasjonsvitenskap
+- Geofag og informatikk
+- Sivilingeniør kvanteteknologi
+
+**Høyskolen på Vestlandet**
+
+- Informasjonsteknologi
+- Dataingeniør
+
+**Høyskolen Kristiania**
+
+- Cybersikkerhet
+- Informasjonsteknologi
+
+**Noroff**
+
+- Cyber security
+- Applied Data Science
+- Digital Assurance and Security Management
+- Nettverk og IT-sikkerhet
+- Backend-utvikling
+- Frontend-utvikling
+
+*Det er også anbefalt at en minimum er 2. årsstudent, men ikke et krav*
 
 ## Hva må medlemmene våre kunne før man søker?
 
-Det er ingen krav om forkunnskaper for å kunne søke! Men et veldig godt utgangspunkt er å enten:
+Det er ingen krav om forkunnskaper for å kunne søke! Men et veldig godt utgangspunkt er å:
 
-- Ha grunnleggende kunnskap om Linux (UNIX-systemer) og/eller nettverk
-- Kunne grunnleggende Git
-- Kunne sette seg inn i bruk av nye systemer
-- Like å jobbe med datamaskiner
-- Ønske å lære nye ting
+- Ha erfaring med Linux, nettverk og/eller virtualisering
+- Være komfortabel med å jobbe i terminalen
+- Ha en interesse for maskinvare og teknologi
+- Ha erfaring med Git
+- Kunne jobbe selvstendig
+- Ha en nysgjerrighet for faget og villighet til å lære
 
 ## Hva kan medlemmene våre etter å ha vært med en stund?
 
-- Rigge opp nettverk
-- Administrere Linux-servere
-- Versjonskontroll-verktøyet Git
-- Fordype seg i minst ett av følgende områder
-  - Nettprogrammering
-  - Nett-formgiving
-  - Nett-utvikling
-  - System-administrasjon
-  - Serverdrift
-  - Nettverk
+- Konfigurere brannmur og nettverk mellom maskiner
+- Navigere i terminalen på Linux og OpenBSD
+- Konfigurere og håndtere virtuelle maskiner
+- Administrere og konfigurere DNS for ulike domener
+- Rigge opp fysiske maskiner som del av en serverpark
+- Erfaring med verktøy som: 
+  - SSH
+  - Git
+  - Tailscale 
+  - Vim/NeoVim/Nano
+  - Tmux
+  - NFS
+  - Ansible
+  - ProxMox
+  - SQL
 
 {{ buttons(send_soknad=true) }}
