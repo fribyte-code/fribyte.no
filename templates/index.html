@@ -67,16 +67,6 @@
         tilbakemeldinger på tjenestene vi leverer. Vi setter pris på all konstruktiv kritikk. :)
       </p>
     </section>
-    <section class="urgent-help">
-      <h2>Trenger du umiddelbar hjelp?</h2>
-      {% set nestleder = load_data(path="content/kontakt/members.json") | filter(attribute="position", value="nestleder")%}
-      <p>
-        Skulle det oppstå akutte problemer ved tjenestene vi leverer, kan du kontakte vår nestleder
-        {{ nestleder[0].name }}, {% if nestleder[0].phone %}via telefon <a href="tel:{{ nestleder[0].phone }}">{{
-          nestleder[0].phone }}</a>{% else %}via e-post <a href="mailto:{{ nestleder[0].email }}">{{ nestleder[0].email }}{%
-          endif %}</a>.
-      </p>
-    </section>
 
     <section class="latest-news">
       <h2>Siste nytt</h2>
@@ -91,5 +81,38 @@
       </ul>
       <a href="{{ get_url(path="@/nyheter/_index.md") }}" class="btn primary">Flere nyheter...</a>
     </section>
+
+  {% elif lang == 'en' %}    
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>
+        If you are a student organization looking to enter into an agreement with us, please contact us directly at
+        <a href="mailto:{{ config.extra.email_general }}">{{ config.extra.email_general }}</a>.
+      </p>
+      <p>
+        Please contact us if you have any questions. You can find a list of members and contact information on
+        <a href="/en/kontakt">Contact us</a>, and more information about the organization friByte on <a href="/en/om">About us</a>.
+      </p>
+      <p>
+        We try to be easily accessible and respond quickly to all inquiries. Please also contact us if you have any feedback on the services we deliver. We appreciate all constructive criticism. :)
+      </p>
+    </section>
+
+    <section class="latest-news">
+      <h2>Latest news</h2>
+      <ul>
+        {% for post in news.pages | slice(end=5) | sort(attribute="date") | reverse %}
+        <li>
+          <a href="{{ get_url(path=post.path) }}">
+            {{ post.title }} ({{ post.date | date(format="%Y-%m-%d") }})
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      <a href="{{ get_url(path="@/nyheter/_index.md") }}" class="btn primary">More news...</a>
+    </section>
+    
   {% endif %}
+
+
 {% endblock content %}
