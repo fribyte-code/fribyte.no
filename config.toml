@@ -15,8 +15,9 @@ minify_html = true
 
 taxonomies = [{ name = "categories", feed = false }]
 
+generate_sitemap = true
+
 [markdown]
-highlight_code = true
 
 external_links_target_blank = true
 
