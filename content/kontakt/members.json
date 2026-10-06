@@ -120,6 +120,22 @@
     "active": true
   },
   {
+    "name": "William Waly",
+    "email": "williamwaly@fribyte.no",
+    "position": "medlem",
+    "joined": "2026-09-29T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
+    "name": "Daniel Wagner",
+    "email": "daniel.wagner@fribyte.no",
+    "position": "medlem",
+    "joined": "2026-09-29T00:00:00.000Z",
+    "left": null,
+    "active": true
+  },
+  {
     "name": "Martin Styve Pedersen",
     "email": "martin@fribyte.no",
     "position": "inaktivt_medlem",
