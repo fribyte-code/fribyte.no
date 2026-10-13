@@ -19,6 +19,7 @@
   {% for isActive, members in members_list | group_by(attribute="active") %}
   {% if isActive == "true" %}
     <h2>{{ trans(key="aktive_medlemmer", lang=lang) }}</h2>
+    <p> {{ trans(key="antall", lang=lang) }} {{ members | length }} </p>
   {% else %}
     <h2>{{ trans(key="inaktive_medlemmer", lang=lang) }}</h2>
     {% set members = members 

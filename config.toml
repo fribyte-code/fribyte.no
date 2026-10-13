@@ -22,6 +22,8 @@ generate_sitemap = true
 external_links_target_blank = true
 
 [translations]
+
+antall = "antall: "
 bli_medlem = "Bli medlem"
 ressurser = "Ressurser"
 profiler = "Profiler"
@@ -60,6 +62,7 @@ description = "friByte is a student organization with the goal of running IT ope
 title = "friByte"
 
 [languages.en.translations]
+antall = "count: "
 bli_medlem = "Become a member"
 ressurser = "Resources"
 profiler = "Profiles"
