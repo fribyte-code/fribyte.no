@@ -15,10 +15,7 @@
       {{ trans(key="kundesupport", lang=lang) }}: <a href="mailto:{{ config.extra.email_support }}">{{ config.extra.email_support }}</a>
     </li>
   </ul>
-  {# member list #}
   {% set members_list = load_data(path="content/kontakt/members.json") %}
-  {#add counter here #}
-  {{ members_list | length }}
   {% for isActive, members in members_list | group_by(attribute="active") %}
   {% if isActive == "true" %}
     <h2>{{ trans(key="aktive_medlemmer", lang=lang) }}</h2>
@@ -54,4 +51,6 @@
   </div>
   {% endfor %}
 
+  {% for isActive, members in members_list | group_by(attribute="active") %}
+  {% for isActive, members in members_list | group_by(attribute="active") %}
 {% endblock content %}
